@@ -1,0 +1,39 @@
+name: Update data
+on: 
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Fetch and commit
+        run: |
+          mkdir -p data
+          wget https://pibs.nats.co.uk/operational/pibs/PIB.xml -O data/PIB.xml
+          git add data
+
+          mkdir -p html
+          wget http://pibs.nats.co.uk/operational/pibs/pib3.shtml -O html/pib3.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib4.shtml -O html/pib4.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib5.shtml -O html/pib5.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib6.shtml -O html/pib6.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib54n.shtml -O html/pib54n.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib53n.shtml -O html/pib53n.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib52n.shtml -O html/pib52n.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib51n.shtml -O html/pib51n.shtml
+          wget http://pibs.nats.co.uk/operational/pibs/pib50n.shtml -O html/pib50n.shtml
+          git add html
+
+          git config --global user.email "uk-notam-archive@jonty.co.uk"
+          git config --global user.name "NOTAM Update Bot"
+          git commit -m "Automatic NOTAM data update"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
