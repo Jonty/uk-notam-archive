@@ -13,15 +13,15 @@ NATS says: ``The above file contains all UK NOTAM valid at the time of generatio
 Human Readable
 ---
 
-* [London FIR IFR/VFR Bulletin](html/pib3.shtml)
-* [Scottish FIR IFR/VFR Bulletin](html/pib4.shtml)
-* [Notifiable Danger Areas and Restricted Areas (Temporary)](html/pib5.shtml)
-* [Navigation Warnings](html/pib6.shtml)
-* [Aerodromes from 54N &nbsp;to 55N &amp; Scottish FIR](html/pib54n.shtml)
-* [Aerodromes from 53N to 54N](html/pib53n.shtml)
-* [Aerodromes from 52N to 53N](html/pib52n.shtml)
-* [Aerodromes from 51N to 52N](html/pib51n.shtml)
-* [Aerodromes from 50N to 51N inc Channel Isles](html/pib50n.shtml)
+* [London FIR IFR/VFR Bulletin](https://jonty.github.io/uk-notam-archive/html/pib3.shtml)
+* [Scottish FIR IFR/VFR Bulletin](https://jonty.github.io/uk-notam-archive/html/pib4.shtml)
+* [Notifiable Danger Areas and Restricted Areas (Temporary)](https://jonty.github.io/uk-notam-archive/html/pib5.shtml)
+* [Navigation Warnings](https://jonty.github.io/uk-notam-archive/html/pib6.shtml)
+* [Aerodromes from 54N &nbsp;to 55N &amp; Scottish FIR](https://jonty.github.io/uk-notam-archive/html/pib54n.shtml)
+* [Aerodromes from 53N to 54N](https://jonty.github.io/uk-notam-archive/html/pib53n.shtml)
+* [Aerodromes from 52N to 53N](https://jonty.github.io/uk-notam-archive/html/pib52n.shtml)
+* [Aerodromes from 51N to 52N](https://jonty.github.io/uk-notam-archive/html/pib51n.shtml)
+* [Aerodromes from 50N to 51N inc Channel Isles](https://jonty.github.io/uk-notam-archive/html/pib50n.shtml)
 
 Todo:
 --
