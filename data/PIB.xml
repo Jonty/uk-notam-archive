@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000055657003" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000055657889" NewNOTAMDuration="250">
 <AreaPIBHeader>
 <ShortSystemTitle>EAD</ShortSystemTitle>
 <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
 <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
 <Traffic>IV</Traffic>
 <Validity>
-<ValidFrom>2022-12-28T20:00:34+00:00</ValidFrom>
-<ValidTo>2023-01-04T20:00:00+00:00</ValidTo>
+<ValidFrom>2022-12-28T21:00:05+00:00</ValidFrom>
+<ValidTo>2023-01-04T21:00:00+00:00</ValidTo>
 </Validity>
 <ProfileId>400000001437105</ProfileId>
 <ProfileName>All NOTAM</ProfileName>
 <ServiceType>FULL</ServiceType>
 <BriefingType>IM</BriefingType>
 <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-<Issued>2022-12-28T20:00:34+00:00</Issued>
+<Issued>2022-12-28T21:00:05+00:00</Issued>
 <PIBSubject>All NOTAM</PIBSubject>
-<ScheduleName>2000</ScheduleName>
-<PibUid>EG712212280653</PibUid>
+<ScheduleName>2100</ScheduleName>
+<PibUid>EG712212280667</PibUid>
 <FlightLevel>
 <LowerFL>0</LowerFL>
 <UpperFL>999</UpperFL>
@@ -31843,9 +31843,12 @@ AIR AMBULANCE AND SAR FLIGHTS.</ItemE>
 <Notam OriginalMessage="false" PIBSection="AD">
 <NOF>EGGN</NOF>
 <Series>A</Series>
-<Number>8536</Number>
+<Number>8537</Number>
 <Year>22</Year>
-<Type>N</Type>
+<Type>R</Type>
+<ReferredSeries>A</ReferredSeries>
+<ReferredNumber>8536</ReferredNumber>
+<ReferredYear>22</ReferredYear>
 <QLine>
 <FIR>EGPX</FIR>
 <Code23>AE</Code23>
@@ -31859,12 +31862,12 @@ AIR AMBULANCE AND SAR FLIGHTS.</ItemE>
 <Coordinates>5950N00118W</Coordinates>
 <Radius>19</Radius>
 <ItemA>EGPB</ItemA>
-<StartValidity>2212282000</StartValidity>
-<EndValidity>2212282145</EndValidity>
+<StartValidity>2212282038</StartValidity>
+<EndValidity>2212282200</EndValidity>
 <ItemE>SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION
-EXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.</ItemE>
+EXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.)</ItemE>
 <Marker>+</Marker>
-<NotamStoreDate>281220221817</NotamStoreDate>
+<NotamStoreDate>281220222038</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
@@ -33328,32 +33331,6 @@ AERODROME QNH AND THE STANDARD PRESSURE SETTING.</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>271220220957</NotamStoreDate>
 </Notam>
-<Notam Reference="EGPB" OriginalMessage="false" PIBSection="FIR">
-<NOF>EGGN</NOF>
-<Series>A</Series>
-<Number>8536</Number>
-<Year>22</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGPX</FIR>
-<Code23>AE</Code23>
-<Code45>CA</Code45>
-<Traffic>IV</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>AE</Scope>
-<Lower>0</Lower>
-<Upper>100</Upper>
-</QLine>
-<Coordinates>5950N00118W</Coordinates>
-<Radius>19</Radius>
-<ItemA>EGPB</ItemA>
-<StartValidity>2212282000</StartValidity>
-<EndValidity>2212282145</EndValidity>
-<ItemE>SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION
-EXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>281220221817</NotamStoreDate>
-</Notam>
 <Notam Reference="EGPA" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
 <Series>I</Series>
@@ -33379,6 +33356,35 @@ EXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.</ItemE>
 EXTENDED, FIRE AND RESCUE CAT4..AD REMAINS STRICTLY PPR.</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>281220221955</NotamStoreDate>
+</Notam>
+<Notam Reference="EGPB" OriginalMessage="false" PIBSection="FIR">
+<NOF>EGGN</NOF>
+<Series>A</Series>
+<Number>8537</Number>
+<Year>22</Year>
+<Type>R</Type>
+<ReferredSeries>A</ReferredSeries>
+<ReferredNumber>8536</ReferredNumber>
+<ReferredYear>22</ReferredYear>
+<QLine>
+<FIR>EGPX</FIR>
+<Code23>AE</Code23>
+<Code45>CA</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>AE</Scope>
+<Lower>0</Lower>
+<Upper>100</Upper>
+</QLine>
+<Coordinates>5950N00118W</Coordinates>
+<Radius>19</Radius>
+<ItemA>EGPB</ItemA>
+<StartValidity>2212282038</StartValidity>
+<EndValidity>2212282200</EndValidity>
+<ItemE>SUMBURGH CTA, CTR, ATZ ACTIVATED. AD, TWR HR OF OPERATION
+EXTENDED. FIRE AND RESCUE CAT 5. PPR ONLY.)</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>281220222038</NotamStoreDate>
 </Notam>
 <Notam Reference="EGTT" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
