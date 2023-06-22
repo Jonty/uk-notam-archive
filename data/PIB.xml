@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000061939967" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000061942148" NewNOTAMDuration="250">
 <AreaPIBHeader>
 <ShortSystemTitle>EAD</ShortSystemTitle>
 <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
 <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
 <Traffic>IV</Traffic>
 <Validity>
-<ValidFrom>2023-06-22T12:00:19+00:00</ValidFrom>
-<ValidTo>2023-06-23T12:00:00+00:00</ValidTo>
+<ValidFrom>2023-06-22T13:00:03+00:00</ValidFrom>
+<ValidTo>2023-06-23T13:00:00+00:00</ValidTo>
 </Validity>
 <ProfileId>400000001684471</ProfileId>
 <ProfileName>All NOTAM</ProfileName>
 <ServiceType>FULL</ServiceType>
 <BriefingType>IM</BriefingType>
 <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-<Issued>2023-06-22T12:00:19+00:00</Issued>
+<Issued>2023-06-22T13:00:03+00:00</Issued>
 <PIBSubject>All NOTAM</PIBSubject>
 <ScheduleName>Daily</ScheduleName>
-<PibUid>EG712306221062</PibUid>
+<PibUid>EG712306221130</PibUid>
 <FlightLevel>
 <LowerFL>0</LowerFL>
 <UpperFL>999</UpperFL>
@@ -5246,8 +5246,34 @@ PROCEDURES NOT AVBL. 2022-12-0086/AS3.</ItemE>
 <ADSection>
 <Code>EGSU</Code>
 <Name>DUXFORD</Name>
-<!--No information received or matching the query-->
-<NotamList/>
+<NotamList>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>L</Series>
+<Number>3662</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>OB</Code23>
+<Code45>CE</Code45>
+<Traffic>IV</Traffic>
+<Purpose>M</Purpose>
+<Scope>AE</Scope>
+<Lower>0</Lower>
+<Upper>3</Upper>
+</QLine>
+<Coordinates>5206N00010E</Coordinates>
+<Radius>2</Radius>
+<ItemA>EGSU</ItemA>
+<StartValidity>2306230700</StartValidity>
+<EndValidity>2306231000</EndValidity>
+<ItemE>LIT CRANE OPR PSN 520606N 0000939E 1.2NM (NE DUXOFRD AD). MAX JIB
+HEIGHT 91FT AGL, 227FT AMSL</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>220620231214</NotamStoreDate>
+</Notam>
+</NotamList>
 <ObsoleteNotamList/>
 </ADSection>
 <ADSection>
@@ -10953,37 +10979,6 @@ ANTICIPATED MANAGED CLOSURES</ItemE>
 <Notam OriginalMessage="false" PIBSection="AD">
 <NOF>EGGN</NOF>
 <Series>C</Series>
-<Number>3379</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>AE</Code23>
-<Code45>CD</Code45>
-<Traffic>IV</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>AE</Scope>
-<Lower>0</Lower>
-<Upper>60</Upper>
-</QLine>
-<Coordinates>5432N00123W</Coordinates>
-<Radius>12</Radius>
-<ItemA>EGNV</ItemA>
-<StartValidity>2306210645</StartValidity>
-<EndValidity>2306221930</EndValidity>
-<ItemD>0645-0715, 0915-0945, 1145-1215, 1400-1430, 1630-1700, 1900-1930</ItemD>
-<ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
-TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER
-EMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS
-TRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE
-SUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10
-MINUTES BEFORE CLOSURE.</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>190620231247</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="AD">
-<NOF>EGGN</NOF>
-<Series>C</Series>
 <Number>3448</Number>
 <Year>23</Year>
 <Type>R</Type>
@@ -11008,6 +11003,40 @@ MINUTES BEFORE CLOSURE.</ItemE>
 <ItemE>ILS LOC RWY 05 U/S</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>210620231346</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>C</Series>
+<Number>3463</Number>
+<Year>23</Year>
+<Type>R</Type>
+<ReferredSeries>C</ReferredSeries>
+<ReferredNumber>3379</ReferredNumber>
+<ReferredYear>23</ReferredYear>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>AE</Code23>
+<Code45>CD</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>AE</Scope>
+<Lower>0</Lower>
+<Upper>60</Upper>
+</QLine>
+<Coordinates>5432N00123W</Coordinates>
+<Radius>12</Radius>
+<ItemA>EGNV</ItemA>
+<StartValidity>2306221200</StartValidity>
+<EndValidity>2306221930</EndValidity>
+<ItemD>1200-1230 1400-1430, 1630-1700, 1900-1930</ItemD>
+<ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
+TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER
+EMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS
+TRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE
+SUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10
+MINUTES BEFORE CLOSURE.</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>220620231200</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
@@ -13750,31 +13779,6 @@ FRI      0800-1215 1300-1600</ItemE>
 <ItemE>SRA NOT AVBL</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>200620231454</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="AD">
-<NOF>EGGN</NOF>
-<Series>U</Series>
-<Number>4139</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>FA</Code23>
-<Code45>LC</Code45>
-<Traffic>IV</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>A</Scope>
-<Lower>0</Lower>
-<Upper>999</Upper>
-</QLine>
-<Coordinates>5418N00132W</Coordinates>
-<Radius>5</Radius>
-<ItemA>EGXE</ItemA>
-<StartValidity>2306221154</StartValidity>
-<EndValidity>2306221240</EndValidity>
-<ItemE>AD CLOSED</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>220620231159</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
@@ -19867,37 +19871,6 @@ FRI      0800-1215 1300-1600</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>100620230927</NotamStoreDate>
 </Notam>
-<Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
-<NOF>EGGN</NOF>
-<Series>C</Series>
-<Number>3379</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>AE</Code23>
-<Code45>CD</Code45>
-<Traffic>IV</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>AE</Scope>
-<Lower>0</Lower>
-<Upper>60</Upper>
-</QLine>
-<Coordinates>5432N00123W</Coordinates>
-<Radius>12</Radius>
-<ItemA>EGNV</ItemA>
-<StartValidity>2306210645</StartValidity>
-<EndValidity>2306221930</EndValidity>
-<ItemD>0645-0715, 0915-0945, 1145-1215, 1400-1430, 1630-1700, 1900-1930</ItemD>
-<ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
-TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER
-EMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS
-TRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE
-SUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10
-MINUTES BEFORE CLOSURE.</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>190620231247</NotamStoreDate>
-</Notam>
 <Notam Reference="EGOE" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
 <Series>U</Series>
@@ -20368,30 +20341,39 @@ NOT AVBL AND NORMAL OUT OF HOURS PROCEDURES WILL APPLY</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>220620230709</NotamStoreDate>
 </Notam>
-<Notam OriginalMessage="false" PIBSection="FIR">
+<Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
-<Series>B</Series>
-<Number>1428</Number>
+<Series>C</Series>
+<Number>3463</Number>
 <Year>23</Year>
-<Type>N</Type>
+<Type>R</Type>
+<ReferredSeries>C</ReferredSeries>
+<ReferredNumber>3379</ReferredNumber>
+<ReferredYear>23</ReferredYear>
 <QLine>
 <FIR>EGTT</FIR>
-<Code23>NV</Code23>
-<Code45>AS</Code45>
+<Code23>AE</Code23>
+<Code45>CD</Code45>
 <Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>E</Scope>
+<Purpose>NBO</Purpose>
+<Scope>AE</Scope>
 <Lower>0</Lower>
-<Upper>999</Upper>
+<Upper>60</Upper>
 </QLine>
-<Coordinates>5129N00113W</Coordinates>
-<Radius>25</Radius>
-<ItemA>EGTT</ItemA>
-<StartValidity>2306220930</StartValidity>
-<EndValidity>2306221230</EndValidity>
-<ItemE>VOR/DME CPT/COMPTON 114.35MHZ CH090Y VOR PART U/S</ItemE>
+<Coordinates>5432N00123W</Coordinates>
+<Radius>12</Radius>
+<ItemA>EGNV</ItemA>
+<StartValidity>2306221200</StartValidity>
+<EndValidity>2306221930</EndValidity>
+<ItemD>1200-1230 1400-1430, 1630-1700, 1900-1930</ItemD>
+<ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
+TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELICOPTER
+EMERGENCY MEDICAL SERVICE MAY STILL OPERATE FROM THE HEL BASE. PILOTS
+TRANSITING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE
+SUBJECT TO SHORT NOTICE CHANGE. ALL DEPARTURES MUST BE AIRBORNE 10
+MINUTES BEFORE CLOSURE.</ItemE>
 <Marker>+</Marker>
-<NotamStoreDate>150620231011</NotamStoreDate>
+<NotamStoreDate>220620231200</NotamStoreDate>
 </Notam>
 <Notam Reference="EGVN" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
@@ -20444,6 +20426,32 @@ AND BRIZE ZONE 119.0 MHZ WILL RECIEVE BASIC SERVICE ONLY</ItemE>
 <ItemE>WESTERN RADAR CLOSED</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>250520231612</NotamStoreDate>
+</Notam>
+<Notam Reference="EGSU" OriginalMessage="false" PIBSection="FIR">
+<NOF>EGGN</NOF>
+<Series>L</Series>
+<Number>3662</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>OB</Code23>
+<Code45>CE</Code45>
+<Traffic>IV</Traffic>
+<Purpose>M</Purpose>
+<Scope>AE</Scope>
+<Lower>0</Lower>
+<Upper>3</Upper>
+</QLine>
+<Coordinates>5206N00010E</Coordinates>
+<Radius>2</Radius>
+<ItemA>EGSU</ItemA>
+<StartValidity>2306230700</StartValidity>
+<EndValidity>2306231000</EndValidity>
+<ItemE>LIT CRANE OPR PSN 520606N 0000939E 1.2NM (NE DUXOFRD AD). MAX JIB
+HEIGHT 91FT AGL, 227FT AMSL</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>220620231214</NotamStoreDate>
 </Notam>
 <Notam Reference="EGBP" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
@@ -23383,35 +23391,6 @@ MAX HGT 600FT AGL. FOR INFO 07547 664533. 2023-06-0583/AS2</ItemE>
 <Notam OriginalMessage="false" PIBSection="WAR">
 <NOF>EGGN</NOF>
 <Series>H</Series>
-<Number>3439</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>WM</Code23>
-<Code45>LW</Code45>
-<Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>W</Scope>
-<Lower>0</Lower>
-<Upper>5</Upper>
-</QLine>
-<Coordinates>5125N00045W</Coordinates>
-<Radius>2</Radius>
-<ItemA>EGTT</ItemA>
-<StartValidity>2306201200</StartValidity>
-<EndValidity>2306221230</EndValidity>
-<ItemD>20 22 1200-1230</ItemD>
-<ItemE>MODEL ROCKET FIRING WI 1NM RADIUS 512519N 0004509W (BRACKNELL,
-BERKSHIRE). FOR INFO 01344 421122. 2023-06-0589/AS4.</ItemE>
-<ItemF>SFC</ItemF>
-<ItemG>500FT AMSL</ItemG>
-<Marker>+</Marker>
-<NotamStoreDate>200620231251</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="WAR">
-<NOF>EGGN</NOF>
-<Series>H</Series>
 <Number>3437</Number>
 <Year>23</Year>
 <Type>N</Type>
@@ -24482,42 +24461,6 @@ EG D138D  0730-1700   SFC-6000FT AMSL</ItemE>
 <ItemG>6000FT AMSL</ItemG>
 <Marker>+</Marker>
 <NotamStoreDate>210620231220</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="WAR">
-<NOF>EGGN</NOF>
-<Series>J</Series>
-<Number>2390</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>RD</Code23>
-<Code45>CA</Code45>
-<Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>W</Scope>
-<Lower>0</Lower>
-<Upper>6</Upper>
-</QLine>
-<Coordinates>5203N00119E</Coordinates>
-<Radius>5</Radius>
-<ItemA>EGTT</ItemA>
-<StartValidity>2306220800</StartValidity>
-<EndValidity>2306221300</EndValidity>
-<ItemE>TEMPO DANGER AREA (TDA) (EG D297) ACTIVATED WI AREA BOUNDED BY:
-520613N 0011452E - 520457N 0012035E - 520215N 0012240E - 
-520159N 0012623E - 520015N 0012503E - 520037N 0011938E - 
-520342N 0011851E - 520431N 0011528E - 520350N 0011350E - 
-520449N 0011228E - 520613N 0011452E (AREA TO EAST OF IPSWICH, 
-SUFFOLK). BEYOND VISUAL LINE OF SIGHT UAS OPERATIONS CONTAINED 
-WHOLLY WITHIN THE TDA. A DANGER AREA ACTIVITY INFORMATION SERVICE 
-(DAAIS) WILL BE AVAILABLE FM LONDON INFORMATION FREQ 124.6MHZ OR 
-TELEPHONE 07376 164654. FURTHER DETAILS VIA: NATS-UK.EAD-IT.COM. 
-2022-08-0104/AS2.</ItemE>
-<ItemF>SFC</ItemF>
-<ItemG>550FT AMSL</ItemG>
-<Marker>+</Marker>
-<NotamStoreDate>140620231348</NotamStoreDate>
 </Notam>
 <Notam OriginalMessage="false" PIBSection="WAR">
 <NOF>EGGN</NOF>
@@ -26294,6 +26237,66 @@ BETWEEN 09:00-15:00</ItemE>
 <Notam OriginalMessage="false" PIBSection="WAR">
 <NOF>EGGN</NOF>
 <Series>M</Series>
+<Number>3216</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>RD</Code23>
+<Code45>CA</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>W</Scope>
+<Lower>0</Lower>
+<Upper>125</Upper>
+</QLine>
+<Coordinates>5206N00430W</Coordinates>
+<Radius>10</Radius>
+<ItemA>EGTT</ItemA>
+<StartValidity>2306230900</StartValidity>
+<EndValidity>2306231530</EndValidity>
+<ItemE>THE FOLLOWING WEST WALES DANGER AREAS ARE ACTIVATED:
+EG D202D  0900-1530  SFC-FL125
+QINETIQ MOD ABERPORTH DANGER AREA CROSSING SERVICE NOT AVBL/ DANGER 
+AREA ACTIVITY INFO SERVICE FRIDAY 23 JUNE 1000-1530</ItemE>
+<ItemF>SFC</ItemF>
+<ItemG>FL125</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>220620231208</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="WAR">
+<NOF>EGGN</NOF>
+<Series>H</Series>
+<Number>3608</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>WG</Code23>
+<Code45>LW</Code45>
+<Traffic>IV</Traffic>
+<Purpose>M</Purpose>
+<Scope>W</Scope>
+<Lower>0</Lower>
+<Upper>28</Upper>
+</QLine>
+<Coordinates>5052N00013W</Coordinates>
+<Radius>3</Radius>
+<ItemA>EGTT</ItemA>
+<StartValidity>2306230900</StartValidity>
+<EndValidity>2306231800</EndValidity>
+<ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE WINCH LAUNCHED
+HANG GLIDERS OPERATING IN LOW FLYING AREA 18 WI 2NM RADIUS OF PSN
+505227N 0001309W (DEVILS DYKE, WEST SUSSEX). 2000FT AGL. CTC 
+07812 085228. 23/06/190/LFC</ItemE>
+<ItemF>SFC</ItemF>
+<ItemG>2800FT AMSL</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>220620231222</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="WAR">
+<NOF>EGGN</NOF>
+<Series>M</Series>
 <Number>3198</Number>
 <Year>23</Year>
 <Type>N</Type>
@@ -26602,6 +26605,34 @@ ESSEX). MAX HGT 200FT AGL. FOR INFO 07425 411890. 2023-06-0626/AS2</ItemE>
 <ItemG>450FT AMSL</ItemG>
 <Marker>+</Marker>
 <NotamStoreDate>220620230750</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="WAR">
+<NOF>EGGN</NOF>
+<Series>H</Series>
+<Number>3447</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>WA</Code23>
+<Code45>LW</Code45>
+<Traffic>IV</Traffic>
+<Purpose>M</Purpose>
+<Scope>W</Scope>
+<Lower>0</Lower>
+<Upper>5</Upper>
+</QLine>
+<Coordinates>5008N00504W</Coordinates>
+<Radius>3</Radius>
+<ItemA>EGTT</ItemA>
+<StartValidity>2306231200</StartValidity>
+<EndValidity>2306231300</EndValidity>
+<ItemE>AIR DISPLAY WI 2NM RADIUS: 500829N 0050336W (FALMOUTH, CORNWALL). 
+FOR INFO 07788 741257. 2023-06-0638/AS1.</ItemE>
+<ItemF>SFC</ItemF>
+<ItemG>500FT AMSL</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>200620231339</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
@@ -28431,31 +28462,6 @@ INNER HORIZONTAL SURFACE INFRINGED BY 45FT.</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>150620231700</NotamStoreDate>
 </Notam>
-<Notam OriginalMessage="false" PIBSection="AD">
-<NOF>EGGN</NOF>
-<Series>A</Series>
-<Number>4650</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGPX</FIR>
-<Code23>SP</Code23>
-<Code45>LT</Code45>
-<Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>AE</Scope>
-<Lower>0</Lower>
-<Upper>55</Upper>
-</QLine>
-<Coordinates>5529N00433W</Coordinates>
-<Radius>16</Radius>
-<ItemA>EGPK</ItemA>
-<StartValidity>2306221100</StartValidity>
-<EndValidity>2306221300</EndValidity>
-<ItemE>PRESTWICK PRIMARY RADAR SERVICE NOT AVAILABLE, SSR ONLY.</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>210620231037</NotamStoreDate>
-</Notam>
 </NotamList>
 <ObsoleteNotamList/>
 </ADSection>
@@ -30076,31 +30082,6 @@ ANTON SANDERSON 07739 373661</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>200620231124</NotamStoreDate>
 </Notam>
-<Notam Reference="EGPK" OriginalMessage="false" PIBSection="FIR">
-<NOF>EGGN</NOF>
-<Series>A</Series>
-<Number>4650</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGPX</FIR>
-<Code23>SP</Code23>
-<Code45>LT</Code45>
-<Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>AE</Scope>
-<Lower>0</Lower>
-<Upper>55</Upper>
-</QLine>
-<Coordinates>5529N00433W</Coordinates>
-<Radius>16</Radius>
-<ItemA>EGPK</ItemA>
-<StartValidity>2306221100</StartValidity>
-<EndValidity>2306221300</EndValidity>
-<ItemE>PRESTWICK PRIMARY RADAR SERVICE NOT AVAILABLE, SSR ONLY.</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>210620231037</NotamStoreDate>
-</Notam>
 <Notam Reference="EGPE" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
 <Series>A</Series>
@@ -30711,38 +30692,6 @@ CTC 01667 464404. 23/06/139/LFC</ItemE>
 <Notam OriginalMessage="false" PIBSection="WAR">
 <NOF>EGGN</NOF>
 <Series>H</Series>
-<Number>3397</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGPX</FIR>
-<Code23>WE</Code23>
-<Code45>LW</Code45>
-<Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>W</Scope>
-<Lower>0</Lower>
-<Upper>35</Upper>
-</QLine>
-<Coordinates>5703N00451W</Coordinates>
-<Radius>3</Radius>
-<ItemA>EGPX</ItemA>
-<StartValidity>2306191202</StartValidity>
-<EndValidity>2307182030</EndValidity>
-<ItemD>0600-2030</ItemD>
-<ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL 
-OPERATE LOW FLYING AREA 14 WI 2NM RADIUS OF PSN 570252N 0045043W, 
-(COIRE BO CHAILEIN, HIGHLAND). MAX HEIGHT 500FT AGL. ACFT MAY BE 
-RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO COMPLY WITH RAC OPS 
-CTC 01667 464404. 23/06/140/LFC</ItemE>
-<ItemF>SFC</ItemF>
-<ItemG>3500FT AMSL</ItemG>
-<Marker>+</Marker>
-<NotamStoreDate>190620231202</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="WAR">
-<NOF>EGGN</NOF>
-<Series>H</Series>
 <Number>3398</Number>
 <Year>23</Year>
 <Type>N</Type>
@@ -30901,37 +30850,6 @@ CTC 01667 464404. 23/06/165/LFC</ItemE>
 <ItemG>3900FT AMSL</ItemG>
 <Marker>+</Marker>
 <NotamStoreDate>210620230935</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="WAR">
-<NOF>EGGN</NOF>
-<Series>M</Series>
-<Number>3179</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGPX</FIR>
-<Code23>RD</Code23>
-<Code45>CA</Code45>
-<Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>W</Scope>
-<Lower>245</Lower>
-<Upper>660</Upper>
-</QLine>
-<Coordinates>5814N00358W</Coordinates>
-<Radius>70</Radius>
-<ItemA>EGPX</ItemA>
-<StartValidity>2306220900</StartValidity>
-<EndValidity>2306221300</EndValidity>
-<ItemE>THE FOLLOWING NORTHERN MANAGED DANGER AREAS ARE ACTIVATED:
-EG D712A 0900-1300 FL245-FL660
-EG D712B 0900-1300 FL245-FL660
-EG D712C 0900-1300 FL245-FL660
-EG D712D 0900-1300 FL245-FL660</ItemE>
-<ItemF>FL245</ItemF>
-<ItemG>FL660</ItemG>
-<Marker>+</Marker>
-<NotamStoreDate>210620231213</NotamStoreDate>
 </Notam>
 <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
 <NOF>EGGN</NOF>
@@ -31140,6 +31058,41 @@ ARE NO DRONES REPORTED AIRBORNE IN THE AREA.</ItemE>
 <ItemG>1500FT AMSL</ItemG>
 <Marker>+</Marker>
 <NotamStoreDate>200620231935</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="WAR">
+<NOF>EGGN</NOF>
+<Series>H</Series>
+<Number>3609</Number>
+<Year>23</Year>
+<Type>R</Type>
+<ReferredSeries>H</ReferredSeries>
+<ReferredNumber>3397</ReferredNumber>
+<ReferredYear>23</ReferredYear>
+<QLine>
+<FIR>EGPX</FIR>
+<Code23>WE</Code23>
+<Code45>LW</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>W</Scope>
+<Lower>0</Lower>
+<Upper>35</Upper>
+</QLine>
+<Coordinates>5702N00454W</Coordinates>
+<Radius>3</Radius>
+<ItemA>EGPX</ItemA>
+<StartValidity>2306221220</StartValidity>
+<EndValidity>2307182030</EndValidity>
+<ItemD>0600-2030</ItemD>
+<ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL
+OPERATE LOW FLYING AREA 14 WI 2NM RADIUS OF PSN 570206N 0045343W,
+(COIRE BO CHAILEIN, HIGHLAND). MAX HEIGHT 500FT AGL. ACFT MAY BE
+RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO COMPLY WITH RAC OPS
+CTC 01667 464404. 23/06/140/LFC</ItemE>
+<ItemF>SFC</ItemF>
+<ItemG>3500FT AMSL</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>220620231223</NotamStoreDate>
 </Notam>
 <Notam OriginalMessage="false" PIBSection="WAR">
 <NOF>EGGN</NOF>
@@ -31610,6 +31563,40 @@ MNPS/NAT HIGH LEVEL AIRSPACE(HLA) 60NM, NON-MNPS/NAT HLA 120NM.</ItemE>
 <ItemG>FL270</ItemG>
 <Marker>+</Marker>
 <NotamStoreDate>210620230852</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="WAR">
+<NOF>EGGN</NOF>
+<Series>G</Series>
+<Number>190</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGGX</FIR>
+<Code23>RA</Code23>
+<Code45>LW</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>W</Scope>
+<Lower>250</Lower>
+<Upper>270</Upper>
+</QLine>
+<Coordinates>5229N01900W</Coordinates>
+<Radius>999</Radius>
+<ItemA>EGGX</ItemA>
+<StartValidity>2306231130</StartValidity>
+<EndValidity>2306231540</EndValidity>
+<ItemE>AIRSPACE RESERVATION
+TR1: FL250 FL270 MIMKU - MOGLO - ETARI - 5500N 02000W - 
+5430N 02500W - 5400N 03000W 
+TR2: FL270 6100N 02000W - 5500N 02000W
+TR3: FL270 5430N 02500W - 5500N 02500W - 5800N 02800W - 
+6100N 02500W
+FLW SEPARATIONS WILL BE PROVIDED WITHIN SHANWICK OCEANIC AIRSPACE:
+MNPS/NAT HIGH LEVEL AIRSPACE(HLA) 60NM, NON-MNPS/NAT HLA 120NM.</ItemE>
+<ItemF>FL250</ItemF>
+<ItemG>FL270</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>220620231215</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
