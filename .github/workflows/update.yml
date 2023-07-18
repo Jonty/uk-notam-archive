@@ -29,6 +29,10 @@ jobs:
           wget http://pibs.nats.co.uk/operational/pibs/pib50n.shtml -O html/pib50n.shtml
           git add html
 
+          pip install -r requirements.txt
+          python download_briefing_sheets.py
+          git add briefing_sheets
+
           git config --global user.email "uk-notam-archive@jonty.co.uk"
           git config --global user.name "NOTAM Update Bot"
           git commit -m "Automatic NOTAM data update"

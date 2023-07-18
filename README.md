@@ -1,5 +1,5 @@
 # UK NOTAM Archive
-An hourly updated archive of all UK Notices To Airmen (NOTAM), along with all other pre-flight information bulletins (PIB).
+An hourly updated archive of all UK Notices To Airmen (NOTAM), along with all other pre-flight information bulletins (PIB) and briefing sheets.
 
 The data is fetched from the [NATS AIS Contingency system](https://www.nats.aero/do-it-online/pre-flight-information-bulletins/) as it provides the feeds without authentication.
 
@@ -22,6 +22,8 @@ Human Readable
 * [Aerodromes from 52N to 53N](https://jonty.github.io/uk-notam-archive/html/pib52n.shtml)
 * [Aerodromes from 51N to 52N](https://jonty.github.io/uk-notam-archive/html/pib51n.shtml)
 * [Aerodromes from 50N to 51N inc Channel Isles](https://jonty.github.io/uk-notam-archive/html/pib50n.shtml)
+
+PDF Briefing Sheets for situations of operational significance can be found in the [briefing_sheets](briefing_sheets) directory.
 
 Todo:
 --
