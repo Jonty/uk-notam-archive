@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000063254107" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000063257077" NewNOTAMDuration="250">
 <AreaPIBHeader>
 <ShortSystemTitle>EAD</ShortSystemTitle>
 <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
 <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
 <Traffic>IV</Traffic>
 <Validity>
-<ValidFrom>2023-07-20T00:00:24+00:00</ValidFrom>
-<ValidTo>2023-07-21T00:00:00+00:00</ValidTo>
+<ValidFrom>2023-07-20T01:00:31+00:00</ValidFrom>
+<ValidTo>2023-07-21T01:00:00+00:00</ValidTo>
 </Validity>
 <ProfileId>400000001684471</ProfileId>
 <ProfileName>All NOTAM</ProfileName>
 <ServiceType>FULL</ServiceType>
 <BriefingType>IM</BriefingType>
 <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-<Issued>2023-07-20T00:00:24+00:00</Issued>
+<Issued>2023-07-20T01:00:31+00:00</Issued>
 <PIBSubject>All NOTAM</PIBSubject>
 <ScheduleName>Daily</ScheduleName>
-<PibUid>EG712307200007</PibUid>
+<PibUid>EG712307200024</PibUid>
 <FlightLevel>
 <LowerFL>0</LowerFL>
 <UpperFL>999</UpperFL>
@@ -13398,9 +13398,12 @@ SAT AND SUN CLOSED, ATZ REMIANS ACTIVE</ItemE>
 <Notam OriginalMessage="false" PIBSection="AD">
 <NOF>EGGN</NOF>
 <Series>U</Series>
-<Number>4730</Number>
+<Number>4741</Number>
 <Year>23</Year>
-<Type>N</Type>
+<Type>R</Type>
+<ReferredSeries>U</ReferredSeries>
+<ReferredNumber>4730</ReferredNumber>
+<ReferredYear>23</ReferredYear>
 <QLine>
 <FIR>EGTT</FIR>
 <Code23>SP</Code23>
@@ -13414,11 +13417,11 @@ SAT AND SUN CLOSED, ATZ REMIANS ACTIVE</ItemE>
 <Coordinates>5335N00303W</Coordinates>
 <Radius>2</Radius>
 <ItemA>EGOW</ItemA>
-<StartValidity>2307191545</StartValidity>
+<StartValidity>2307200023</StartValidity>
 <EndValidity>2307200800</EndValidity>
-<ItemE>ATC CLOSED. ATZ REMAINS OPEN.</ItemE>
+<ItemE>WOODVALE ATC CLOSED. ATZ REMAINS OPEN.</ItemE>
 <Marker>+</Marker>
-<NotamStoreDate>190720231550</NotamStoreDate>
+<NotamStoreDate>200720230023</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
@@ -17669,31 +17672,6 @@ HOURS PROCEDURAL SER ONLY.</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>190720231455</NotamStoreDate>
 </Notam>
-<Notam Reference="EGOW" OriginalMessage="false" PIBSection="FIR">
-<NOF>EGGN</NOF>
-<Series>U</Series>
-<Number>4730</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>SP</Code23>
-<Code45>LC</Code45>
-<Traffic>IV</Traffic>
-<Purpose>BO</Purpose>
-<Scope>AE</Scope>
-<Lower>0</Lower>
-<Upper>21</Upper>
-</QLine>
-<Coordinates>5335N00303W</Coordinates>
-<Radius>2</Radius>
-<ItemA>EGOW</ItemA>
-<StartValidity>2307191545</StartValidity>
-<EndValidity>2307200800</EndValidity>
-<ItemE>ATC CLOSED. ATZ REMAINS OPEN.</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>190720231550</NotamStoreDate>
-</Notam>
 <Notam OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
 <Series>N</Series>
@@ -17719,6 +17697,34 @@ HOURS PROCEDURAL SER ONLY.</ItemE>
 PSN 504036.28N 0012213.28W, ELEV 1080FT/HGT 614FT</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>190720232221</NotamStoreDate>
+</Notam>
+<Notam Reference="EGOW" OriginalMessage="false" PIBSection="FIR">
+<NOF>EGGN</NOF>
+<Series>U</Series>
+<Number>4741</Number>
+<Year>23</Year>
+<Type>R</Type>
+<ReferredSeries>U</ReferredSeries>
+<ReferredNumber>4730</ReferredNumber>
+<ReferredYear>23</ReferredYear>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>SP</Code23>
+<Code45>LC</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>AE</Scope>
+<Lower>0</Lower>
+<Upper>21</Upper>
+</QLine>
+<Coordinates>5335N00303W</Coordinates>
+<Radius>2</Radius>
+<ItemA>EGOW</ItemA>
+<StartValidity>2307200023</StartValidity>
+<EndValidity>2307200800</EndValidity>
+<ItemE>WOODVALE ATC CLOSED. ATZ REMAINS OPEN.</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>200720230023</NotamStoreDate>
 </Notam>
 <Notam Reference="EGBJ" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
@@ -23728,6 +23734,42 @@ SUSSEX). FOR INFO 07713 723196. 2023-07-0675/AS2.</ItemE>
 <ItemG>UNL</ItemG>
 <Marker>+</Marker>
 <NotamStoreDate>140720230735</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="WAR">
+<NOF>LFFA</NOF>
+<Series>R</Series>
+<Number>2071</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>LFXX</FIR>
+<Code23>RT</Code23>
+<Code45>CA</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>W</Scope>
+<Lower>0</Lower>
+<Upper>15</Upper>
+</QLine>
+<Coordinates>5048N00140E</Coordinates>
+<Radius>32</Radius>
+<ItemA>LFFF</ItemA>
+<ItemA>EGTT</ItemA>
+<StartValidity>2307210000</StartValidity>
+<EndValidity>2307231600</EndValidity>
+<ItemE>TEMPO AREAS OVER ENGLISH CHANNEL - AIP SUP 130/23
+SUBJECT : AREAS ACTIVATION
+FRI 21 JUL 2023 : 0400-1000 : LF-R400 A DEP GRIS-NEZ AND LF-R402
+MANCHE 2 ACT (PART NORTH GRIS-NEZ)
+FRI 21 JUL 2023 : 1000-1430 : LF-R400 A DEP GRIS-NEZ AND LF-R401
+MANCHE 1 ACT (PART SOUTH GRIS-NEZ)
+SAT 22 JUL 2023 : ALL AREAS NOT ACT
+SUN 23 JUL 2023 : ALL AREAS NOT ACT
+AIP SUP IS AVBL ON WWW.SIA.AVIATION-CIVILE.GOUV.FR</ItemE>
+<ItemF>SFC</ItemF>
+<ItemG>1500FT AMSL</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>180720231237</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
