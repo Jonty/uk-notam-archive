@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000065008865" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000065010719" NewNOTAMDuration="250">
 <AreaPIBHeader>
 <ShortSystemTitle>EAD</ShortSystemTitle>
 <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
 <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
 <Traffic>IV</Traffic>
 <Validity>
-<ValidFrom>2023-08-23T10:00:22+00:00</ValidFrom>
-<ValidTo>2023-08-24T10:00:00+00:00</ValidTo>
+<ValidFrom>2023-08-23T11:00:13+00:00</ValidFrom>
+<ValidTo>2023-08-24T11:00:00+00:00</ValidTo>
 </Validity>
 <ProfileId>400000001684471</ProfileId>
 <ProfileName>All NOTAM</ProfileName>
 <ServiceType>FULL</ServiceType>
 <BriefingType>IM</BriefingType>
 <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-<Issued>2023-08-23T10:00:22+00:00</Issued>
+<Issued>2023-08-23T11:00:13+00:00</Issued>
 <PIBSubject>All NOTAM</PIBSubject>
 <ScheduleName>Daily</ScheduleName>
-<PibUid>EG712308230651</PibUid>
+<PibUid>EG712308230711</PibUid>
 <FlightLevel>
 <LowerFL>0</LowerFL>
 <UpperFL>999</UpperFL>
@@ -4883,8 +4883,36 @@ AVBL. AERODROME FACILITIES NOT AVBL. 2022-12-0086/AS3.</ItemE>
 <ADSection>
 <Code>EGSU</Code>
 <Name>DUXFORD</Name>
-<!--No information received or matching the query-->
-<NotamList/>
+<NotamList>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>L</Series>
+<Number>4991</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>WU</Code23>
+<Code45>LW</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>AW</Scope>
+<Lower>0</Lower>
+<Upper>2</Upper>
+</QLine>
+<Coordinates>5205N00008E</Coordinates>
+<Radius>1</Radius>
+<ItemA>EGSU</ItemA>
+<StartValidity>2308241000</StartValidity>
+<EndValidity>2308241200</EndValidity>
+<ItemE>UAS OPR WI 0.2NM RADIUS OF PSN 520450N 0000814E (DUXFORD) SFC TO 
+60FT AGL 186FT AMSL</ItemE>
+<ItemF>SFC</ItemF>
+<ItemG>186FT AMSL</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>220820230915</NotamStoreDate>
+</Notam>
+</NotamList>
 <ObsoleteNotamList/>
 </ADSection>
 <ADSection>
@@ -6341,31 +6369,6 @@ EXPIRY OF THIS NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP ENR
 5.4. AR-2023-304/01.</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>160820231447</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="AD">
-<NOF>EGGN</NOF>
-<Series>A</Series>
-<Number>6223</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>IC</Code23>
-<Code45>AS</Code45>
-<Traffic>I</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>A</Scope>
-<Lower>0</Lower>
-<Upper>999</Upper>
-</QLine>
-<Coordinates>5320N00251W</Coordinates>
-<Radius>5</Radius>
-<ItemA>EGGP</ItemA>
-<StartValidity>2308230007</StartValidity>
-<EndValidity>2308231030</EndValidity>
-<ItemE>ILS RWY 27 U/S</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>230820230035</NotamStoreDate>
 </Notam>
 <Notam OriginalMessage="false" PIBSection="AD">
 <NOF>EGGN</NOF>
@@ -11261,6 +11264,31 @@ FRI      0730-1300</ItemE>
 28 AUG AD CLOSED</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>260720231601</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>U</Series>
+<Number>5514</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>CP</Code23>
+<Code45>AS</Code45>
+<Traffic>I</Traffic>
+<Purpose>BO</Purpose>
+<Scope>A</Scope>
+<Lower>0</Lower>
+<Upper>999</Upper>
+</QLine>
+<Coordinates>5005N00515W</Coordinates>
+<Radius>5</Radius>
+<ItemA>EGDR</ItemA>
+<StartValidity>2308240700</StartValidity>
+<EndValidity>2308241100</EndValidity>
+<ItemE>PAR U/S DUE MAINT</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>230820231006</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
@@ -18445,9 +18473,12 @@ AGL/ 250FT AMSL</ItemE>
 <Notam OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
 <Series>K</Series>
-<Number>271</Number>
+<Number>273</Number>
 <Year>23</Year>
-<Type>N</Type>
+<Type>R</Type>
+<ReferredSeries>K</ReferredSeries>
+<ReferredNumber>271</ReferredNumber>
+<ReferredYear>23</ReferredYear>
 <QLine>
 <FIR>EGTT</FIR>
 <Code23>OB</Code23>
@@ -18456,18 +18487,18 @@ AGL/ 250FT AMSL</ItemE>
 <Purpose>M</Purpose>
 <Scope>E</Scope>
 <Lower>0</Lower>
-<Upper>7</Upper>
+<Upper>5</Upper>
 </QLine>
 <Coordinates>5156N00102W</Coordinates>
 <Radius>1</Radius>
 <ItemA>EGTT</ItemA>
 <StartValidity>2308230920</StartValidity>
 <EndValidity>2308302359</EndValidity>
-<ItemE>UNLIT CRANE AT PSN 515602N 0010205W (TWYFORD, BUCKINGHAMSHIRE)
-IN LOW FLYING AREA 4, 1C AND NIGHT ROTARY REGION 4A
-HGT 625FT AMSL (125FT AGL). 23/08/254/LFC</ItemE>
+<ItemE>UNLIT CRANE AT PSN 515602N 0010205W (TWYFORD, BUCKINGHAMSHIRE) IN 
+LOW FLYING AREA 4, 1C AND NIGHT ROTARY REGION 4A HGT 403FT AMSL 
+(125FT AGL). 23/08/254/LFC</ItemE>
 <Marker>+</Marker>
-<NotamStoreDate>230820230924</NotamStoreDate>
+<NotamStoreDate>230820231016</NotamStoreDate>
 </Notam>
 <Notam OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
@@ -18519,6 +18550,33 @@ HGT 625FT AMSL (125FT AGL). 23/08/254/LFC</ItemE>
 BOVERTON). MAX HGT 120FT AGL, 283FT AMSL</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>230820230950</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="FIR">
+<NOF>EGGN</NOF>
+<Series>K</Series>
+<Number>272</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>OB</Code23>
+<Code45>CE</Code45>
+<Traffic>IV</Traffic>
+<Purpose>M</Purpose>
+<Scope>E</Scope>
+<Lower>0</Lower>
+<Upper>3</Upper>
+</QLine>
+<Coordinates>5124N00030E</Coordinates>
+<Radius>1</Radius>
+<ItemA>EGTT</ItemA>
+<StartValidity>2308231010</StartValidity>
+<EndValidity>2311022359</EndValidity>
+<ItemE>LIT CRANE AT PSN 512414N 0003026E (FINDSBURY HILL, ROCHESTER) IN 
+THE THAMES VALLEY AVOIDANCE AREA HGT 220FT AMSL (102FT AGL). 
+23/08/255/LFC</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>230820231010</NotamStoreDate>
 </Notam>
 <Notam Reference="EGHR" OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
@@ -18606,6 +18664,35 @@ THE FOLLOWING AIRSPACE WILL BE DELEGATED TO BRISTOL
 CARDIFF CTA 1-8 ABOVE 6000FT</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>230820230937</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="FIR">
+<NOF>EGGN</NOF>
+<Series>B</Series>
+<Number>2033</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>SE</Code23>
+<Code45>AU</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>E</Scope>
+<Lower>0</Lower>
+<Upper>195</Upper>
+</QLine>
+<Coordinates>5206N00157W</Coordinates>
+<Radius>999</Radius>
+<ItemA>EGTT</ItemA>
+<StartValidity>2308232300</StartValidity>
+<EndValidity>2308240330</EndValidity>
+<ItemD>2300-2330 0130-0330</ItemD>
+<ItemE>THE FIS PROVIDED BY LONDON ACC ON FREQ 124.600MHZ, 124.750MHZ AND
+125.475MHZ WILL NOT BE AVBL. PILOTS REQUESTING FLT INFO DURING
+THIS PERIOD MAY CTC LONDON CTL ON THE NOTIFIED H24 FREQ IN THE AIP
+PAGE ENR 2.1</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>230820231045</NotamStoreDate>
 </Notam>
 <Notam OriginalMessage="false" PIBSection="FIR">
 <NOF>EGGN</NOF>
@@ -24237,6 +24324,34 @@ REFERS. FOR INFO 07885 363187. 2023-08-0545/AS1.</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>210820231031</NotamStoreDate>
 </Notam>
+<Notam Reference="EGSU" OriginalMessage="false" PIBSection="WAR">
+<NOF>EGGN</NOF>
+<Series>L</Series>
+<Number>4991</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>WU</Code23>
+<Code45>LW</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>AW</Scope>
+<Lower>0</Lower>
+<Upper>2</Upper>
+</QLine>
+<Coordinates>5205N00008E</Coordinates>
+<Radius>1</Radius>
+<ItemA>EGSU</ItemA>
+<StartValidity>2308241000</StartValidity>
+<EndValidity>2308241200</EndValidity>
+<ItemE>UAS OPR WI 0.2NM RADIUS OF PSN 520450N 0000814E (DUXFORD) SFC TO 
+60FT AGL 186FT AMSL</ItemE>
+<ItemF>SFC</ItemF>
+<ItemG>186FT AMSL</ItemG>
+<Marker>+</Marker>
+<NotamStoreDate>220820230915</NotamStoreDate>
+</Notam>
 </NotamList>
 <ObsoleteNotamList/>
 </Warnings>
@@ -29160,34 +29275,6 @@ EG D701Y 0900-2000 SFC-UNL</ItemE>
 <ItemG>1500FT AMSL</ItemG>
 <Marker>+</Marker>
 <NotamStoreDate>220820230946</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="WAR">
-<NOF>EGGN</NOF>
-<Series>H</Series>
-<Number>5629</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGPX</FIR>
-<Code23>WF</Code23>
-<Code45>LW</Code45>
-<Traffic>IV</Traffic>
-<Purpose>M</Purpose>
-<Scope>W</Scope>
-<Lower>180</Lower>
-<Upper>240</Upper>
-</QLine>
-<Coordinates>5636N00711W</Coordinates>
-<Radius>51</Radius>
-<ItemA>EGPX</ItemA>
-<StartValidity>2308230900</StartValidity>
-<EndValidity>2308231030</EndValidity>
-<ItemE>AIR TO AIR REFUELLING WILL TAKE PLACE IN THE FOLLOWING AREAS:
-AREA 14  0900-1030 FL180-FL240</ItemE>
-<ItemF>FL180</ItemF>
-<ItemG>FL240</ItemG>
-<Marker>+</Marker>
-<NotamStoreDate>220820231214</NotamStoreDate>
 </Notam>
 <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
 <NOF>EGGN</NOF>
