@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000069077174" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000069079552" NewNOTAMDuration="250">
 <AreaPIBHeader>
 <ShortSystemTitle>EAD</ShortSystemTitle>
 <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
 <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
 <Traffic>IV</Traffic>
 <Validity>
-<ValidFrom>2023-11-16T07:00:16+00:00</ValidFrom>
-<ValidTo>2023-11-17T07:00:00+00:00</ValidTo>
+<ValidFrom>2023-11-16T08:00:56+00:00</ValidFrom>
+<ValidTo>2023-11-17T08:00:00+00:00</ValidTo>
 </Validity>
 <ProfileId>400000001921664</ProfileId>
 <ProfileName>All NOTAM</ProfileName>
 <ServiceType>FULL</ServiceType>
 <BriefingType>IM</BriefingType>
 <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-<Issued>2023-11-16T07:00:16+00:00</Issued>
+<Issued>2023-11-16T08:00:56+00:00</Issued>
 <PIBSubject>All NOTAM</PIBSubject>
 <ScheduleName>Daily</ScheduleName>
-<PibUid>EG712311160498</PibUid>
+<PibUid>EG712311160583</PibUid>
 <FlightLevel>
 <LowerFL>0</LowerFL>
 <UpperFL>999</UpperFL>
@@ -4551,6 +4551,22 @@ ATZ) SFC TO 215FT AMSL/196FT AGL</ItemE>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
+<Snowtam>
+<TAMMessage>
+<TAMID>400000001276966</TAMID>
+<TAMloc>EGSC</TAMloc>
+<TAMMessageAIXMType>SW</TAMMessageAIXMType>
+<TAMItemB>2023-11-16T07:50:00+00:00</TAMItemB>
+<TAMYear>0</TAMYear>
+<TAMNationalLetter>EG</TAMNationalLetter>
+<TAMItemList>
+<TAMItem>EGSC</TAMItem>
+<TAMItem>11160750 05 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
+</TAMItemList>
+<TAMUpdateTime>2023-11-16T08:00:00+00:00</TAMUpdateTime>
+<TamObservationTime>2023-11-16T07:50:00+00:00</TamObservationTime>
+</TAMMessage>
+</Snowtam>
 </ADSection>
 <ADSection>
 <Code>EGFF</Code>
@@ -5348,6 +5364,22 @@ UK AIP AD 2.EGNX-4-1, ENR 2.1</ItemE>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
+<Snowtam>
+<TAMMessage>
+<TAMID>400000001276911</TAMID>
+<TAMloc>EGNX</TAMloc>
+<TAMMessageAIXMType>SW</TAMMessageAIXMType>
+<TAMItemB>2023-11-16T07:04:00+00:00</TAMItemB>
+<TAMYear>0</TAMYear>
+<TAMNationalLetter>EG</TAMNationalLetter>
+<TAMItemList>
+<TAMItem>EGNX</TAMItem>
+<TAMItem>11160704 09 6/6/5 25/25/50 NR/NR/NR DRY/DRY/WET</TAMItem>
+</TAMItemList>
+<TAMUpdateTime>2023-11-16T07:08:00+00:00</TAMUpdateTime>
+<TamObservationTime>2023-11-16T07:04:00+00:00</TamObservationTime>
+</TAMMessage>
+</Snowtam>
 </ADSection>
 <ADSection>
 <Code>EGTR</Code>
@@ -6377,8 +6409,36 @@ LAST RUNWAY MOVEMENT 15 MINUTES BEFORE EVERY CLOSED TIME</ItemE>
 <ADSection>
 <Code>EGHF</Code>
 <Name>LEE-ON-SOLENT</Name>
-<!--No information received or matching the query-->
-<NotamList/>
+<NotamList>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>L</Series>
+<Number>6503</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>FA</Code23>
+<Code45>LT</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>A</Scope>
+<Lower>0</Lower>
+<Upper>999</Upper>
+</QLine>
+<Coordinates>5049N00112W</Coordinates>
+<Radius>5</Radius>
+<ItemA>EGHF</ItemA>
+<StartValidity>2311030700</StartValidity>
+<EndValidity>2401260830</EndValidity>
+<ItemD>FRI 0700-0830</ItemD>
+<ItemE>RESIDENTS OUT OF HOURS MOVEMENT NOT PERMITTED DUE TO SCHEDULED
+AIRPORT AND RUNWAY SWEEPING. COASTGUARD SAR IS EXCLUDED FROM THIS
+RESTRICTION</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>301020230847</NotamStoreDate>
+</Notam>
+</NotamList>
 <ObsoleteNotamList/>
 </ADSection>
 <ADSection>
@@ -11373,58 +11433,6 @@ MON-FRI 0900-1730</ItemE>
 <Notam OriginalMessage="false" PIBSection="AD">
 <NOF>EGGN</NOF>
 <Series>U</Series>
-<Number>7273</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>MR</Code23>
-<Code45>XX</Code45>
-<Traffic>IV</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>A</Scope>
-<Lower>0</Lower>
-<Upper>999</Upper>
-</QLine>
-<Coordinates>5302N00030W</Coordinates>
-<Radius>5</Radius>
-<ItemA>EGYD</ItemA>
-<StartValidity>2311091532</StartValidity>
-<EndValidity>2311171700</EndValidity>
-<ItemE>CREWS ARE TO BE AWARE OF AN INCREASED CONCENTRATION OF MOSS
-ON RWY 01/19. CONCENTRATIONS ARE PRIMARILY FOUND TO THE WEST 
-OF RWY 01/19 APPROACHING THE 01 THRESHOLD.</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>091120231536</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="AD">
-<NOF>EGGN</NOF>
-<Series>U</Series>
-<Number>7388</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>FA</Code23>
-<Code45>LC</Code45>
-<Traffic>IV</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>A</Scope>
-<Lower>0</Lower>
-<Upper>999</Upper>
-</QLine>
-<Coordinates>5302N00030W</Coordinates>
-<Radius>5</Radius>
-<ItemA>EGYD</ItemA>
-<StartValidity>2311151616</StartValidity>
-<EndValidity>2311160800</EndValidity>
-<ItemE>AD CLOSED</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>151120231618</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="AD">
-<NOF>EGGN</NOF>
-<Series>U</Series>
 <Number>7379</Number>
 <Year>23</Year>
 <Type>N</Type>
@@ -11471,6 +11479,31 @@ OF RWY 01/19 APPROACHING THE 01 THRESHOLD.</ItemE>
 <ItemE>CRANWELL TACAN CWZ FREQ 117.4MHZ CH 121X UNRELIABLE</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>151120231253</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>U</Series>
+<Number>7266</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>FA</Code23>
+<Code45>LC</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>A</Scope>
+<Lower>0</Lower>
+<Upper>999</Upper>
+</QLine>
+<Coordinates>5302N00030W</Coordinates>
+<Radius>5</Radius>
+<ItemA>EGYD</ItemA>
+<StartValidity>2311170700</StartValidity>
+<EndValidity>2311171700</EndValidity>
+<ItemE>NORTH AD CLSD DUE TO TROOP MOVEMENTS</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>091120231435</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
@@ -12264,6 +12297,32 @@ SERVICE FOR CAT 8 ACFT.</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>141120231526</NotamStoreDate>
 </Notam>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>U</Series>
+<Number>7397</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>MR</Code23>
+<Code45>XX</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>A</Scope>
+<Lower>0</Lower>
+<Upper>999</Upper>
+</QLine>
+<Coordinates>5225N00034E</Coordinates>
+<Radius>5</Radius>
+<ItemA>EGUL</ItemA>
+<StartValidity>2311160739</StartValidity>
+<EndValidity>2311162200</EndValidity>
+<ItemE>RUNWAY 06/24 SURFACE CONDITION FOR CONCRETE DRY AND ASPHALT WET
+WITH LESS THAN 1/10 OF AN INCH OF STANDING WATER.</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>161120230739</NotamStoreDate>
+</Notam>
 </NotamList>
 <ObsoleteNotamList/>
 </ADSection>
@@ -12447,6 +12506,31 @@ WATER.</ItemE>
 <ItemE>TWY DELTA NORTH RESTRICTED TO PARTICIPATING ACFT ONLY</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>151120232018</NotamStoreDate>
+</Notam>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>U</Series>
+<Number>7395</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>MX</Code23>
+<Code45>LT</Code45>
+<Traffic>IV</Traffic>
+<Purpose>M</Purpose>
+<Scope>A</Scope>
+<Lower>0</Lower>
+<Upper>999</Upper>
+</QLine>
+<Coordinates>5222N00029E</Coordinates>
+<Radius>5</Radius>
+<ItemA>EGUN</ItemA>
+<StartValidity>2311160706</StartValidity>
+<EndValidity>2311161000</EndValidity>
+<ItemE>TWY CHARLIE NORTH RESTRICTED TO PARTICIPATING ACFT ONLY</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>161120230706</NotamStoreDate>
 </Notam>
 <Notam OriginalMessage="false" PIBSection="AD">
 <NOF>EGGN</NOF>
@@ -12866,31 +12950,6 @@ AGL, 453.617FT AMSL. FOR INFO CTC 07341 335167. ON EXPIRY OF THIS
 NOTAM DETAILS WILL BE INCLUDED IN THE UK AIP ENR 5.4 AR-2023-490/01</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>130920230959</NotamStoreDate>
-</Notam>
-<Notam OriginalMessage="false" PIBSection="AD">
-<NOF>EGGN</NOF>
-<Series>U</Series>
-<Number>7391</Number>
-<Year>23</Year>
-<Type>N</Type>
-<QLine>
-<FIR>EGTT</FIR>
-<Code23>FF</Code23>
-<Code45>CG</Code45>
-<Traffic>IV</Traffic>
-<Purpose>NBO</Purpose>
-<Scope>A</Scope>
-<Lower>0</Lower>
-<Upper>999</Upper>
-</QLine>
-<Coordinates>5133N00025W</Coordinates>
-<Radius>5</Radius>
-<ItemA>EGWU</ItemA>
-<StartValidity>2311151920</StartValidity>
-<EndValidity>2311160800</EndValidity>
-<ItemE>RFFS DOWNGRADED TO ICAO CAT 4</ItemE>
-<Marker>+</Marker>
-<NotamStoreDate>151120231924</NotamStoreDate>
 </Notam>
 <Notam OriginalMessage="false" PIBSection="AD">
 <NOF>EGGN</NOF>
@@ -18841,6 +18900,34 @@ AGL). 23/11/066/LFC</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>131120230843</NotamStoreDate>
 </Notam>
+<Notam OriginalMessage="false" PIBSection="FIR">
+<NOF>EGGN</NOF>
+<Series>B</Series>
+<Number>2853</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGTT</FIR>
+<Code23>NV</Code23>
+<Code45>XX</Code45>
+<Traffic>IV</Traffic>
+<Purpose>BO</Purpose>
+<Scope>E</Scope>
+<Lower>0</Lower>
+<Upper>999</Upper>
+</QLine>
+<Coordinates>5129N00028W</Coordinates>
+<Radius>25</Radius>
+<ItemA>EGTT</ItemA>
+<StartValidity>2311170700</StartValidity>
+<EndValidity>2311301900</EndValidity>
+<ItemE>VOR/DME LON/LONDON 113.60MHZ CH083X VOR - 
+THERE MAY BE OBSERVATIONS OF DVOR BEARING FLUCTUATIONS WITHIN THE 
+125-165 DEG MAG SECTOR RADIALS FROM THE LONDON VOR/DME STATION, DUE 
+TO CRANE ACTIVITY</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>141120230921</NotamStoreDate>
+</Notam>
 </NotamList>
 <ObsoleteNotamList/>
 </En-route>
@@ -24246,6 +24333,32 @@ DUNDEE ARP) MAX HGT 109FT AGL/256FT AMSL</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>081120231120</NotamStoreDate>
 </Notam>
+<Notam OriginalMessage="false" PIBSection="AD">
+<NOF>EGGN</NOF>
+<Series>I</Series>
+<Number>3414</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGPX</FIR>
+<Code23>AZ</Code23>
+<Code45>CD</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>AE</Scope>
+<Lower>0</Lower>
+<Upper>21</Upper>
+</QLine>
+<Coordinates>5627N00302W</Coordinates>
+<Radius>2</Radius>
+<ItemA>EGPN</ItemA>
+<StartValidity>2311170745</StartValidity>
+<EndValidity>2311171930</EndValidity>
+<ItemD>0745-0815, 1900-1930</ItemD>
+<ItemE>DUNDEE ATZ DEACTIVATED, ATC NOT AVBL, AD CLSD</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>151120230944</NotamStoreDate>
+</Notam>
 </NotamList>
 <ObsoleteNotamList/>
 </ADSection>
@@ -25672,6 +25785,25 @@ REQUIRED. UK AIP EGPB AD 2.6 REFERS</ItemE>
 <!--No information received or matching the query-->
 <NotamList/>
 <ObsoleteNotamList/>
+<Snowtam>
+<TAMMessage>
+<TAMID>400000001276946</TAMID>
+<TAMloc>EGPC</TAMloc>
+<TAMMessageAIXMType>SW</TAMMessageAIXMType>
+<TAMItemB>2023-11-16T07:46:00+00:00</TAMItemB>
+<TAMYear>0</TAMYear>
+<TAMNationalLetter>EG</TAMNationalLetter>
+<TAMItemList>
+<TAMItem>EGPC</TAMItem>
+<TAMItem>11160746 13 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+<TAMItem/>
+<TAMItem>RUNWAY 13 CHEMICALLY TREATED. RUNWAY 13 CHEMICALLY TREATED TO 30M</TAMItem>
+<TAMItem>WIDTH. NORTH APRON CHEMICALLY TREATED..</TAMItem>
+</TAMItemList>
+<TAMUpdateTime>2023-11-16T07:59:00+00:00</TAMUpdateTime>
+<TamObservationTime>2023-11-16T07:46:00+00:00</TamObservationTime>
+</TAMMessage>
+</Snowtam>
 </ADSection>
 <ADSection>
 <Code>EGQK</Code>
@@ -26931,6 +27063,32 @@ EXPERIENCE DELAYS AND REDUCED FLOW RATE DUE STAFFING.</ItemE>
 MANDATORY ATC CONTROLLER HOURS RESTRICTION</ItemE>
 <Marker>+</Marker>
 <NotamStoreDate>151120231335</NotamStoreDate>
+</Notam>
+<Notam Reference="EGPN" OriginalMessage="false" PIBSection="FIR">
+<NOF>EGGN</NOF>
+<Series>I</Series>
+<Number>3414</Number>
+<Year>23</Year>
+<Type>N</Type>
+<QLine>
+<FIR>EGPX</FIR>
+<Code23>AZ</Code23>
+<Code45>CD</Code45>
+<Traffic>IV</Traffic>
+<Purpose>NBO</Purpose>
+<Scope>AE</Scope>
+<Lower>0</Lower>
+<Upper>21</Upper>
+</QLine>
+<Coordinates>5627N00302W</Coordinates>
+<Radius>2</Radius>
+<ItemA>EGPN</ItemA>
+<StartValidity>2311170745</StartValidity>
+<EndValidity>2311171930</EndValidity>
+<ItemD>0745-0815, 1900-1930</ItemD>
+<ItemE>DUNDEE ATZ DEACTIVATED, ATC NOT AVBL, AD CLSD</ItemE>
+<Marker>+</Marker>
+<NotamStoreDate>151120230944</NotamStoreDate>
 </Notam>
 </NotamList>
 <ObsoleteNotamList/>
