@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000069814754" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000069816639" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2023-12-01T21:00:04+00:00</ValidFrom>
-            <ValidTo>2023-12-02T21:00:00+00:00</ValidTo>
+            <ValidFrom>2023-12-01T22:00:42+00:00</ValidFrom>
+            <ValidTo>2023-12-02T22:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2023-12-01T21:00:04+00:00</Issued>
+        <Issued>2023-12-01T22:00:42+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712312011693</PibUid>
+        <PibUid>EG712312011728</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4338,6 +4338,24 @@ DORSET). FOR INFO 07771 319480. AR-2023-1274/AU2</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001292253</TAMID>
+                    <TAMloc>EGHH</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2023-12-01T19:50:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGHH</TAMItem>
+                        <TAMItem>12011950 08 5/5/5 75/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 08 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2023-12-01T21:10:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2023-12-01T19:50:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGGD</Code>
@@ -6661,7 +6679,7 @@ ACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>6600</Number>
+                    <Number>6981</Number>
                     <Year>23</Year>
                     <Type>N</Type>
                     <QLine>
@@ -6677,19 +6695,17 @@ ACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY</ItemE>
                     <Coordinates>5348N00144W</Coordinates>
                     <Radius>18</Radius>
                     <ItemA>EGNM</ItemA>
-                    <StartValidity>2311142300</StartValidity>
-                    <EndValidity>2312160600</EndValidity>
-                    <ItemD>MON-FRI 2300-0600, SAT-SUN 2359-0600</ItemD>
-                    <ItemE>LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC 
-SERVICE AVAILABLE DUE MAINT. LEEDS BRADFORD CONTROLLED AIRSPACE 
-REVERTS TO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT 
-WI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR LEEDS 
-RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK 
-SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET 
-OBSERVATIONS
-UNVERIFIED DURING PERIODS OF CLOSURE</ItemE>
+                    <StartValidity>2312012330</StartValidity>
+                    <EndValidity>2312020600</EndValidity>
+                    <ItemE>LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC
+SERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS
+TO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT
+WI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR
+LEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE
+TASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER
+UNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>141120231455</NotamStoreDate>
+                    <NotamStoreDate>011220232123</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -7134,26 +7150,33 @@ ESSEX). FOR INFO 07540 147327. 2023-11-0183/ AU2.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>181020231222</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>6983</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>AH</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5130N00003E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGLC</ItemA>
+                    <StartValidity>2312012200</StartValidity>
+                    <EndValidity>2312012230</EndValidity>
+                    <ItemE>AERODROME OPENING HOURS EXTENDED.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>011220232147</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001291773</TAMID>
-                    <TAMloc>EGLC</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2023-12-01T13:15:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGLC</TAMItem>
-                        <TAMItem>12011315 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET 30</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>RWY 09 CHEMICALLY TREATED.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2023-12-01T13:12:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2023-12-01T13:15:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGKK</Code>
@@ -8466,32 +8489,6 @@ MAX HGT 138FT AGL/ 246FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>141120231124</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>6975</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>24</Upper>
-                    </QLine>
-                    <Coordinates>5026N00500W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGHQ</ItemA>
-                    <StartValidity>2312012000</StartValidity>
-                    <EndValidity>2312012130</EndValidity>
-                    <ItemE>NEWQUAY ATZ DEACTIVATED. AD CLOSED. SAR AND HELIMED FLIGHTS MAY
-STILL OPERATE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>011220231937</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -8743,7 +8740,7 @@ UK AIP AD 2.20-2 REFERS.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
-                    <Number>9333</Number>
+                    <Number>9335</Number>
                     <Year>23</Year>
                     <Type>N</Type>
                     <QLine>
@@ -8759,12 +8756,12 @@ UK AIP AD 2.20-2 REFERS.</ItemE>
                     <Coordinates>5241N00117E</Coordinates>
                     <Radius>14</Radius>
                     <ItemA>EGSH</ItemA>
-                    <StartValidity>2312012130</StartValidity>
-                    <EndValidity>2312012200</EndValidity>
+                    <StartValidity>2312012200</StartValidity>
+                    <EndValidity>2312012300</EndValidity>
                     <ItemE>NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR PRE-
 ARRANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>011220232007</NotamStoreDate>
+                    <NotamStoreDate>011220232112</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -10087,6 +10084,33 @@ GENERAL AVIATION STILL ACCEPTED ON A TACTICAL BASIS</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>301120231448</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>9153</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>55</Upper>
+                    </QLine>
+                    <Coordinates>5135N00056E</Coordinates>
+                    <Radius>22</Radius>
+                    <ItemA>EGMC</ItemA>
+                    <StartValidity>2312022100</StartValidity>
+                    <EndValidity>2312312300</EndValidity>
+                    <ItemD>THU SAT SUN 2100-2300</ItemD>
+                    <ItemE>SOUTHEND CTA/CTR/ATZ ACTIVATED. AD OPR HOURS EXTENDED. AD REMAINS
+STRICTLY PPR.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>271120231357</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -10400,6 +10424,36 @@ SAT 23 0600-2145
 SAT 30 0600-1900</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220232055</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>6980</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>60</Upper>
+                    </QLine>
+                    <Coordinates>5432N00123W</Coordinates>
+                    <Radius>12</Radius>
+                    <ItemA>EGNV</ItemA>
+                    <StartValidity>2312020900</StartValidity>
+                    <EndValidity>2312021830</EndValidity>
+                    <ItemD>0900-0930, 1130-1200, 1530-1600, 1800-1830</ItemD>
+                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
+TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY
+STILL OPR FM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE AREA
+ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT
+NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>011220232117</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -15860,39 +15914,6 @@ IN THE THAMES VALLEY AVOIDANCE AREA. HGT 150FT AMSL (141FT AGL).
                     <Marker>+</Marker>
                     <NotamStoreDate>141120231303</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGNM" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>6600</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>85</Upper>
-                    </QLine>
-                    <Coordinates>5348N00144W</Coordinates>
-                    <Radius>18</Radius>
-                    <ItemA>EGNM</ItemA>
-                    <StartValidity>2311142300</StartValidity>
-                    <EndValidity>2312160600</EndValidity>
-                    <ItemD>MON-FRI 2300-0600, SAT-SUN 2359-0600</ItemD>
-                    <ItemE>LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC 
-SERVICE AVAILABLE DUE MAINT. LEEDS BRADFORD CONTROLLED AIRSPACE 
-REVERTS TO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT 
-WI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR LEEDS 
-RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE TASK 
-SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER UNIT. MET 
-OBSERVATIONS
-UNVERIFIED DURING PERIODS OF CLOSURE</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>141120231455</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
@@ -17711,32 +17732,6 @@ ACFT ONLY DUE TO CARDIFF PRIMARY RADAR UNSERVICEABILITY</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220231718</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGHQ" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>6975</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>24</Upper>
-                    </QLine>
-                    <Coordinates>5026N00500W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGHQ</ItemA>
-                    <StartValidity>2312012000</StartValidity>
-                    <EndValidity>2312012130</EndValidity>
-                    <ItemE>NEWQUAY ATZ DEACTIVATED. AD CLOSED. SAR AND HELIMED FLIGHTS MAY
-STILL OPERATE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>011220231937</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
@@ -17803,7 +17798,7 @@ STRICTLY PPR.</ItemE>
                 <Notam Reference="EGSH" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
-                    <Number>9333</Number>
+                    <Number>9335</Number>
                     <Year>23</Year>
                     <Type>N</Type>
                     <QLine>
@@ -17819,12 +17814,12 @@ STRICTLY PPR.</ItemE>
                     <Coordinates>5241N00117E</Coordinates>
                     <Radius>14</Radius>
                     <ItemA>EGSH</ItemA>
-                    <StartValidity>2312012130</StartValidity>
-                    <EndValidity>2312012200</EndValidity>
+                    <StartValidity>2312012200</StartValidity>
+                    <EndValidity>2312012300</EndValidity>
                     <ItemE>NORWICH CTA, CTR AND ATZ ACTIVATED. AD HOURS EXTENDED FOR PRE-
 ARRANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>011220232007</NotamStoreDate>
+                    <NotamStoreDate>011220232112</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGLL" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -17853,6 +17848,37 @@ ARRANGED ACFT MOVEMENTS. RFFS CAT 6. AD REMAINS STRICTLY PPR.</ItemE>
 CLOSED. NO CRANE OPR IN LOW VIS CONDITIONS. CRANE REF 2023110632</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>111120230951</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGNM" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>6981</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>85</Upper>
+                    </QLine>
+                    <Coordinates>5348N00144W</Coordinates>
+                    <Radius>18</Radius>
+                    <ItemA>EGNM</ItemA>
+                    <StartValidity>2312012330</StartValidity>
+                    <EndValidity>2312020600</EndValidity>
+                    <ItemE>LEEDS BRADFORD CTA, CTR, ATZ DEACTIVATED, AD CLOSED, NO ATC
+SERVICE AVAILABLE. LEEDS BRADFORD CONTROLLED AIRSPACE REVERTS
+TO CLASS G DURING PERIODS OF CLOSURE. SUITABLY EQUIPPED ACFT
+WI LEEDS BRADFORD AIRSPACE DURING THESE PERIODS SHOULD MONITOR
+LEEDS RADAR ON 134.580MHZ AND SQUAWK EITHER 2677, ANY DISCRETE
+TASK SPECIFIC CODE, OR ANY DISCRETE CODE ALLOCATED BY ANOTHER
+UNIT. MET OBSERVATIONS UNVERIFIED DURING PERIODS OF CLOSURE</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>011220232123</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -17908,36 +17934,6 @@ FLYING AREA 4 AND NIGHT ROTARY REGION 4A HGT 479FT AMSL (127FT AGL).
                     <Marker>+</Marker>
                     <NotamStoreDate>271120230906</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>6970</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>E</Scope>
-                        <Lower>0</Lower>
-                        <Upper>60</Upper>
-                    </QLine>
-                    <Coordinates>5432N00123W</Coordinates>
-                    <Radius>12</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2312020700</StartValidity>
-                    <EndValidity>2312021830</EndValidity>
-                    <ItemD>0700-0730, 0900-0930, 1130-1200, 1530-1600, 1800-1830</ItemD>
-                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS 
-TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY
-STILL OPR FM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE AREA
-ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT
-NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>011220231646</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGNH" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
@@ -17989,6 +17985,36 @@ ARP). MAX HGT 83FT AMSL, 53FT AGL.</ItemE>
 APPROACHES NOT AVAILABLE.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220230833</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>6980</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>60</Upper>
+                    </QLine>
+                    <Coordinates>5432N00123W</Coordinates>
+                    <Radius>12</Radius>
+                    <ItemA>EGNV</ItemA>
+                    <StartValidity>2312020900</StartValidity>
+                    <EndValidity>2312021830</EndValidity>
+                    <ItemD>0900-0930, 1130-1200, 1530-1600, 1800-1830</ItemD>
+                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
+TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY
+STILL OPR FM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE AREA
+ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT
+NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>011220232117</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGKA" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -18070,6 +18096,33 @@ SHALL REMAIN ACTIVE</ItemE>
 MOVEMENTS PPR.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220231653</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGMC" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>9153</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>55</Upper>
+                    </QLine>
+                    <Coordinates>5135N00056E</Coordinates>
+                    <Radius>22</Radius>
+                    <ItemA>EGMC</ItemA>
+                    <StartValidity>2312022100</StartValidity>
+                    <EndValidity>2312312300</EndValidity>
+                    <ItemD>THU SAT SUN 2100-2300</ItemD>
+                    <ItemE>SOUTHEND CTA/CTR/ATZ ACTIVATED. AD OPR HOURS EXTENDED. AD REMAINS
+STRICTLY PPR.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>271120231357</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -22195,6 +22248,24 @@ AGL/436.30FT AMSL</ItemE>
             <!--No information received or matching the query-->
             <NotamList/>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001292288</TAMID>
+                    <TAMloc>EGAC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2023-12-01T21:57:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGAC</TAMItem>
+                        <TAMItem>12012157 04 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 04 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2023-12-01T21:58:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2023-12-01T21:57:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGPL</Code>
@@ -23334,6 +23405,33 @@ UK AIP AD 2.6 REFERS</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>281120231139</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>9336</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5733N00403W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGPE</ItemA>
+                    <StartValidity>2312012200</StartValidity>
+                    <EndValidity>2312012300</EndValidity>
+                    <ItemE>INVERNESS ATZ ACTIVATED. AD, ATS, MET, FIRE AND RESCUE HR OF
+OPERATION EXTENDED. AIRPORT REMAINS STRICTLY PPR. RADAR SERVICE 
+AVAILABLE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>011220232127</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -23594,24 +23692,6 @@ MAX HGT 600FT AGL. FOR INFO 07864 512974. AR-2023-38774/AU2</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001291816</TAMID>
-                    <TAMloc>EGET</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2023-12-01T13:20:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGET</TAMItem>
-                        <TAMItem>12011320 02 1/1/1 50/50/50 NR/NR/NR ICE/ICE/ICE</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>ALL APRONS POOR.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2023-12-01T13:43:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2023-12-01T13:20:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGAE</Code>
@@ -25636,6 +25716,33 @@ SERVICEABLE TRANSPONDER.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220231837</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGPE" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>9336</Number>
+                    <Year>23</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5733N00403W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGPE</ItemA>
+                    <StartValidity>2312012200</StartValidity>
+                    <EndValidity>2312012300</EndValidity>
+                    <ItemE>INVERNESS ATZ ACTIVATED. AD, ATS, MET, FIRE AND RESCUE HR OF
+OPERATION EXTENDED. AIRPORT REMAINS STRICTLY PPR. RADAR SERVICE 
+AVAILABLE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>011220232127</NotamStoreDate>
+                </Notam>
                 <Notam Reference="EGPF" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
@@ -26039,68 +26146,6 @@ FOR INFO CONTACT 07770 746850. AR-2023-38675/AU2.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>211120231435</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>8170</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WE</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>12</Upper>
-                    </QLine>
-                    <Coordinates>6011N00113W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2311270800</StartValidity>
-                    <EndValidity>2312012130</EndValidity>
-                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL 
-OPERATE LOW FLYING AREA 14 AND NIGHT SECTOR 1BE WI 2NM RADIUS OF PSN 
-601035N 0011323W, (VEENSGARTH, SHETLAND). MAX HEIGHT 500FT AGL. 
-ACFT MAY BE RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO COMPLY 
-WITH RAC OPS CTC 01667 464404. 23/11/132/LFC</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>1200FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>231120231313</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>8171</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WE</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>11</Upper>
-                    </QLine>
-                    <Coordinates>6015N00114W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2311270800</StartValidity>
-                    <EndValidity>2312012130</EndValidity>
-                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL 
-OPERATE LOW FLYING AREA 14 AND NIGHT SECTOR 1BE WI 2NM RADIUS OF PSN 
-601431N 0011331W, (LOCH OF GIRISTA, SHETLAND). MAX HEIGHT 500FT AGL. 
-ACFT MAY BE RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO COMPLY 
-WITH RAC OPS CTC 01667 464404. 23/11/133/LFC</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>1100FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>231120231316</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGPH" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -26130,70 +26175,6 @@ LINLITHGOW). FOR INFO 07769 973387. AR-2023-38633/AU2</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>271120230942</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>8232</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WE</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>17</Upper>
-                    </QLine>
-                    <Coordinates>5819N00503W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2311290800</StartValidity>
-                    <EndValidity>2312012130</EndValidity>
-                    <ItemD>0800-2130</ItemD>
-                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL 
-OPERATE IN LOW FLYING AREA 14 AND NIGHT SECTOR 1BE WI 2NM RADIUS OF 
-PSN 581903N 0050315W, (HIGHLAND). MAX HEIGHT 500FT AGL. ACFT MAY BE 
-RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO COMPLY WITH RAC OPS 
-CTC 01667 464404. 23/11/176/LFC</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>1700FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>281120230944</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>8236</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WE</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>14</Upper>
-                    </QLine>
-                    <Coordinates>5823N00501W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2311290800</StartValidity>
-                    <EndValidity>2312012130</EndValidity>
-                    <ItemD>0800-2130</ItemD>
-                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL 
-OPERATE LOW FLYING AREA 14 AND NIGHT SECTOR 1BE WI 2NM RADIUS OF PSN 
-582246N 0050042W, (LAXFORD BRIDGE, HIGHLAND). MAX HEIGHT 500FT AGL. 
-ACFT MAY BE RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO COMPLY 
-WITH RAC OPS CTC 01667 464404. 23/11/175/LFC</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>1400FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>281120230956</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGET" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -26222,37 +26203,6 @@ MAX HGT 600FT AGL. FOR INFO 07864 512974. AR-2023-38774/AU2</ItemE>
                     <ItemG>1460FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>291120230907</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>8249</Number>
-                    <Year>23</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WE</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>31</Upper>
-                    </QLine>
-                    <Coordinates>5711N00314W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2312010800</StartValidity>
-                    <EndValidity>2312012130</EndValidity>
-                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - UNDERSLUNG LOADS WILL 
-OPERATE LOW FLYING AREA 14 AND NIGHT SECTOR 1C WI 2NM RADIUS OF PSN 
-571108N 0031421W, (COCK BRIDGE, ABERDEENSHIRE). MAX HEIGHT 500FT 
-AGL. ACFT MAY BE RESTRICTED IN ABILITY TO MANOEUVRE AND UNABLE TO 
-COMPLY WITH RAC OPS. CTC 016674 64404. 23/11/187/LFC</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>3100FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>301120231006</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGPF" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
