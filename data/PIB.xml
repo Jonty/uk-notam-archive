@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000072008006" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000072009288" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-01-23T18:00:56+00:00</ValidFrom>
-            <ValidTo>2024-01-24T18:00:00+00:00</ValidTo>
+            <ValidFrom>2024-01-23T19:00:04+00:00</ValidFrom>
+            <ValidTo>2024-01-24T19:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-01-23T18:00:56+00:00</Issued>
+        <Issued>2024-01-23T19:00:04+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712401231449</PibUid>
+        <PibUid>EG712401231487</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -9872,16 +9872,13 @@ SOUTHEND ARP. MAX HGT 200FT AGL/240FT AMSL.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
-                    <Number>623</Number>
+                    <Number>639</Number>
                     <Year>24</Year>
-                    <Type>R</Type>
-                    <ReferredSeries>A</ReferredSeries>
-                    <ReferredNumber>613</ReferredNumber>
-                    <ReferredYear>24</ReferredYear>
+                    <Type>N</Type>
                     <QLine>
                         <FIR>EGTT</FIR>
-                        <Code23>FF</Code23>
-                        <Code45>CG</Code45>
+                        <Code23>FU</Code23>
+                        <Code45>AU</Code45>
                         <Traffic>IV</Traffic>
                         <Purpose>NBO</Purpose>
                         <Scope>A</Scope>
@@ -9891,11 +9888,11 @@ SOUTHEND ARP. MAX HGT 200FT AGL/240FT AMSL.</ItemE>
                     <Coordinates>5134N00042E</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGMC</ItemA>
-                    <StartValidity>2401230614</StartValidity>
-                    <EndValidity>2401231900</EndValidity>
-                    <ItemE>RFFS DOWNGRADED TO CATEGORY 6.</ItemE>
+                    <StartValidity>2401231811</StartValidity>
+                    <EndValidity>2401232100</EndValidity>
+                    <ItemE>JETA1 AND AVGAS NOT AVBL</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>230120240614</NotamStoreDate>
+                    <NotamStoreDate>230120241811</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -12698,8 +12695,58 @@ WITHDRAWN.</ItemE>
         <ADSection>
             <Code>EGWU</Code>
             <Name>NORTHOLT</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>398</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FF</Code23>
+                        <Code45>CG</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5133N00025W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGWU</ItemA>
+                    <StartValidity>2401231758</StartValidity>
+                    <EndValidity>2401240800</EndValidity>
+                    <ItemE>RFFS DOWNGRADED TO ICAO CAT 4</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>230120241804</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>399</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5133N00025W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGWU</ItemA>
+                    <StartValidity>2401231830</StartValidity>
+                    <EndValidity>2401240800</EndValidity>
+                    <ItemE>AD CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>230120241834</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -22178,6 +22225,34 @@ EG D323P 1800-2000 FL100-FL660</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>230120241512</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>M</Series>
+                    <Number>402</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>30</Upper>
+                    </QLine>
+                    <Coordinates>5117N00144W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2401241800</StartValidity>
+                    <EndValidity>2401250500</EndValidity>
+                    <ItemE>THE FOLLOWING EVERLEIGH DANGER AREAS ARE ACTIVATED:
+EG D128   1800-25/0500   SFC-3000FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>230120241251</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </Warnings>
@@ -22649,6 +22724,32 @@ SUN 1245-1400</ItemE>
                     <ItemE>VDF RECLASSIFIED AS CAT C</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>150120241650</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>386</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5729N00722W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGPL</ItemA>
+                    <StartValidity>2401231848</StartValidity>
+                    <EndValidity>2401231910</EndValidity>
+                    <ItemE>BENBECULA ATZ ACTIVE. AD/APP/TWR/ATIS ADDITIONAL HR OF OPS. AD
+REMAINS STRICTLY PPR.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>230120241850</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -26135,6 +26236,32 @@ AREA H 124.500MHZ
 ALERTING AND DISTRESS SVC ALSO AVBL 121.500MHZ</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>220120241816</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGPL" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>386</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5729N00722W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGPL</ItemA>
+                    <StartValidity>2401231848</StartValidity>
+                    <EndValidity>2401231910</EndValidity>
+                    <ItemE>BENBECULA ATZ ACTIVE. AD/APP/TWR/ATIS ADDITIONAL HR OF OPS. AD
+REMAINS STRICTLY PPR.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>230120241850</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
