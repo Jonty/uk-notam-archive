@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000073189255" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000073190523" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-02-18T18:00:58+00:00</ValidFrom>
-            <ValidTo>2024-02-19T18:00:00+00:00</ValidTo>
+            <ValidFrom>2024-02-18T19:00:06+00:00</ValidFrom>
+            <ValidTo>2024-02-19T19:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-02-18T18:00:58+00:00</Issued>
+        <Issued>2024-02-18T19:00:06+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712402180760</PibUid>
+        <PibUid>EG712402180791</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -7045,6 +7045,31 @@ RUNWAY 26L RET ECHO - REPL SUP 078/2023</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
+                    <Number>1286</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>MX</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5109N00011W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGKK</ItemA>
+                    <StartValidity>2402181930</StartValidity>
+                    <EndValidity>2402190300</EndValidity>
+                    <ItemE>TWY QUEBEC CLSD BTN TWY JULIET AND TWY KILO DUE WIP</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>180220241805</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
                     <Number>1218</Number>
                     <Year>24</Year>
                     <Type>N</Type>
@@ -9513,32 +9538,6 @@ UK AIP EGKA AD 2.10 REFERS.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>720</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>LT</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5050N00018W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGKA</ItemA>
-                    <StartValidity>2402051209</StartValidity>
-                    <EndValidity>2402192000</EndValidity>
-                    <ItemE>ALL GRASS AREAS CLOSED TO FIXED WING TRAFFIC DUE SURFACE 
-CONDITIONS.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>050220241214</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
                     <Number>723</Number>
                     <Year>24</Year>
                     <Type>R</Type>
@@ -9596,13 +9595,16 @@ UK AIP AD 2.EGKA-8-1 REFERS.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>1036</Number>
+                    <Number>1042</Number>
                     <Year>24</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>C</ReferredSeries>
+                    <ReferredNumber>720</ReferredNumber>
+                    <ReferredYear>24</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>FA</Code23>
-                        <Code45>LC</Code45>
+                        <Code45>LT</Code45>
                         <Traffic>IV</Traffic>
                         <Purpose>NBO</Purpose>
                         <Scope>A</Scope>
@@ -9612,11 +9614,12 @@ UK AIP AD 2.EGKA-8-1 REFERS.</ItemE>
                     <Coordinates>5050N00018W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGKA</ItemA>
-                    <StartValidity>2402181820</StartValidity>
-                    <EndValidity>2402181900</EndValidity>
-                    <ItemE>AD CLOSED.</ItemE>
+                    <StartValidity>2402181759</StartValidity>
+                    <EndValidity>2402272000</EndValidity>
+                    <ItemE>ALL GRASS AREAS CLOSED TO FIXED WING TRAFFIC DUE SURFACE
+CONDITIONS.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>180220241641</NotamStoreDate>
+                    <NotamStoreDate>180220241801</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -17423,58 +17426,6 @@ OUTSIDE ABOVE TIMES IS BY PRIOR ARRANGEMENT, CTC TERMINAL
 SUPERVISOR ON 07718 524072)</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>160220241849</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>B</Series>
-                    <Number>428</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SE</Code23>
-                        <Code45>AU</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>E</Scope>
-                        <Lower>0</Lower>
-                        <Upper>100</Upper>
-                    </QLine>
-                    <Coordinates>5112N00010E</Coordinates>
-                    <Radius>33</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2402170800</StartValidity>
-                    <EndValidity>2402182000</EndValidity>
-                    <ItemE>FARNBOROUGH LOWER AIRSPACE RADAR SERVICE EAST UNAVAILABLE.
-FREQUENCY 123.225MHZ WILL NOT BE MONITORED FOR THE PERIOD</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>160220241905</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>B</Series>
-                    <Number>429</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SE</Code23>
-                        <Code45>AU</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>E</Scope>
-                        <Lower>0</Lower>
-                        <Upper>100</Upper>
-                    </QLine>
-                    <Coordinates>5147N00009W</Coordinates>
-                    <Radius>36</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2402170800</StartValidity>
-                    <EndValidity>2402182000</EndValidity>
-                    <ItemE>FARNBOROUGH LOWER AIRSPACE RADAR SERVICE NORTH UNAVAILABLE.
-FREQUENCY 132.8MHZ WILL NOT BE MONITORED FOR THE PERIOD</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>160220241906</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
