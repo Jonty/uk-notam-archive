@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000074934101" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000074936173" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-03-26T07:00:34+00:00</ValidFrom>
-            <ValidTo>2024-03-27T07:00:00+00:00</ValidTo>
+            <ValidFrom>2024-03-26T08:00:04+00:00</ValidFrom>
+            <ValidTo>2024-03-27T08:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-03-26T07:00:34+00:00</Issued>
+        <Issued>2024-03-26T08:00:04+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712403260315</PibUid>
+        <PibUid>EG712403260627</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3484,8 +3484,34 @@ UK AIP AD 2.EGNL-8-2 REFERS.</ItemE>
         <ADSection>
             <Code>EGKB</Code>
             <Name>BIGGIN HILL</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>1709</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>5</Upper>
+                    </QLine>
+                    <Coordinates>5121N00000E</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGKB</ItemA>
+                    <StartValidity>2403270730</StartValidity>
+                    <EndValidity>2403271700</EndValidity>
+                    <ItemE>CRANE OPERATING PSN 512113N 0000029E (FIVE OAKS STABLES, KESTON)
+MAX HEIGHT 490FT AMSL/95FT AGL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>250320241710</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -4401,31 +4427,6 @@ EXTENDED UNTIL 02 MAY 2024.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
-                    <Number>2130</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>NL</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5213N00011E</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGSC</ItemA>
-                    <StartValidity>2403260730</StartValidity>
-                    <EndValidity>2403260800</EndValidity>
-                    <ItemE>LOCATOR CAM/CAMBRIDGE 332.5KHZ U/S DUE MAINT</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>250320242203</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
                     <Number>1992</Number>
                     <Year>24</Year>
                     <Type>N</Type>
@@ -4453,6 +4454,22 @@ CAMBRIDGE ATZ) SFC TO 218FT AMSL/165FT AGL</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001399676</TAMID>
+                    <TAMloc>EGSC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2024-03-26T07:50:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGSC</TAMItem>
+                        <TAMItem>03260750 05 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2024-03-26T07:52:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2024-03-26T07:50:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFF</Code>
@@ -9998,6 +10015,32 @@ NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.</ItemE>
 EXTENDED.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>250320241839</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>1639</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>3</Upper>
+                    </QLine>
+                    <Coordinates>5430N00127W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGNV</ItemA>
+                    <StartValidity>2403270700</StartValidity>
+                    <EndValidity>2403271600</EndValidity>
+                    <ItemE>CRANE OPR PSN 543004N 0012713W (TEESSIDE AD) MAX HGT 83FT 
+AGL/203FT AMSL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>210320241527</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -17761,6 +17804,58 @@ HGT 500FT AMSL (142FT AGL). 24/03/176/LFC</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>250320240805</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>1639</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>3</Upper>
+                    </QLine>
+                    <Coordinates>5430N00127W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGNV</ItemA>
+                    <StartValidity>2403270700</StartValidity>
+                    <EndValidity>2403271600</EndValidity>
+                    <ItemE>CRANE OPR PSN 543004N 0012713W (TEESSIDE AD) MAX HGT 83FT 
+AGL/203FT AMSL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>210320241527</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGKB" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>1709</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>5</Upper>
+                    </QLine>
+                    <Coordinates>5121N00000E</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGKB</ItemA>
+                    <StartValidity>2403270730</StartValidity>
+                    <EndValidity>2403271700</EndValidity>
+                    <ItemE>CRANE OPERATING PSN 512113N 0000029E (FIVE OAKS STABLES, KESTON)
+MAX HEIGHT 490FT AMSL/95FT AGL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>250320241710</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </En-route>
@@ -23086,6 +23181,31 @@ CALL 01870 604830.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>290220241013</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>1130</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>FF</Code23>
+                        <Code45>CH</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5729N00722W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPL</ItemA>
+                    <StartValidity>2403260730</StartValidity>
+                    <EndValidity>2403260930</EndValidity>
+                    <ItemE>RFFS CAT 5.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>260320240733</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -24239,8 +24359,33 @@ SAR AND AIR AMBULANCE MOVEMENTS</ItemE>
         <ADSection>
             <Code>EGPA</Code>
             <Name>KIRKWALL</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>1129</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>LE</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>I</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5857N00254W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPA</ItemA>
+                    <StartValidity>2403260659</StartValidity>
+                    <EndValidity>2403262000</EndValidity>
+                    <ItemE>RWY 09 EDGE LIGHTS 50 PERCENT U/S</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>260320240706</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
