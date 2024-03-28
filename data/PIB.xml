@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000075065463" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000075069124" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-03-28T07:00:34+00:00</ValidFrom>
-            <ValidTo>2024-03-29T07:00:00+00:00</ValidTo>
+            <ValidFrom>2024-03-28T08:00:04+00:00</ValidFrom>
+            <ValidTo>2024-03-29T08:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-03-28T07:00:34+00:00</Issued>
+        <Issued>2024-03-28T08:00:04+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712403280285</PibUid>
+        <PibUid>EG712403280572</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4504,36 +4504,24 @@ EXTENDED UNTIL 02 MAY 2024.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>150320240937</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>2143</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5212N00011E</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGSC</ItemA>
-                    <StartValidity>2403280700</StartValidity>
-                    <EndValidity>2403280800</EndValidity>
-                    <ItemE>UAS OPERATING 0.27NM RADIUS CENTERED ON 521148N 0001038E
-(WI CAMBRIDGE ATZ) SFC TO 430FT AMSL/400FT AGL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>430FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>260320241508</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001400996</TAMID>
+                    <TAMloc>EGSC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2024-03-28T07:42:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGSC</TAMItem>
+                        <TAMItem>03280742 05 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2024-03-28T07:46:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2024-03-28T07:42:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFF</Code>
@@ -18314,6 +18302,31 @@ HGT 200FT AMSL (130FT AGL). 24/03/174/LFC</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>250320240757</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>728</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>SE</Code23>
+                        <Code45>AU</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>100</Upper>
+                    </QLine>
+                    <Coordinates>5250N00120W</Coordinates>
+                    <Radius>30</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2403290700</StartValidity>
+                    <EndValidity>2403291400</EndValidity>
+                    <ItemE>EAST MIDLANDS LOWER AIRSPACE RADAR SERVICE NOT AVBL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270320240625</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </En-route>
@@ -21693,34 +21706,6 @@ REFERS. 24/03/0201/LFC</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>270320241646</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGSC" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>2143</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5212N00011E</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGSC</ItemA>
-                    <StartValidity>2403280700</StartValidity>
-                    <EndValidity>2403280800</EndValidity>
-                    <ItemE>UAS OPERATING 0.27NM RADIUS CENTERED ON 521148N 0001038E
-(WI CAMBRIDGE ATZ) SFC TO 430FT AMSL/400FT AGL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>430FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>260320241508</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>M</Series>
@@ -22763,6 +22748,123 @@ WILL BE AVOIDED. FOR INFO 07831 776611. AR-2024-1371/AU4.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>080320241411</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>1530</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WC</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>31</Upper>
+                    </QLine>
+                    <Coordinates>5123N00056E</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2403290700</StartValidity>
+                    <EndValidity>2404011730</EndValidity>
+                    <ItemD>MAR 29-30 0700-1830, MAR 31-APR 01 0600-1730</ItemD>
+                    <ItemE>KITE FLYING WI 1NM RADIUS 512310N 0005625E (LEYSDOWN). MAX HGT
+3000FT AGL. FOR INFO 07985 278262. AR-2024-1875/AO3.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3100FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270320241046</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>1534</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WC</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>31</Upper>
+                    </QLine>
+                    <Coordinates>5121N00059E</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2403290700</StartValidity>
+                    <EndValidity>2404011730</EndValidity>
+                    <ItemD>MAR 29-30 0700-1830, MAR 31-APR 01 0600-1730</ItemD>
+                    <ItemE>KITE FLYING WI 1NM RADIUS 512044N 0005833E (WEST BEACH, 
+WHITSABLE). MAX HGT 3000FT AGL. FOR INFO 07985 278262. 
+AR-2024-1878/AO3.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3100FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270320241048</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>1541</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WC</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>31</Upper>
+                    </QLine>
+                    <Coordinates>5123N00113E</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2403290700</StartValidity>
+                    <EndValidity>2404011730</EndValidity>
+                    <ItemD>MAR 29-30 0700-1830, MAR 31-APR 01 0600-1730</ItemD>
+                    <ItemE>KITE FLYING WI 1NM RADIUS 512248N 0011245E (RECULVER). MAX HGT
+3000FT AGL. FOR INFO 07985 278262. AR-2024-1877/AO3.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3100FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270320241226</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>1543</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WC</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>31</Upper>
+                    </QLine>
+                    <Coordinates>5116N00123E</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2403290700</StartValidity>
+                    <EndValidity>2404011730</EndValidity>
+                    <ItemD>MAR 29-30 0700-1830, MAR 31-APR 01 0600-1730</ItemD>
+                    <ItemE>KITE FLYING WI 1NM RADIUS 511619N 0012308E (SANDWICH BAY, KENT). 
+MAX HGT 3000FT AGL. FOR INFO 07985 278262. AR-2024-1879/AO3.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3100FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270320241228</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </Warnings>
@@ -23305,6 +23407,31 @@ ANEMOMETER.</ItemE>
 CALL 01870 604830.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>290220241013</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>1140</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>FF</Code23>
+                        <Code45>CH</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5729N00722W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPL</ItemA>
+                    <StartValidity>2403280750</StartValidity>
+                    <EndValidity>2403280930</EndValidity>
+                    <ItemE>RFFS CAT 5</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>280320240754</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -24673,36 +24800,6 @@ MANAGER.</ItemE>
                     <ItemE>TWY GOLF RUNWAY EXIT SIGNS U/S.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>150320241628</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>1618</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>GA</Code23>
-                        <Code45>AU</Code45>
-                        <Traffic>I</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5502N00141W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGNT</ItemA>
-                    <StartValidity>2403250900</StartValidity>
-                    <EndValidity>2403291800</EndValidity>
-                    <ItemD>0900-1800</ItemD>
-                    <ItemE>RNAV1 STAR POL1N/RIMTO1N AND RNAV SID GIRLI1T/1Y/3X SHOULD BE 
-FLOWN WITH REFERENCE TO DME/DME (GNSS SHOULD NOT BE USED).
-RNAV1 APCH TRANSITIONS RWY 07 ETSES1J AND RWY 25 ETSES1K NOT AVBL. 
-RWY 07 AND RWY 25 RNP APCH NOT AVBL. DUE GNSS JAMMING OCCURRING WI 
-THE REGION.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>200320241131</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
