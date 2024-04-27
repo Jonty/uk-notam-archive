@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000077187760" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000077189718" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-04-27T07:00:35+00:00</ValidFrom>
-            <ValidTo>2024-04-28T07:00:00+00:00</ValidTo>
+            <ValidFrom>2024-04-27T08:00:05+00:00</ValidFrom>
+            <ValidTo>2024-04-28T08:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-04-27T07:00:35+00:00</Issued>
+        <Issued>2024-04-27T08:00:05+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712404270304</PibUid>
+        <PibUid>EG712404270364</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -5000,6 +5000,23 @@ UK AIP AD 2.9-1 REFERS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001415080</TAMID>
+                    <TAMloc>EGNX</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2024-04-27T07:21:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGNX</TAMItem>
+                        <TAMItem>04270721 09 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
+                        <TAMItem/>
+                    </TAMItemList>
+                    <TAMUpdateTime>2024-04-27T07:22:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2024-04-27T07:21:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGTR</Code>
@@ -5543,8 +5560,35 @@ AERODROME CONTROL SERVICE ONLY AND NO IAPS AVBL.</ItemE>
         <ADSection>
             <Code>EGNR</Code>
             <Name>HAWARDEN</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>2494</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>SP</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>45</Upper>
+                    </QLine>
+                    <Coordinates>5307N00301W</Coordinates>
+                    <Radius>9</Radius>
+                    <ItemA>EGNR</ItemA>
+                    <StartValidity>2404270746</StartValidity>
+                    <EndValidity>2404271700</EndValidity>
+                    <ItemE>HAWARDEN RADAR SERVICE WILL BE AVBL FOR PRE BOOKED IFR TFC ONLY, 
+DUE TO STAFF SHORTAGE. FOR ALL OTHER TFC HAWARDEN RADAR FREQ WILL BE 
+BAND-BOXED WITH HAWARDEN TOWER PROVIDING A BASIC SERVICE ONLY.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270420240750</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -6104,6 +6148,35 @@ LAST RUNWAY MOVEMENT 15 MINUTES BEFORE EVERY CLOSED TIME</ItemE>
                     <ItemE>AERODROME BEACON U/S</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>250420241431</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>2493</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WM</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>14</Upper>
+                    </QLine>
+                    <Coordinates>5006N00541W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGHC</ItemA>
+                    <StartValidity>2404270900</StartValidity>
+                    <EndValidity>2404271400</EndValidity>
+                    <ItemE>CLAY PIGEON SHOOTING WI 300M RADIUS OF PSN 500603N 0054042W 
+(500M WSW OF LANDS END AIRPORT ARP, TREGIFFIAN). HGT 1000FT AGL / 
+1400FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>1400FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270420240746</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -9352,35 +9425,6 @@ SUN 0615-0740 CAT 7, 1400-1525 CAT 7, 1720-1845 CAT 7</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>250420241540</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>2327</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>60</Upper>
-                    </QLine>
-                    <Coordinates>5432N00123W</Coordinates>
-                    <Radius>12</Radius>
-                    <ItemA>EGNV</ItemA>
-                    <StartValidity>2404270630</StartValidity>
-                    <EndValidity>2404270730</EndValidity>
-                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
-TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY
-STILL OPR FM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE AREA
-ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT
-NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>260420241645</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -10433,27 +10477,28 @@ BOURTON). HGT 119FT AGL 387FT AMSL</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
-                    <Number>2492</Number>
+                    <Number>2401</Number>
                     <Year>24</Year>
                     <Type>N</Type>
                     <QLine>
                         <FIR>EGTT</FIR>
-                        <Code23>MX</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
+                        <Code23>CS</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>I</Traffic>
                         <Purpose>BO</Purpose>
-                        <Scope>A</Scope>
+                        <Scope>AE</Scope>
                         <Lower>0</Lower>
-                        <Upper>999</Upper>
+                        <Upper>23</Upper>
                     </QLine>
                     <Coordinates>5145N00135W</Coordinates>
-                    <Radius>5</Radius>
+                    <Radius>3</Radius>
                     <ItemA>EGVN</ItemA>
-                    <StartValidity>2404261323</StartValidity>
-                    <EndValidity>2404270800</EndValidity>
-                    <ItemE>TWY CHARLIE CLSD DUE MAINT</ItemE>
+                    <StartValidity>2404280700</StartValidity>
+                    <EndValidity>2404281500</EndValidity>
+                    <ItemE>REDUCED TRAFFIC INFORMATION WILL BE PROVIDED BY BRIZE RADAR DUE 
+BRIZE NORTON WIDE-AREA MULTILATERATION (WAM) ON MAINT</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>260420241328</NotamStoreDate>
+                    <NotamStoreDate>230420241340</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -17747,34 +17792,32 @@ CONTROLLED AIRSPACE AND USE THE LISTENING SSR CODE 3636.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>260420241315</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
+                <Notam Reference="EGNR" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>2327</Number>
+                    <Series>L</Series>
+                    <Number>2494</Number>
                     <Year>24</Year>
                     <Type>N</Type>
                     <QLine>
                         <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
+                        <Code23>SP</Code23>
+                        <Code45>LT</Code45>
                         <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
+                        <Purpose>BO</Purpose>
                         <Scope>AE</Scope>
                         <Lower>0</Lower>
-                        <Upper>60</Upper>
+                        <Upper>45</Upper>
                     </QLine>
-                    <Coordinates>5432N00123W</Coordinates>
-                    <Radius>12</Radius>
-                    <ItemA>EGNV</ItemA>
-                    <StartValidity>2404270630</StartValidity>
-                    <EndValidity>2404270730</EndValidity>
-                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AIRSPACE REVERTS
-TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. HELIMED MAY
-STILL OPR FM THE HEL EMERG SERVICES BASE. PILOTS TRANSITING THE AREA
-ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE SUBJECT TO SHORT
-NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN BEFORE CLOSURE.</ItemE>
+                    <Coordinates>5307N00301W</Coordinates>
+                    <Radius>9</Radius>
+                    <ItemA>EGNR</ItemA>
+                    <StartValidity>2404270746</StartValidity>
+                    <EndValidity>2404271700</EndValidity>
+                    <ItemE>HAWARDEN RADAR SERVICE WILL BE AVBL FOR PRE BOOKED IFR TFC ONLY, 
+DUE TO STAFF SHORTAGE. FOR ALL OTHER TFC HAWARDEN RADAR FREQ WILL BE 
+BAND-BOXED WITH HAWARDEN TOWER PROVIDING A BASIC SERVICE ONLY.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>260420241645</NotamStoreDate>
+                    <NotamStoreDate>270420240750</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGBJ" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -17857,6 +17900,32 @@ IN THAMES VALLEY AVOIDANCE AREA HEIGHT 170FT AMSL (117FT AGL)
 24/04/128 LFC</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>180420241034</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGVN" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>2401</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>CS</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>I</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>23</Upper>
+                    </QLine>
+                    <Coordinates>5145N00135W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGVN</ItemA>
+                    <StartValidity>2404280700</StartValidity>
+                    <EndValidity>2404281500</EndValidity>
+                    <ItemE>REDUCED TRAFFIC INFORMATION WILL BE PROVIDED BY BRIZE RADAR DUE 
+BRIZE NORTON WIDE-AREA MULTILATERATION (WAM) ON MAINT</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>230420241340</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -21093,6 +21162,35 @@ SURFACE TO 2000FT AGL. EVENT CTC 07971 059264. 24/04/191/LFC</ItemE>
                     <ItemG>1000FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>060320241148</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGHC" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>2493</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WM</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>14</Upper>
+                    </QLine>
+                    <Coordinates>5006N00541W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGHC</ItemA>
+                    <StartValidity>2404270900</StartValidity>
+                    <EndValidity>2404271400</EndValidity>
+                    <ItemE>CLAY PIGEON SHOOTING WI 300M RADIUS OF PSN 500603N 0054042W 
+(500M WSW OF LANDS END AIRPORT ARP, TREGIFFIAN). HGT 1000FT AGL / 
+1400FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>1400FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270420240746</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
