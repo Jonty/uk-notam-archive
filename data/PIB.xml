@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000079851485" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000079853400" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-06-15T11:00:06+00:00</ValidFrom>
-            <ValidTo>2024-06-16T11:00:00+00:00</ValidTo>
+            <ValidFrom>2024-06-15T12:00:19+00:00</ValidFrom>
+            <ValidTo>2024-06-16T12:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-06-15T11:00:06+00:00</Issued>
+        <Issued>2024-06-15T12:00:19+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712406150505</PibUid>
+        <PibUid>EG712406150545</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -6030,9 +6030,12 @@ ARRANGEMENT, CTC TERMINAL SUPERVISOR ON 07718 524072.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>3339</Number>
+                    <Number>3342</Number>
                     <Year>24</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>C</ReferredSeries>
+                    <ReferredNumber>3339</ReferredNumber>
+                    <ReferredYear>24</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>FF</Code23>
@@ -6046,11 +6049,11 @@ ARRANGEMENT, CTC TERMINAL SUPERVISOR ON 07718 524072.</ItemE>
                     <Coordinates>5334N00021W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGNJ</ItemA>
-                    <StartValidity>2406150926</StartValidity>
-                    <EndValidity>2406151645</EndValidity>
+                    <StartValidity>2406151110</StartValidity>
+                    <EndValidity>2406151515</EndValidity>
                     <ItemE>RFFS DOWNGRADED TO CAT 5</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>150620240928</NotamStoreDate>
+                    <NotamStoreDate>150620241119</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -7170,31 +7173,6 @@ AIR NAV ORDER 2016. AR-2024-2119/2120/2121/AO1</ItemE>
 HGT 230FT AGL/300FT AMSL. AR-2024-3680/ARO2.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>050620241020</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>3340</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>AH</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5130N00003E</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGLC</ItemA>
-                    <StartValidity>2406151130</StartValidity>
-                    <EndValidity>2406151200</EndValidity>
-                    <ItemE>AERODROME OPENING HOURS EXTENDED.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>150620240933</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -10367,8 +10345,33 @@ DISPLACED THRESHOLD MARKED BY BOARDS</ItemE>
         <ADSection>
             <Code>EGNW</Code>
             <Name>WICKENBY</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>3495</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5319N00021W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGNW</ItemA>
+                    <StartValidity>2406160900</StartValidity>
+                    <EndValidity>2406161500</EndValidity>
+                    <ItemE>AD CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150620241157</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -10974,38 +10977,6 @@ REMAIN OPEN TO ACFT AND VEHICULAR MOVEMENT.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>120420241343</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>3709</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WE</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>100</Upper>
-                    </QLine>
-                    <Coordinates>5306N00010W</Coordinates>
-                    <Radius>6</Radius>
-                    <ItemA>EGXC</ItemA>
-                    <StartValidity>2406151100</StartValidity>
-                    <EndValidity>2406151200</EndValidity>
-                    <ItemE>ONE FAST JET CONDUCTING HIGH-ENERGY MANOEUVRES WI 5NM RADIUS:
-530535N 0001000W (CONINGSBY AD). ACFT WILL CONDUCT ONE HIGH 
-PERFORMANCE CLIMB TO 10000FT AMSL. ACFT MAY NOT BE ABLE TO COMPLY 
-WITH RAC. FOR INFO 01526 347716. PILOTS IN THE AREA REQUIRING AN 
-UPDATE ON CURRENT ACTIVITY AND STATUS OF DISPLAY ACFT SHOULD 
-CONTACT CONINGSBY ATC ON 119.205MHZ. AR-2024-3925/AU1.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>10000FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140620241219</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -11341,6 +11312,58 @@ AIMING POINTS</ItemE>
                     <ItemE>SOUTHEAST LOOP CLSD.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>120620240945</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>3610</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>MR</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5141N00147W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGVA</ItemA>
+                    <StartValidity>2406151111</StartValidity>
+                    <EndValidity>2406151615</EndValidity>
+                    <ItemE>RWY 27/09 SURFACE CONDITION IS CONCRETE WET ASPHALT WET WITH
+NO STANDING WATER.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150620241118</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>3611</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>AH</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5141N00147W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGVA</ItemA>
+                    <StartValidity>2406151140</StartValidity>
+                    <EndValidity>2406151615</EndValidity>
+                    <ItemE>AD OPEN FOR OFFICIAL BUSINESS
+ONLY. ALL OTHERS PRIOR PERMISSION REQUIRED.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150620241119</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -12146,7 +12169,7 @@ AR-2024-2941/AU2</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
-                    <Number>3608</Number>
+                    <Number>3612</Number>
                     <Year>24</Year>
                     <Type>N</Type>
                     <QLine>
@@ -12162,11 +12185,11 @@ AR-2024-2941/AU2</ItemE>
                     <Coordinates>5222N00029E</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGUN</ItemA>
-                    <StartValidity>2406150029</StartValidity>
-                    <EndValidity>2406152349</EndValidity>
-                    <ItemE>RWY 10/28 SURFACE CONDITION IS WET WITH NO STANDING WATER</ItemE>
+                    <StartValidity>2406151152</StartValidity>
+                    <EndValidity>2406162359</EndValidity>
+                    <ItemE>RWY 10/28 WET-WET WITH NO STANDING WATER.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>150620240047</NotamStoreDate>
+                    <NotamStoreDate>150620241157</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -21518,35 +21541,6 @@ COMPLY WITH RAC. FOR INFO 07771 751710. AR-2024-3499/AO1.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>310520241049</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>D</Series>
-                    <Number>701</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>RD</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>15</Upper>
-                    </QLine>
-                    <Coordinates>5305N00041W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2406151000</StartValidity>
-                    <EndValidity>2406190100</EndValidity>
-                    <ItemD>15 1000-1200, 16 2100-2359, 17 0001-0100, 18 2100-2359, 19 
-0001-0100</ItemD>
-                    <ItemE>DANGER AREA EGD305 BECKINGHAM ACTIVE</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>1500FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>110620241409</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGWC" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -21575,38 +21569,6 @@ COMPLY WITH RAC. FOR INFO 07771 751710. AR-2024-3499/AO1.</ItemE>
                     <ItemG>3100FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>140620241205</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGXC" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>3709</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WE</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>100</Upper>
-                    </QLine>
-                    <Coordinates>5306N00010W</Coordinates>
-                    <Radius>6</Radius>
-                    <ItemA>EGXC</ItemA>
-                    <StartValidity>2406151100</StartValidity>
-                    <EndValidity>2406151200</EndValidity>
-                    <ItemE>ONE FAST JET CONDUCTING HIGH-ENERGY MANOEUVRES WI 5NM RADIUS:
-530535N 0001000W (CONINGSBY AD). ACFT WILL CONDUCT ONE HIGH 
-PERFORMANCE CLIMB TO 10000FT AMSL. ACFT MAY NOT BE ABLE TO COMPLY 
-WITH RAC. FOR INFO 01526 347716. PILOTS IN THE AREA REQUIRING AN 
-UPDATE ON CURRENT ACTIVITY AND STATUS OF DISPLAY ACFT SHOULD 
-CONTACT CONINGSBY ATC ON 119.205MHZ. AR-2024-3925/AU1.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>10000FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140620241219</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
@@ -23125,31 +23087,6 @@ INTERMITTENT ISSUES. USE ALTN NUMBER 01870 604804 FOR
 OPERATIONAL CALLS IF ATOTN U/S.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>130620240711</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>2054</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>21</Upper>
-                    </QLine>
-                    <Coordinates>5729N00722W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPL</ItemA>
-                    <StartValidity>2406151045</StartValidity>
-                    <EndValidity>2406151115</EndValidity>
-                    <ItemE>BENBECULA ATZ ACTIVE. AD/ATS/ATIS/MET ADDITIONAL OPS.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>150620241041</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -26304,31 +26241,6 @@ RESPONSIBILITY DUE TO THE KING'S BIRTHDAY FLYPAST. SQUADRONS ARE
 ADVISED TO LIAISE EARLY AS AN ATS CANNOT BE GUARANTEED.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>280520241420</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGPL" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>2054</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>21</Upper>
-                    </QLine>
-                    <Coordinates>5729N00722W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPL</ItemA>
-                    <StartValidity>2406151045</StartValidity>
-                    <EndValidity>2406151115</EndValidity>
-                    <ItemE>BENBECULA ATZ ACTIVE. AD/ATS/ATIS/MET ADDITIONAL OPS.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>150620241041</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
