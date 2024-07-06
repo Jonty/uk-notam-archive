@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000080949916" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000080952027" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-07-06T20:00:39+00:00</ValidFrom>
-            <ValidTo>2024-07-07T20:00:00+00:00</ValidTo>
+            <ValidFrom>2024-07-06T21:00:39+00:00</ValidFrom>
+            <ValidTo>2024-07-07T21:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-07-06T20:00:39+00:00</Issued>
+        <Issued>2024-07-06T21:00:39+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712407060822</PibUid>
+        <PibUid>EG712407060853</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4736,23 +4736,6 @@ AUTHORITY</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001430358</TAMID>
-                    <TAMloc>EGTC</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2024-07-06T12:48:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGTC</TAMItem>
-                        <TAMItem>07061248 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
-                        <TAMItem/>
-                    </TAMItemList>
-                    <TAMUpdateTime>2024-07-06T12:49:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2024-07-06T12:48:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGLD</Code>
@@ -9034,6 +9017,32 @@ SOUTHEND ARP). MAX HGT 147FT AGL/199FT AMSL</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
+                    <Number>4620</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>55</Upper>
+                    </QLine>
+                    <Coordinates>5135N00056E</Coordinates>
+                    <Radius>22</Radius>
+                    <ItemA>EGMC</ItemA>
+                    <StartValidity>2407012000</StartValidity>
+                    <EndValidity>2407312200</EndValidity>
+                    <ItemD>MON WED FRI SUN 2000-2200</ItemD>
+                    <ItemE>SOUTHEND CTA/CTR/ATZ ACTIVATED. AD OPR HOURS EXTENDED.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>280620241134</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
                     <Number>4713</Number>
                     <Year>24</Year>
                     <Type>R</Type>
@@ -12189,36 +12198,8 @@ FOR URGENT ATC MATTERS CONTACT SENIOR AFIS OFFICER 07766 245366.</ItemE>
         <ADSection>
             <Code>EGWU</Code>
             <Name>NORTHOLT</Name>
-            <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>4077</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>LT</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5133N00025W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGWU</ItemA>
-                    <StartValidity>2407061925</StartValidity>
-                    <EndValidity>2407062010</EndValidity>
-                    <ItemE>LIMITED NOISE AND MOVEMENT EMBARGO. ALL AIR SYSTEMS ON THE MAIN 
-AIRCRAFT SERVICING PLATFORM (ASP) LANES 2,3 AND 4 ARE TO BE SHUT 
-DOWN, HAVE THEIR POWER UNITS TURNED OFF AND DOORS CLOSED.
-NO VEHICLE MOVEMENT ON THE ASP ROAD</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>050720241114</NotamStoreDate>
-                </Notam>
-            </NotamList>
+            <!--No information received or matching the query-->
+            <NotamList/>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -17023,6 +17004,32 @@ FREQ 1147.0MHZ AND FREQ 121.0MHZ/CH123X</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>010720241402</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGMC" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>4620</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>55</Upper>
+                    </QLine>
+                    <Coordinates>5135N00056E</Coordinates>
+                    <Radius>22</Radius>
+                    <ItemA>EGMC</ItemA>
+                    <StartValidity>2407012000</StartValidity>
+                    <EndValidity>2407312200</EndValidity>
+                    <ItemD>MON WED FRI SUN 2000-2200</ItemD>
+                    <ItemE>SOUTHEND CTA/CTR/ATZ ACTIVATED. AD OPR HOURS EXTENDED.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>280620241134</NotamStoreDate>
+                </Notam>
                 <Notam Reference="EGXC" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
@@ -17986,6 +17993,35 @@ AGL, 178FT AMSL. NO CRANE OPR IN LVP. CRANE WILL ONLY OPR WHEN
 RWY 09R/27L IS CLOSED. CRANE REF. 2024053163</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>060720240937</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1398</Number>
+                    <Year>24</Year>
+                    <Type>R</Type>
+                    <ReferredSeries>B</ReferredSeries>
+                    <ReferredNumber>1397</ReferredNumber>
+                    <ReferredYear>24</ReferredYear>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>CA</Code23>
+                        <Code45>CF</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>175</Upper>
+                    </QLine>
+                    <Coordinates>5211N00000E</Coordinates>
+                    <Radius>55</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2407062057</StartValidity>
+                    <EndValidity>2407072027</EndValidity>
+                    <ItemE>TERMINAL CONTROL NORTH EAST DEPARTURES FREQ 118.825 U/S. ACFT ARE 
+TO CTC 133.975 IF REQUIRED.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>060720242057</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGKB" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -21364,35 +21400,6 @@ INFO 07446 244884. AR-2024-4083/AU7</ItemE>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
-                    <Number>4332</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WG</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>28</Upper>
-                    </QLine>
-                    <Coordinates>5110N00412W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2407060330</StartValidity>
-                    <EndValidity>2407062030</EndValidity>
-                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR 
-IN LOW FLYING AREA 2 WI 2NM RADIUS OF PSN 510943N 0041224W 
-(WOOLACOMBE, DEVON). 2000FT AGL. CTC 07875 247389 . 24/07/030/LFC</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>2800FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>050720241349</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
                     <Number>4234</Number>
                     <Year>24</Year>
                     <Type>N</Type>
@@ -23493,56 +23500,6 @@ DURING LVP</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>050720241931</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>4882</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>MX</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5557N00322W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGPH</ItemA>
-                    <StartValidity>2407061822</StartValidity>
-                    <EndValidity>2407062030</EndValidity>
-                    <ItemE>ALPHA TWY A9-A12 CLSD DUE WIP</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>060720241828</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>4884</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>FF</Code23>
-                        <Code45>CG</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5557N00322W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGPH</ItemA>
-                    <StartValidity>2407061923</StartValidity>
-                    <EndValidity>2407062100</EndValidity>
-                    <ItemE>RFFS CATEGORY REDUCED TO CAT 8</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>060720241930</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -24653,34 +24610,6 @@ HGT 138FT AGL, 154FT AMSL.</ItemE>
                     <ItemE>RFFS CAT 6</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>010720241912</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>4881</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>4</Upper>
-                    </QLine>
-                    <Coordinates>5951N00116W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPB</ItemA>
-                    <StartValidity>2407061945</StartValidity>
-                    <EndValidity>2407062020</EndValidity>
-                    <ItemE>UAS OPR FM A CRUISE SHIP WI 1NM RADIUS OF PSN 595118N 0011628W
-(VCY SUMBURGH HEAD, SUMBURGH AD) UP TO 400FT AMSL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>400FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>060720241559</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -26586,34 +26515,6 @@ INFO 07979 953905. AR-2024-4321/AU7</ItemE>
                     <ItemG>4000FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>070620241217</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGPB" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>4881</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>4</Upper>
-                    </QLine>
-                    <Coordinates>5951N00116W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPB</ItemA>
-                    <StartValidity>2407061945</StartValidity>
-                    <EndValidity>2407062020</EndValidity>
-                    <ItemE>UAS OPR FM A CRUISE SHIP WI 1NM RADIUS OF PSN 595118N 0011628W
-(VCY SUMBURGH HEAD, SUMBURGH AD) UP TO 400FT AMSL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>400FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>060720241559</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
