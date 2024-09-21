@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000085523973" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000085526264" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-09-21T11:00:31+00:00</ValidFrom>
-            <ValidTo>2024-09-22T11:00:00+00:00</ValidTo>
+            <ValidFrom>2024-09-21T12:00:19+00:00</ValidFrom>
+            <ValidTo>2024-09-22T12:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-09-21T11:00:31+00:00</Issued>
+        <Issued>2024-09-21T12:00:19+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712409210502</PibUid>
+        <PibUid>EG712409210536</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4751,8 +4751,39 @@ AMSL</ItemE>
         <ADSection>
             <Code>EGSU</Code>
             <Name>DUXFORD</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>5381</Number>
+                    <Year>24</Year>
+                    <Type>R</Type>
+                    <ReferredSeries>L</ReferredSeries>
+                    <ReferredNumber>5227</ReferredNumber>
+                    <ReferredYear>24</ReferredYear>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5205N00008E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGSU</ItemA>
+                    <StartValidity>2409191713</StartValidity>
+                    <EndValidity>2409291500</EndValidity>
+                    <ItemD>20 22 28 29 1100-1200 1400-1500</ItemD>
+                    <ItemE>AD CLOSED TO ALL VISITING AIRCRAFT ON THE SPECIFIED DATES ONLY IN
+THE SPECIFIED TIMES, BASED AIRCRAFT ONLY. OUT OF HR PROC APPLY. NO
+PRACTICE DISPLAYS OR CIRCUIT SESSIONS. PPR CTC 01223 833376</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>190920241716</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -5873,9 +5904,12 @@ DETAILS WILL BE INCLUDED IN THE UK AIP ENR 5.4. AR-2024-2966/ARO1.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>5238</Number>
+                    <Number>5241</Number>
                     <Year>24</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>C</ReferredSeries>
+                    <ReferredNumber>5238</ReferredNumber>
+                    <ReferredYear>24</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>MX</Code23>
@@ -5889,12 +5923,12 @@ DETAILS WILL BE INCLUDED IN THE UK AIP ENR 5.4. AR-2024-2966/ARO1.</ItemE>
                     <Coordinates>5352N00140W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGNM</ItemA>
-                    <StartValidity>2409210934</StartValidity>
-                    <EndValidity>2409211200</EndValidity>
-                    <ItemE>TWY ALPHA CLSD BETWEEN RWY INTERSECTION AND HOLDING POINT
-BRAVO. ACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY</ItemE>
+                    <StartValidity>2409211146</StartValidity>
+                    <EndValidity>2409211315</EndValidity>
+                    <ItemE>TWY ALPHA CLSD BETWEEN RWY INTERSECTION AND HOLDING POINT BRAVO. 
+ACFT MUST NOT USE TWY ALPHA TO VACATE THE RWY</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>210920240946</NotamStoreDate>
+                    <NotamStoreDate>210920241151</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -9038,6 +9072,37 @@ SAT 0610-0735 1050-1335 CAT 7
 SUN 1400-1525 1720-1845 CAT 7</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>150920241335</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>5240</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>60</Upper>
+                    </QLine>
+                    <Coordinates>5432N00123W</Coordinates>
+                    <Radius>12</Radius>
+                    <ItemA>EGNV</ItemA>
+                    <StartValidity>2409211700</StartValidity>
+                    <EndValidity>2409212000</EndValidity>
+                    <ItemD>1700-1745, 1930-2000</ItemD>
+                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AD CLSD. AIRSPACE
+REVERTS TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. 
+HELIMED MAY STILL OPR FM THE HEL EMERG SERVICES BASES. PILOTS 
+TRANSITTING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE 
+SUBJECT TO SHORT NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN 
+BEFORE CLOSURE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>210920241129</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -12362,35 +12427,6 @@ APP 130.005</ItemE>
 CHANGED TO 124.280</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>180620241412</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>K</Series>
-                    <Number>329</Number>
-                    <Year>24</Year>
-                    <Type>R</Type>
-                    <ReferredSeries>K</ReferredSeries>
-                    <ReferredNumber>161</ReferredNumber>
-                    <ReferredYear>24</ReferredYear>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>OL</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>E</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5144N00140W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2406211250</StartValidity>
-                    <EndValidity>2409211200</EndValidity>
-                    <ItemE>UNLIT MAST AT PSN 514400N 0014000W (VCY BRIZE NORTON). HGT 166FT
-AGL/466FT AMSL. CTC ALEX FORKASIEWICZ 07824 834817)</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>210620241250</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGCC" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -16345,6 +16381,37 @@ ALERTING AND DISTRESS SERVICE ALSO AVBL ON 121.5MHZ</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>210920240625</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>5240</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>60</Upper>
+                    </QLine>
+                    <Coordinates>5432N00123W</Coordinates>
+                    <Radius>12</Radius>
+                    <ItemA>EGNV</ItemA>
+                    <StartValidity>2409211700</StartValidity>
+                    <EndValidity>2409212000</EndValidity>
+                    <ItemD>1700-1745, 1930-2000</ItemD>
+                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AD CLSD. AIRSPACE
+REVERTS TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. 
+HELIMED MAY STILL OPR FM THE HEL EMERG SERVICES BASES. PILOTS 
+TRANSITTING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE 
+SUBJECT TO SHORT NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN 
+BEFORE CLOSURE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>210920241129</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </En-route>
@@ -19498,35 +19565,6 @@ MAX HGT 400FT AGL. FOR INFO 07854 246075. AR-2024-6179/AU2.</ItemE>
                     <ItemG>850FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>030920241104</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>6595</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WY</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>32</Upper>
-                    </QLine>
-                    <Coordinates>5429N00037W</Coordinates>
-                    <Radius>16</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2409180845</StartValidity>
-                    <EndValidity>2409211130</EndValidity>
-                    <ItemD>0845-1130</ItemD>
-                    <ItemE>AERIAL SURVEY WI 15NM RADIUS: 542916N 0003654W (WHITBY) FOR
-INFO +31628 484196. AR-2024-6223/AU3.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>3200FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>160920241105</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
