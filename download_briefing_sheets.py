@@ -16,6 +16,7 @@ root = lxml.html.document_fromstring(response.content)
 for node in root.xpath("//tr")[1:]:
     title_node = node.xpath("./td")
     if not title_node:
+        print("* WARNING: Briefing sheet table row seems to be empty")
         continue
 
     title = title_node[0].text_content()
