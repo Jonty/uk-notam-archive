@@ -14,7 +14,11 @@ response = requests.get("https://nats-uk.ead-it.com/cms-nats/opencms/en/Publicat
 root = lxml.html.document_fromstring(response.content)
 
 for node in root.xpath("//tr")[1:]:
-    title = node.xpath("./td")[0].text_content()
+    title_node = node.xpath("./td")
+    if not title_node:
+        continue
+
+    title = title_node[0].text_content()
     remote_path = node.xpath("./td[3]/a")[0].attrib["href"]
     filename = os.path.basename(remote_path)
     url = url_prefix + remote_path
