@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000092198437" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000092201165" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2024-12-30T09:00:41+00:00</ValidFrom>
-            <ValidTo>2024-12-31T09:00:00+00:00</ValidTo>
+            <ValidFrom>2024-12-30T10:00:55+00:00</ValidFrom>
+            <ValidTo>2024-12-31T10:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2024-12-30T09:00:41+00:00</Issued>
+        <Issued>2024-12-30T10:00:55+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712412300636</PibUid>
+        <PibUid>EG712412300792</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4393,6 +4393,22 @@ AGL, 187FT AMSL</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001503603</TAMID>
+                    <TAMloc>EGSC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2024-12-30T07:51:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGSC</TAMItem>
+                        <TAMItem>12300751 05 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2024-12-30T09:52:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2024-12-30T07:51:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFF</Code>
@@ -4686,6 +4702,31 @@ AIRPORT FIRE SERVICE ON 01446 712505</ItemE>
 01 JAN 0806-1000</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>260920241417</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7383</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>MR</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5052N00046W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGHR</ItemA>
+                    <StartValidity>2412300913</StartValidity>
+                    <EndValidity>2412301600</EndValidity>
+                    <ItemE>RWY 06/24 AND RWY 10/28 CLSD DUE SFC CONDITIONS.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>301220240913</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -5017,8 +5058,35 @@ OFFICER FOR MORE INFO.</ItemE>
         <ADSection>
             <Code>EGSU</Code>
             <Name>DUXFORD</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7385</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5205N00008E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGSU</ItemA>
+                    <StartValidity>2412301200</StartValidity>
+                    <EndValidity>2412301500</EndValidity>
+                    <ItemD>1200-1300 1430-1500</ItemD>
+                    <ItemE>AD CLOSED TO ALL VISITING ACFT, BASED ACFT ONLY. OUT OF HR PROC
+APPLY. NO PRACTICE DISPLAYS OR CIRCUIT SESSIONS. PPR CTC 01223 833376</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>301220240956</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -5059,22 +5127,6 @@ OFFICER FOR MORE INFO.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001503229</TAMID>
-                    <TAMloc>EGNX</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2024-12-30T01:35:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGNX</TAMItem>
-                        <TAMItem>12300135 09 5/5/5 100/75/100 NR/NR/NR WET/WET/WET</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2024-12-30T01:37:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2024-12-30T01:35:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGTR</Code>
@@ -5269,6 +5321,32 @@ AR-2024-7698/AU2.</ItemE>
                     <ItemE>RWY 26 LOW INTENSITY TWO COLOUR APPROACH SLOPE INDICATOR U/S</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>201220241322</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>6831</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>24</Upper>
+                    </QLine>
+                    <Coordinates>5139N00020W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGTR</ItemA>
+                    <StartValidity>2412310900</StartValidity>
+                    <EndValidity>2501011600</EndValidity>
+                    <ItemE>ELSTREE ATZ DEACTIVATED, AFIS NOT AVBL DUE TWR CLSD - OUT OF HRS 
+PROCEDURES APPLY</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>041220241449</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -5512,6 +5590,32 @@ ALDERSHOT), 167FT AGL, 345FT AMSL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>211220241205</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7264</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5244N00002W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGCL</ItemA>
+                    <StartValidity>2412260900</StartValidity>
+                    <EndValidity>2412311700</EndValidity>
+                    <ItemD>26 27 31 0900-1700</ItemD>
+                    <ItemE>FENLAND ATZ DEACTIVATED, AD CLSED. A/G COM SER NOT AVBL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>211220241304</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -5717,82 +5821,6 @@ OVERLAY.</ItemE>
 OVERLAY.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>271220241155</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>7374</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>ID</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>I</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5154N00210W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGBJ</ItemA>
-                    <StartValidity>2412291701</StartValidity>
-                    <EndValidity>2412301930</EndValidity>
-                    <ItemE>DME ASSOCIATED WITH ILS RWY 09/27 U/S DUE MAINT.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>291220241701</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>7375</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>PI</Code23>
-                        <Code45>LT</Code45>
-                        <Traffic>I</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5154N00210W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGBJ</ItemA>
-                    <StartValidity>2412291735</StartValidity>
-                    <EndValidity>2412301930</EndValidity>
-                    <ItemE>RNP APPROACHES ONLY AVBL AS INSTRUMENT APPROACH.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>291220241735</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>7371</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>22</Upper>
-                    </QLine>
-                    <Coordinates>5154N00210W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGBJ</ItemA>
-                    <StartValidity>2412300930</StartValidity>
-                    <EndValidity>2412301000</EndValidity>
-                    <ItemE>GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVBL. INSTRUMENT
-APPROACHES NOT AVBL</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>291220241229</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -6106,8 +6134,34 @@ LAST RUNWAY MOVEMENT 15 MINUTES BEFORE EVERY CLOSED TIME</ItemE>
         <ADSection>
             <Code>EGBP</Code>
             <Name>KEMBLE</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7063</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5140N00203W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGBP</ItemA>
+                    <StartValidity>2412241500</StartValidity>
+                    <EndValidity>2501011700</EndValidity>
+                    <ItemD>24 1500-1700, 25 26 27 28 31 01 0900-1700</ItemD>
+                    <ItemE>AD NOT AVBL TO VISITING ACFT</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>131220241327</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -8068,6 +8122,33 @@ TORA 577M, ASDA 577M, LDA 577M, TODA (RWY 08L) 577M, TODA (RWY 26R)
                     <Marker>+</Marker>
                     <NotamStoreDate>281220240835</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7220</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>SF</Code23>
+                        <Code45>AH</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5328N00223W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGCB</ItemA>
+                    <StartValidity>2412310900</StartValidity>
+                    <EndValidity>2501011700</EndValidity>
+                    <ItemE>ATS AND AD OPERATIONAL HOURS:
+31 0900-1500
+01 CLOSED. EXCEPT EMERGENCY SERVICES AND PRE-ARRANGED MOVEMENTS.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>201220240839</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -9011,8 +9092,33 @@ SCILLY), MAX HGT 141FT AGL, 240FT AMSL)</ItemE>
         <ADSection>
             <Code>EGBS</Code>
             <Name>SHOBDON</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7384</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FU</Code23>
+                        <Code45>AU</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5215N00253W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGBS</ItemA>
+                    <StartValidity>2412300943</StartValidity>
+                    <EndValidity>2501101700</EndValidity>
+                    <ItemE>UL91 FUEL NOT AVBL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>301220240943</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -10388,6 +10494,31 @@ OR ATS AVBL</ItemE>
                     <ItemE>AVGAS 100LL AND JETA1 NOT AVBL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>291220241208</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7308</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5231N00216W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGBO</ItemA>
+                    <StartValidity>2412310900</StartValidity>
+                    <EndValidity>2501011700</EndValidity>
+                    <ItemE>AD NOT AVBL TO ACFT REQUIRING A LICENSED AD DUE NO RFFS OR ATS</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>241220241014</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -12083,6 +12214,32 @@ NAV ORDER 2016. AR-2024-8633</ItemE>
 1/10TH INCHES STANDING WATER.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>291220240005</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>8166</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>MX</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5222N00029E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGUN</ItemA>
+                    <StartValidity>2412300957</StartValidity>
+                    <EndValidity>2501052359</EndValidity>
+                    <ItemE>TWY CHARLIE NORTH RESTRICTED TO ACFT WITH A WINGSPAN OF LESS THAN
+133FT.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>301220240957</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -16660,6 +16817,32 @@ HOURS PROCEDURAL SER ONLY.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>051220241651</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGCL" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>7264</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5244N00002W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGCL</ItemA>
+                    <StartValidity>2412260900</StartValidity>
+                    <EndValidity>2412311700</EndValidity>
+                    <ItemD>26 27 31 0900-1700</ItemD>
+                    <ItemE>FENLAND ATZ DEACTIVATED, AD CLSED. A/G COM SER NOT AVBL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>211220241304</NotamStoreDate>
+                </Notam>
                 <Notam Reference="EGNM" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
@@ -16818,31 +17001,31 @@ SUPERVISOR ON 07718 524072.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>241220242135</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGBJ" OriginalMessage="false" PIBSection="FIR">
+                <Notam Reference="EGTR" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>L</Series>
-                    <Number>7371</Number>
+                    <Number>6831</Number>
                     <Year>24</Year>
                     <Type>N</Type>
                     <QLine>
                         <FIR>EGTT</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LC</Code45>
+                        <Code23>AZ</Code23>
+                        <Code45>CD</Code45>
                         <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
+                        <Purpose>NBO</Purpose>
                         <Scope>AE</Scope>
                         <Lower>0</Lower>
-                        <Upper>22</Upper>
+                        <Upper>24</Upper>
                     </QLine>
-                    <Coordinates>5154N00210W</Coordinates>
+                    <Coordinates>5139N00020W</Coordinates>
                     <Radius>2</Radius>
-                    <ItemA>EGBJ</ItemA>
-                    <StartValidity>2412300930</StartValidity>
-                    <EndValidity>2412301000</EndValidity>
-                    <ItemE>GLOUCESTERSHIRE APPROACH CONTROL SERVICE NOT AVBL. INSTRUMENT
-APPROACHES NOT AVBL</ItemE>
+                    <ItemA>EGTR</ItemA>
+                    <StartValidity>2412310900</StartValidity>
+                    <EndValidity>2501011600</EndValidity>
+                    <ItemE>ELSTREE ATZ DEACTIVATED, AFIS NOT AVBL DUE TWR CLSD - OUT OF HRS 
+PROCEDURES APPLY</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>291220241229</NotamStoreDate>
+                    <NotamStoreDate>041220241449</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -22621,6 +22804,31 @@ JAN 01 CLOSED
 JAN 02 1700-1840</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>091220241053</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>4501</Number>
+                    <Year>24</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5541N00616W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPI</ItemA>
+                    <StartValidity>2412300940</StartValidity>
+                    <EndValidity>2412301010</EndValidity>
+                    <ItemE>AD CLOSED. NORMAL PROCEDURES FOR SAR AND AIR AMBULANCE</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>301220240939</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
