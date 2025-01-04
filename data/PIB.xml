@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000092515144" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000092517352" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-01-04T17:00:36+00:00</ValidFrom>
-            <ValidTo>2025-01-05T17:00:00+00:00</ValidTo>
+            <ValidFrom>2025-01-04T18:00:57+00:00</ValidFrom>
+            <ValidTo>2025-01-05T18:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-01-04T17:00:36+00:00</Issued>
+        <Issued>2025-01-04T18:00:57+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712501040802</PibUid>
+        <PibUid>EG712501040831</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3782,6 +3782,25 @@ UK AIP EGNH AD 2.10 REFERS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001509919</TAMID>
+                    <TAMloc>EGNH</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-01-04T17:02:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGNH</TAMItem>
+                        <TAMItem>01041702 10 5/5/6 100/50/NR NR/NR/NR WET/WET/DRY</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 10 550 METERS CHEMICAL TREATMENT TWY ALPHA AND BRAVO BETWEEN B1</TAMItem>
+                        <TAMItem>AND B3 CHEMICAL TREATMENT.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-01-04T17:06:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-01-04T17:02:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGHH</Code>
@@ -6061,38 +6080,8 @@ UNVERIFIED DURING PERIODS OF CLOSURE.</ItemE>
         <ADSection>
             <Code>EGCM</Code>
             <Name>LEEDS EAST</Name>
-            <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>42</Number>
-                    <Year>25</Year>
-                    <Type>R</Type>
-                    <ReferredSeries>L</ReferredSeries>
-                    <ReferredNumber>41</ReferredNumber>
-                    <ReferredYear>25</ReferredYear>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>MR</Code23>
-                        <Code45>XX</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5350N00112W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGCM</ItemA>
-                    <StartValidity>2501040816</StartValidity>
-                    <EndValidity>2501041800</EndValidity>
-                    <ItemE>RWY 24/06 ENTRY/EXIT VIA F1 AND A1 ONLY. TWY ALPHA CLSD FROM 
-CONTROL TOWER TO ALPHA 3. TWY BRAVO AND TWY ECHO CLOSED. NORTH SIDE 
-DISSUSED RWY NOT AVBL FOR TAXI.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>040120250816</NotamStoreDate>
-                </Notam>
-            </NotamList>
+            <!--No information received or matching the query-->
+            <NotamList/>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -7586,34 +7575,6 @@ CHARLIE CLOSURE - WORKS DELAYED UNTIL 24 JANUARY 2025.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>020120251002</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>9158</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>8</Upper>
-                    </QLine>
-                    <Coordinates>5329N00212W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGCC</ItemA>
-                    <StartValidity>2501041000</StartValidity>
-                    <EndValidity>2501041800</EndValidity>
-                    <ItemE>UAS OPR WI 0.1NM RADIUS OF 532851N 0021202W (MANCHESTER). MAX HGT
-500FT AGL. FOR INFO 01992 924779. AR-2024-8606/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>800FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>191220240937</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
             <Snowtam>
@@ -8254,6 +8215,24 @@ POINT C1 REMAINS IN USE.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001509967</TAMID>
+                    <TAMloc>EGTK</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-01-04T17:42:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGTK</TAMItem>
+                        <TAMItem>01041742 01 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>TWY A AND B CHEMICAL TREATMENT. RWY 01 CHEMICAL TREATMENT.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-01-04T17:48:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-01-04T17:42:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFP</Code>
@@ -8401,60 +8380,8 @@ AND PAVED TWY.</ItemE>
         <ADSection>
             <Code>EGHE</Code>
             <Name>SCILLY ISLES/ST MARY'S</Name>
-            <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>6778</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>OB</Code23>
-                        <Code45>CE</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>3</Upper>
-                    </QLine>
-                    <Coordinates>4955N00619W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGHE</ItemA>
-                    <StartValidity>2412020753</StartValidity>
-                    <EndValidity>2501041730</EndValidity>
-                    <ItemE>UNLIT CRANE OPR PSN 495446N 0061830W (CIRCUS FIELD,ISLES OF 
-SCILLY), MAX HGT 141FT AGL, 240FT AMSL)</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>021220240804</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>51</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>22</Upper>
-                    </QLine>
-                    <Coordinates>4955N00618W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGHE</ItemA>
-                    <StartValidity>2501041315</StartValidity>
-                    <EndValidity>2501041730</EndValidity>
-                    <ItemE>SCILLY ISLES/ST MARYS ATZ DEACTIVATED, AD CLSD. AVBL TO SAR AND 
-EMERG FLIGHTS ONLY</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>040120251155</NotamStoreDate>
-                </Notam>
-            </NotamList>
+            <!--No information received or matching the query-->
+            <NotamList/>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -9173,34 +9100,6 @@ AD 2.EGMC-8-6, AD 2.EGMC-8-7 REFERS.</ItemE>
                     <ItemE>INCREASED BIRD ACTIVITY DUE CONSTRUCTION ON AD PERIMETER</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>191220241340</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>7260</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FF</Code23>
-                        <Code45>CH</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5431N00126W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGNV</ItemA>
-                    <StartValidity>2412301345</StartValidity>
-                    <EndValidity>2501041745</EndValidity>
-                    <ItemE>RFFS CAT CHANGES:
-MON 1345-1510 CAT 7
-FRI 1740-1905 CAT 7
-SAT 1620-1745 CAT 7</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>291220241453</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -11462,8 +11361,33 @@ TO 128.305</ItemE>
         <ADSection>
             <Code>EGWU</Code>
             <Name>NORTHOLT</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>31</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5133N00025W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGWU</ItemA>
+                    <StartValidity>2501041715</StartValidity>
+                    <EndValidity>2501042200</EndValidity>
+                    <ItemE>AD CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040120251719</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -13524,32 +13448,6 @@ AR-2024-7567/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>081120241738</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGHE" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>6778</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>OB</Code23>
-                        <Code45>CE</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>3</Upper>
-                    </QLine>
-                    <Coordinates>4955N00619W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGHE</ItemA>
-                    <StartValidity>2412020753</StartValidity>
-                    <EndValidity>2501041730</EndValidity>
-                    <ItemE>UNLIT CRANE OPR PSN 495446N 0061830W (CIRCUS FIELD,ISLES OF 
-SCILLY), MAX HGT 141FT AGL, 240FT AMSL)</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>021220240804</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGLL" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
@@ -15166,31 +15064,6 @@ PROVIDING A BASIC SERVICE ONLY.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>030120251636</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>B</Series>
-                    <Number>14</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SE</Code23>
-                        <Code45>AU</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>E</Scope>
-                        <Lower>0</Lower>
-                        <Upper>100</Upper>
-                    </QLine>
-                    <Coordinates>5134N00042E</Coordinates>
-                    <Radius>25</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2501040900</StartValidity>
-                    <EndValidity>2501041800</EndValidity>
-                    <ItemE>SOUTHEND LOWER AIRSPACE RADAR SER NOT AVBL</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>030120251530</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGNR" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>L</Series>
@@ -15276,32 +15149,6 @@ ALERTING AND DISTRESS SERVICE ALSO AVBL ON 121.5MHZ</ItemE>
                     <ItemE>NDB OBST LGT U/S</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>040120251102</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGHE" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>51</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>22</Upper>
-                    </QLine>
-                    <Coordinates>4955N00618W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGHE</ItemA>
-                    <StartValidity>2501041315</StartValidity>
-                    <EndValidity>2501041730</EndValidity>
-                    <ItemE>SCILLY ISLES/ST MARYS ATZ DEACTIVATED, AD CLSD. AVBL TO SAR AND 
-EMERG FLIGHTS ONLY</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>040120251155</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGSH" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -18773,62 +18620,6 @@ MAX HGT 400FT AGL/ 710FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>020120251047</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGCC" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>9158</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>8</Upper>
-                    </QLine>
-                    <Coordinates>5329N00212W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGCC</ItemA>
-                    <StartValidity>2501041000</StartValidity>
-                    <EndValidity>2501041800</EndValidity>
-                    <ItemE>UAS OPR WI 0.1NM RADIUS OF 532851N 0021202W (MANCHESTER). MAX HGT
-500FT AGL. FOR INFO 01992 924779. AR-2024-8606/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>800FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>191220240937</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>8486</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>7</Upper>
-                    </QLine>
-                    <Coordinates>5237N00109W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2501041100</StartValidity>
-                    <EndValidity>2501041800</EndValidity>
-                    <ItemE>UAS OPR WI 0.3NM RADIUS OF 523713N 0010832W (LEICESTER). MAX
-HGT 400FT AGL. FOR INFO 07870 904675. AR-2024-7683/AU2.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>700FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>181120241351</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -19879,20 +19670,20 @@ IN USE DURING WORKS.</ItemE>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
-                    <TAMID>400000001509657</TAMID>
+                    <TAMID>400000001509946</TAMID>
                     <TAMloc>EGPH</TAMloc>
                     <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2025-01-04T11:15:00+00:00</TAMItemB>
+                    <TAMItemB>2025-01-04T18:00:00+00:00</TAMItemB>
                     <TAMYear>0</TAMYear>
                     <TAMNationalLetter>EG</TAMNationalLetter>
                     <TAMItemList>
                         <TAMItem>EGPH</TAMItem>
-                        <TAMItem>01041115 06 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>01041800 06 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
                         <TAMItem/>
                         <TAMItem>RWY 06 CHEMICALLY TREATED.</TAMItem>
                     </TAMItemList>
-                    <TAMUpdateTime>2025-01-04T11:36:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2025-01-04T11:15:00+00:00</TamObservationTime>
+                    <TAMUpdateTime>2025-01-04T17:55:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-01-04T18:00:00+00:00</TamObservationTime>
                 </TAMMessage>
             </Snowtam>
         </ADSection>
@@ -20061,25 +19852,6 @@ UK AIP AD 2.3-1 AND AD 2.18 REFERS</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001509550</TAMID>
-                    <TAMloc>EGPE</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2025-01-04T09:35:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGPE</TAMItem>
-                        <TAMItem>01040935 05 5/5/5 NR/NR/NR NR/NR/NR WET/WET/WET</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>TAXI WITH CAUTION ON GOLF. RWY 05 CHEM TREATED. RUNWAY 11/29 CHEM</TAMItem>
-                        <TAMItem>TREATED. GOLF TAXIWAY UNTREATED WITH ICE PACTHES.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2025-01-04T09:39:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2025-01-04T09:35:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGPI</Code>
@@ -21181,31 +20953,6 @@ RATE DUE SINGLE PERSON RADAR IN THE TOWER OPERATIONS</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
-                    <Number>76</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>21</Upper>
-                    </QLine>
-                    <Coordinates>5953N00118W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPB</ItemA>
-                    <StartValidity>2501041615</StartValidity>
-                    <EndValidity>2501041730</EndValidity>
-                    <ItemE>SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR ONLY.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>040120251616</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
                     <Number>9060</Number>
                     <Year>24</Year>
                     <Type>N</Type>
@@ -21369,27 +21116,6 @@ RATE DUE SINGLE PERSON RADAR IN THE TOWER OPERATIONS</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001509554</TAMID>
-                    <TAMloc>EGPC</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2025-01-04T09:36:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGPC</TAMItem>
-                        <TAMItem>01040936 13 5/5/5 100/100/100 NR/NR/NR WET/WET/WET 35</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>NORTH APN AND TAXIWAY CLOSED. RWY 13 CHEM TREATED. NORTH TAXIWAY</TAMItem>
-                        <TAMItem>POOR. NORTH APN POOR. RWY 13 DEICED TO WIDTH 35M. OUTWITH 35M 1MM</TAMItem>
-                        <TAMItem>DRY SN. LOOP TAXIWAY A/B/C AND MAIN APN WET WITH DEICER FLUID AND</TAMItem>
-                        <TAMItem>PATCHES OF SLUSH.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2025-01-04T09:42:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2025-01-04T09:36:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGQK</Code>
@@ -22273,31 +21999,6 @@ AREA H 124.500MHZ
 ALERTING AND DISTRESS SERVICE ALSO AVBL ON 121.5MHZ</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>030120251618</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGPB" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>76</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>21</Upper>
-                    </QLine>
-                    <Coordinates>5953N00118W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPB</ItemA>
-                    <StartValidity>2501041615</StartValidity>
-                    <EndValidity>2501041730</EndValidity>
-                    <ItemE>SUMBURGH ATZ ACTIVATED. AD/AFIS HR EXTENDED. RFFS CAT 3. PPR ONLY.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>040120251616</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
