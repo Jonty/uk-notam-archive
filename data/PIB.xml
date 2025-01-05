@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000092532621" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000092534465" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-01-05T01:00:41+00:00</ValidFrom>
-            <ValidTo>2025-01-06T01:00:00+00:00</ValidTo>
+            <ValidFrom>2025-01-05T02:00:55+00:00</ValidFrom>
+            <ValidTo>2025-01-06T02:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-01-05T01:00:41+00:00</Issued>
+        <Issued>2025-01-05T02:00:55+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712501050055</PibUid>
+        <PibUid>EG712501050087</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3676,9 +3676,12 @@ INFO 01217 982454. AR-2024-7926/AU2.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>78</Number>
+                    <Number>80</Number>
                     <Year>25</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>C</ReferredSeries>
+                    <ReferredNumber>78</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>FA</Code23>
@@ -3693,11 +3696,11 @@ INFO 01217 982454. AR-2024-7926/AU2.</ItemE>
                     <Radius>5</Radius>
                     <ItemA>EGBB</ItemA>
                     <StartValidity>2501050021</StartValidity>
-                    <EndValidity>2501050149</EndValidity>
+                    <EndValidity>2501050300</EndValidity>
                     <Estimation>EST</Estimation>
                     <ItemE>AD CLSD DUE SNOW</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>050120250021</NotamStoreDate>
+                    <NotamStoreDate>050120250118</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -3825,25 +3828,6 @@ UK AIP EGNH AD 2.10 REFERS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001509919</TAMID>
-                    <TAMloc>EGNH</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2025-01-04T17:02:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGNH</TAMItem>
-                        <TAMItem>01041702 10 5/5/6 100/50/NR NR/NR/NR WET/WET/DRY</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>RWY 10 550 METERS CHEMICAL TREATMENT TWY ALPHA AND BRAVO BETWEEN B1</TAMItem>
-                        <TAMItem>AND B3 CHEMICAL TREATMENT.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2025-01-04T17:06:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2025-01-04T17:02:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGHH</Code>
@@ -7324,18 +7308,20 @@ FEBRUARY 2025.</ItemE>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
-                    <TAMID>400000001510200</TAMID>
+                    <TAMID>400000001510237</TAMID>
                     <TAMloc>EGGW</TAMloc>
                     <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2025-01-05T00:27:00+00:00</TAMItemB>
+                    <TAMItemB>2025-01-05T01:39:00+00:00</TAMItemB>
                     <TAMYear>0</TAMYear>
                     <TAMNationalLetter>EG</TAMNationalLetter>
                     <TAMItemList>
                         <TAMItem>EGGW</TAMItem>
-                        <TAMItem>01050027 07 5/5/5 100/100/100 02/02/02 WET SNOW/WET SNOW/WET SNOW</TAMItem>
+                        <TAMItem>01050139 07 5/5/5 25/25/25 01/01/01 WET SNOW/WET SNOW/WET SNOW</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 07 CHEMICALLY TREATED.</TAMItem>
                     </TAMItemList>
-                    <TAMUpdateTime>2025-01-05T00:29:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2025-01-05T00:27:00+00:00</TamObservationTime>
+                    <TAMUpdateTime>2025-01-05T01:52:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-01-05T01:39:00+00:00</TamObservationTime>
                 </TAMMessage>
             </Snowtam>
         </ADSection>
@@ -8175,24 +8161,6 @@ POINT C1 REMAINS IN USE.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001509967</TAMID>
-                    <TAMloc>EGTK</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2025-01-04T17:42:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGTK</TAMItem>
-                        <TAMItem>01041742 01 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>TWY A AND B CHEMICAL TREATMENT. RWY 01 CHEMICAL TREATMENT.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2025-01-04T17:48:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2025-01-04T17:42:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFP</Code>
@@ -19539,24 +19507,6 @@ IN USE DURING WORKS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001509946</TAMID>
-                    <TAMloc>EGPH</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2025-01-04T18:00:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGPH</TAMItem>
-                        <TAMItem>01041800 06 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>RWY 06 CHEMICALLY TREATED.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2025-01-04T17:55:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2025-01-04T18:00:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGAB</Code>
@@ -20581,31 +20531,6 @@ AIRCREW TO REPORT ANY LIGHTING UNSERVICEABILITY TO ATC.</ItemE>
 RATE DUE SINGLE PERSON RADAR IN THE TOWER OPERATIONS</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>271220242026</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>85</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>55</Upper>
-                    </QLine>
-                    <Coordinates>5529N00433W</Coordinates>
-                    <Radius>16</Radius>
-                    <ItemA>EGPK</ItemA>
-                    <StartValidity>2501050045</StartValidity>
-                    <EndValidity>2501050130</EndValidity>
-                    <ItemE>PRESTWICK ATS NOT AVAILABLE DUE STAFFING</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>050120250048</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -21788,31 +21713,6 @@ WHEN DES OR CMB THROUGH THE TRL/ALT DUE TO THE SIGNIFICANT
 DIFFERENCE BTN THE AD QNH AND THE STD PRESSURE SETTING.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>040120251116</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGPK" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>85</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>55</Upper>
-                    </QLine>
-                    <Coordinates>5529N00433W</Coordinates>
-                    <Radius>16</Radius>
-                    <ItemA>EGPK</ItemA>
-                    <StartValidity>2501050045</StartValidity>
-                    <EndValidity>2501050130</EndValidity>
-                    <ItemE>PRESTWICK ATS NOT AVAILABLE DUE STAFFING</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>050120250048</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGPK" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
