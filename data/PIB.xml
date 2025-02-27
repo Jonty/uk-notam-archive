@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000095914826" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000095917079" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-02-27T22:00:15+00:00</ValidFrom>
-            <ValidTo>2025-02-28T22:00:00+00:00</ValidTo>
+            <ValidFrom>2025-02-27T23:00:29+00:00</ValidFrom>
+            <ValidTo>2025-02-28T23:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-02-27T22:00:15+00:00</Issued>
+        <Issued>2025-02-27T23:00:29+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712502271625</PibUid>
+        <PibUid>EG712502271652</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3513,6 +3513,34 @@ OPERATING IN THE VICINITY OF THE AIRPORT - SUP EXTENDED UNTIL 30
 MARCH 2025.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>040220251537</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>1400</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>10</Upper>
+                    </QLine>
+                    <Coordinates>5119N00002E</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGKB</ItemA>
+                    <StartValidity>2502280700</StartValidity>
+                    <EndValidity>2502281300</EndValidity>
+                    <ItemE>UAS OPR PSN WI 170 METRE RADIUS 511921N 0000211E (BOMBARDIER 
+HANGAR ONE, BIGGIN HILL) HGT 400FT AGL, 987FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>987FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270220252252</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -7182,34 +7210,6 @@ REMARKS: THAMES ROAD, SILVERTOWN. END ESTIMATED AUGUST 2027
 UK AIP AD 2.10 REFERS.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>250220251156</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>902</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>6</Upper>
-                    </QLine>
-                    <Coordinates>5132N00001W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGLC</ItemA>
-                    <StartValidity>2502271500</StartValidity>
-                    <EndValidity>2502272300</EndValidity>
-                    <ItemE>UAS OPR WI 0.15NM RADIUS OF 513206N 0000059W (STRATFORD). MAX HGT
-500FT AGL. FOR INFO 01992 924779. AR-2025-1126/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>600FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>200220251134</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -11646,9 +11646,12 @@ ENTERING OR VACATING RWY 25/07.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
-                    <Number>1225</Number>
+                    <Number>1228</Number>
                     <Year>25</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>U</ReferredSeries>
+                    <ReferredNumber>1225</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>NN</Code23>
@@ -11662,13 +11665,17 @@ ENTERING OR VACATING RWY 25/07.</ItemE>
                     <Coordinates>5145N00135W</Coordinates>
                     <Radius>25</Radius>
                     <ItemA>EGVN</ItemA>
-                    <StartValidity>2502271859</StartValidity>
+                    <StartValidity>2502272212</StartValidity>
                     <EndValidity>2505262359</EndValidity>
                     <Estimation>EST</Estimation>
-                    <ItemE>BZN TACAN (111.9 CHAN 56X) IS NOT AVBL.
-MID A+B ARE NOT AVBL.</ItemE>
+                    <ItemE>BZN TACAN (111.9 CHAN 56X) NOT AVBL, AS A RESULT,
+ALL MIDS NOT AVBL
+ALL SIDS NOT AVBL
+ALL STD IFR DEPS NOT AVBL
+MISSED APP PROC AND COMMS FAIL PROC FOR ALL APPS AS PER
+MIL AIP AD2 EGVN K2</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>270220251911</NotamStoreDate>
+                    <NotamStoreDate>270220252212</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -18806,33 +18813,6 @@ ATS. PILOTS ARE ENCOURAGED TO USE THE CARDIFF LISTENING SQUAWK 3636</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>270220251240</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGVN" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>1225</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>NN</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5145N00135W</Coordinates>
-                    <Radius>25</Radius>
-                    <ItemA>EGVN</ItemA>
-                    <StartValidity>2502271859</StartValidity>
-                    <EndValidity>2505262359</EndValidity>
-                    <Estimation>EST</Estimation>
-                    <ItemE>BZN TACAN (111.9 CHAN 56X) IS NOT AVBL.
-MID A+B ARE NOT AVBL.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>270220251911</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGNJ" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
@@ -18874,6 +18854,40 @@ PERIODS IS BY PRIOR ARRANGEMENT WITH TERMINAL SUPERVISOR ON 07718
 524072.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>270220252156</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGVN" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>1228</Number>
+                    <Year>25</Year>
+                    <Type>R</Type>
+                    <ReferredSeries>U</ReferredSeries>
+                    <ReferredNumber>1225</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>NN</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5145N00135W</Coordinates>
+                    <Radius>25</Radius>
+                    <ItemA>EGVN</ItemA>
+                    <StartValidity>2502272212</StartValidity>
+                    <EndValidity>2505262359</EndValidity>
+                    <Estimation>EST</Estimation>
+                    <ItemE>BZN TACAN (111.9 CHAN 56X) NOT AVBL, AS A RESULT,
+ALL MIDS NOT AVBL
+ALL SIDS NOT AVBL
+ALL STD IFR DEPS NOT AVBL
+MISSED APP PROC AND COMMS FAIL PROC FOR ALL APPS AS PER
+MIL AIP AD2 EGVN K2</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270220252212</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -23375,34 +23389,6 @@ HEIGHT 150FT AGL, 182FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>260220251629</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGLC" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>902</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>6</Upper>
-                    </QLine>
-                    <Coordinates>5132N00001W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGLC</ItemA>
-                    <StartValidity>2502271500</StartValidity>
-                    <EndValidity>2502272300</EndValidity>
-                    <ItemE>UAS OPR WI 0.15NM RADIUS OF 513206N 0000059W (STRATFORD). MAX HGT
-500FT AGL. FOR INFO 01992 924779. AR-2025-1126/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>600FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>200220251134</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>D</Series>
@@ -24236,6 +24222,34 @@ OPR IN LOW FLYING AREA 17 WI 2NM RADIUS OF PSN 543739N 0030706W
                     <ItemG>5100FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>270220251604</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGKB" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>1400</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>10</Upper>
+                    </QLine>
+                    <Coordinates>5119N00002E</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGKB</ItemA>
+                    <StartValidity>2502280700</StartValidity>
+                    <EndValidity>2502281300</EndValidity>
+                    <ItemE>UAS OPR PSN WI 170 METRE RADIUS 511921N 0000211E (BOMBARDIER 
+HANGAR ONE, BIGGIN HILL) HGT 400FT AGL, 987FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>987FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>270220252252</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
@@ -26501,31 +26515,6 @@ CONTACT ATC ADMIN ON 028 7181 3314</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>230220251605</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>711</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>75</Upper>
-                    </QLine>
-                    <Coordinates>5502N00720W</Coordinates>
-                    <Radius>14</Radius>
-                    <ItemA>EGAE</ItemA>
-                    <StartValidity>2502272145</StartValidity>
-                    <EndValidity>2502272215</EndValidity>
-                    <ItemE>LONDONDERRY/EGLINTON CTA, ATZ,DEACTIVATED AERODROME CLOSED</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>270220252139</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -26559,32 +26548,6 @@ CONTACT ATC ADMIN ON 028 7181 3314</ItemE>
 (NEWCASTLE). FOR INFO 07742 131833. AR-2024-8649/01.1</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>231220241027</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>7097</Number>
-                    <Year>24</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>LT</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5502N00141W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGNT</ItemA>
-                    <StartValidity>2501052200</StartValidity>
-                    <EndValidity>2503272300</EndValidity>
-                    <ItemD>SUN-THU 2200-2300</ItemD>
-                    <ItemE>AD NOT AVBL AS A DIVERSION/ALTERNATE AERODROME.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>191220241531</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -28128,31 +28091,6 @@ HGT 171FT AGL/229FT AMSL</ItemE>
 LAXFIRTH, VCY TINGWALL AD) MAX HGT 52FT AGL 165FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>270220251406</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGAE" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>711</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>75</Upper>
-                    </QLine>
-                    <Coordinates>5502N00720W</Coordinates>
-                    <Radius>14</Radius>
-                    <ItemA>EGAE</ItemA>
-                    <StartValidity>2502272145</StartValidity>
-                    <EndValidity>2502272215</EndValidity>
-                    <ItemE>LONDONDERRY/EGLINTON CTA, ATZ,DEACTIVATED AERODROME CLOSED</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>270220252139</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGPF" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
