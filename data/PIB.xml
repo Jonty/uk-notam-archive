@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000097084932" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000097087927" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-03-18T05:00:18+00:00</ValidFrom>
-            <ValidTo>2025-03-19T05:00:00+00:00</ValidTo>
+            <ValidFrom>2025-03-18T06:00:43+00:00</ValidFrom>
+            <ValidTo>2025-03-19T06:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-03-18T05:00:18+00:00</Issued>
+        <Issued>2025-03-18T06:00:43+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712503180111</PibUid>
+        <PibUid>EG712503180301</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4702,32 +4702,6 @@ TWY BRAVO AND RWY EDGE U/S DUE WIP.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>150320250823</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>1825</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>105</Upper>
-                    </QLine>
-                    <Coordinates>5123N00310W</Coordinates>
-                    <Radius>22</Radius>
-                    <ItemA>EGFF</ItemA>
-                    <StartValidity>2503172310</StartValidity>
-                    <EndValidity>2503180600</EndValidity>
-                    <ItemE>CARDIFF CTA, CTR AND ATZ DEACTIVATED. CARDIFF ATS NOT AVAILABLE.
-AIRSPACE REVERTS TO CLASS G.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>170320252307</NotamStoreDate>
-                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -5359,6 +5333,23 @@ UK AIP AD 2.2, AD 2.20 REFERS.</ItemE>
             <!--No information received or matching the query-->
             <NotamList/>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001578883</TAMID>
+                    <TAMloc>EGNX</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-03-18T05:42:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGNX</TAMItem>
+                        <TAMItem>03180542 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-03-18T05:43:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-03-18T05:42:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGTR</Code>
@@ -18518,32 +18509,6 @@ ONLY.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>150320251844</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGFF" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>1825</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>105</Upper>
-                    </QLine>
-                    <Coordinates>5123N00310W</Coordinates>
-                    <Radius>22</Radius>
-                    <ItemA>EGFF</ItemA>
-                    <StartValidity>2503172310</StartValidity>
-                    <EndValidity>2503180600</EndValidity>
-                    <ItemE>CARDIFF CTA, CTR AND ATZ DEACTIVATED. CARDIFF ATS NOT AVAILABLE.
-AIRSPACE REVERTS TO CLASS G.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>170320252307</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>K</Series>
@@ -27391,9 +27356,12 @@ CONTACT ATC ADMIN ON 028 7181 3314</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>1769</Number>
+                    <Number>1790</Number>
                     <Year>25</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>C</ReferredSeries>
+                    <ReferredNumber>1769</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
                     <QLine>
                         <FIR>EGPX</FIR>
                         <Code23>MR</Code23>
@@ -27407,19 +27375,22 @@ CONTACT ATC ADMIN ON 028 7181 3314</ItemE>
                     <Coordinates>5502N00141W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGNT</ItemA>
-                    <StartValidity>2503170600</StartValidity>
-                    <EndValidity>2503180600</EndValidity>
-                    <ItemE>RWY 07/25 CONTAINS ONE SECTION OF UNGROOVED RWY.  240M SECTION
+                    <StartValidity>2503180545</StartValidity>
+                    <EndValidity>2503190600</EndValidity>
+                    <ItemE>RWY 07/25 CONTAINS ONE SECTION OF UNGROOVED RWY. 240M SECTION 
 UNGROOVED W OF THE RWY 25 THR. AIP SUP 101/2024 REFERS</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>170320250602</NotamStoreDate>
+                    <NotamStoreDate>180320250556</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>1770</Number>
+                    <Number>1791</Number>
                     <Year>25</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>C</ReferredSeries>
+                    <ReferredNumber>1770</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
                     <QLine>
                         <FIR>EGPX</FIR>
                         <Code23>MO</Code23>
@@ -27433,13 +27404,13 @@ UNGROOVED W OF THE RWY 25 THR. AIP SUP 101/2024 REFERS</ItemE>
                     <Coordinates>5502N00141W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGNT</ItemA>
-                    <StartValidity>2503170634</StartValidity>
-                    <EndValidity>2503180630</EndValidity>
-                    <ItemE>STOP BAR AT D1 NOT AVBL, ACFT ARE TO EXERCISE ADDN CAUTION. OUBD 
-ACFT FOR RWY 25 CAN EXPECT TAXI TO HLDG POINT D2 OR D3 AS DIRECTED 
-BY ATC.</ItemE>
+                    <StartValidity>2503180547</StartValidity>
+                    <EndValidity>2503190600</EndValidity>
+                    <ItemE>STOPBAR AT D1 NOT AVBL. ACFT ARE TO EXERCISE ADDN CAUTION. OUTB 
+ACFT FOR RWY 25 CAN EXPECT TAXI TO HLDG POINT D2 OR D3 AS DIRECTED BY
+ATC.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>170320250634</NotamStoreDate>
+                    <NotamStoreDate>180320250557</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
