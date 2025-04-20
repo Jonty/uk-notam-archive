@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000099170565" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000099172439" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-04-20T10:00:32+00:00</ValidFrom>
-            <ValidTo>2025-04-21T10:00:00+00:00</ValidTo>
+            <ValidFrom>2025-04-20T11:00:12+00:00</ValidFrom>
+            <ValidTo>2025-04-21T11:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-04-20T10:00:32+00:00</Issued>
+        <Issued>2025-04-20T11:00:12+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712504200444</PibUid>
+        <PibUid>EG712504200472</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -10306,8 +10306,33 @@ CHANGED TO 4200FT.</ItemE>
         <ADSection>
             <Code>EGDR</Code>
             <Name>CULDROSE</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>2118</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5005N00515W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGDR</ItemA>
+                    <StartValidity>2504211000</StartValidity>
+                    <EndValidity>2504211600</EndValidity>
+                    <ItemE>AD CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>100420251451</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -12006,35 +12031,6 @@ RHOSNEIGR)MAX HGT 100FT AGL, 125FT AMSL. CTC 07740 334520.</ItemE>
 MAX HGT 123FT AGL/ 160FT AMSL. CTC 07843 648439</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>040420251046</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>2175</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5314N00431W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGOV</ItemA>
-                    <StartValidity>2504181000</StartValidity>
-                    <EndValidity>2504201100</EndValidity>
-                    <ItemD>1000-1100</ItemD>
-                    <ItemE>UAS OPR WI 50M PSN 531403N 0043049W (LLANFAELOG, RHOSNEIGR)
-MAX HGT 393FT AGL/ 430FT AMSL CTC 07894 561685</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>430FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140420251306</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -21195,35 +21191,6 @@ INFO 07405 188200. AR-2025-1944/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>080420251023</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGOV" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>2175</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5314N00431W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGOV</ItemA>
-                    <StartValidity>2504181000</StartValidity>
-                    <EndValidity>2504201100</EndValidity>
-                    <ItemD>1000-1100</ItemD>
-                    <ItemE>UAS OPR WI 50M PSN 531403N 0043049W (LLANFAELOG, RHOSNEIGR)
-MAX HGT 393FT AGL/ 430FT AMSL CTC 07894 561685</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>430FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140420251306</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -25151,6 +25118,31 @@ AMBULANCE AND SAR FLIGHTS.</ItemE>
                     <ItemE>RWY 11 APAPI U/S</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>140420250837</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>1213</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5630N00652W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPU</ItemA>
+                    <StartValidity>2504201315</StartValidity>
+                    <EndValidity>2504201430</EndValidity>
+                    <ItemE>AD CLOSED. NORMAL CALLOUT PROCEDURE FOR AIR AMBULANCE AND SAR.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>200420251005</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
