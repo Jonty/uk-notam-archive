@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000102050622" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000102054462" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-06-03T05:00:06+00:00</ValidFrom>
-            <ValidTo>2025-06-04T05:00:00+00:00</ValidTo>
+            <ValidFrom>2025-06-03T06:00:37+00:00</ValidFrom>
+            <ValidTo>2025-06-04T06:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-06-03T05:00:06+00:00</Issued>
+        <Issued>2025-06-03T06:00:37+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712506030148</PibUid>
+        <PibUid>EG712506030358</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3442,8 +3442,33 @@
         <ADSection>
             <Code>EGNL</Code>
             <Name>WALNEY</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>2958</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>MX</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5408N00316W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGNL</ItemA>
+                    <StartValidity>2506030600</StartValidity>
+                    <EndValidity>2506031800</EndValidity>
+                    <ItemE>TAXIWAY BRAVO NOT AVAILABLE TO FIXED WING AIRCRAFT</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>030620250518</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -8319,9 +8344,12 @@ ACFT THAT ARE NOT DISPLAYING TRANSPONDER INFORMATION.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
-                    <Number>3636</Number>
+                    <Number>3663</Number>
                     <Year>25</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>A</ReferredSeries>
+                    <ReferredNumber>3636</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>FF</Code23>
@@ -8335,11 +8363,11 @@ ACFT THAT ARE NOT DISPLAYING TRANSPONDER INFORMATION.</ItemE>
                     <Coordinates>5134N00042E</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGMC</ItemA>
-                    <StartValidity>2506010950</StartValidity>
-                    <EndValidity>2506030600</EndValidity>
+                    <StartValidity>2506030511</StartValidity>
+                    <EndValidity>2506050600</EndValidity>
                     <ItemE>RFFS DOWNGRADED TO CAT 6.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>010620250950</NotamStoreDate>
+                    <NotamStoreDate>030620250511</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -27177,6 +27205,36 @@ TRA 006 1230-1630 FL195-FL245</ItemE>
                     <ItemG>3000FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>220520251410</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>ENGM</NOF>
+                    <Series>A</Series>
+                    <Number>3185</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>ENXX</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>10</Upper>
+                    </QLine>
+                    <Coordinates>5610N00327E</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>ENOR</ItemA>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2506031500</StartValidity>
+                    <EndValidity>2506032300</EndValidity>
+                    <ItemE>UNMANNED ACFT (VLOS) WILL TAKE PLACE IN EKOFISK HTZ, INSIDE HOD A
+500M ZONE PSN 561000N 0032700E, MAX HGT 1000FT AMSL. EKOFISK IN
+CONTACT WITH PILOT, STATUS AVBL WITH EKOFISK HFIS</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>1000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>030620250529</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
