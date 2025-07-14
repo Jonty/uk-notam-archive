@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000104857385" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000104861042" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-07-14T12:00:58+00:00</ValidFrom>
-            <ValidTo>2025-07-15T12:00:00+00:00</ValidTo>
+            <ValidFrom>2025-07-14T13:00:06+00:00</ValidFrom>
+            <ValidTo>2025-07-15T13:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-07-14T12:00:58+00:00</Issued>
+        <Issued>2025-07-14T13:00:06+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712507141331</PibUid>
+        <PibUid>EG712507141566</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -10502,6 +10502,31 @@ UK AIP EGFH AD 2.4 REFERS</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>100720250848</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>E</Series>
+                    <Number>174</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>MR</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5136N00404W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGFH</ItemA>
+                    <StartValidity>2507141245</StartValidity>
+                    <EndValidity>2507141700</EndValidity>
+                    <ItemE>RWY 04/22 CLSD DUE WIP</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>140720251245</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -13551,33 +13576,8 @@ HGT 89FT AGL/125FT ASML)</ItemE>
         <ADSection>
             <Code>EGUW</Code>
             <Name>WATTISHAM</Name>
-            <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>3584</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>IC</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>I</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5208N00057E</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGUW</ItemA>
-                    <StartValidity>2507140700</StartValidity>
-                    <EndValidity>2507141300</EndValidity>
-                    <ItemE>ILS RWY 23 NOT AVBL</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>170620251223</NotamStoreDate>
-                </Notam>
-            </NotamList>
+            <!--No information received or matching the query-->
+            <NotamList/>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -18999,31 +18999,6 @@ AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>110720251420</NotamStoreDate>
                 </Notam>
-                <Notam OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>B</Series>
-                    <Number>1438</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>ND</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>E</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5051N00045W</Coordinates>
-                    <Radius>25</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2507140900</StartValidity>
-                    <EndValidity>2507141300</EndValidity>
-                    <ItemE>DME GWC/GOODWOOD FREQ 114.75 MHZ CH094Y DME U/S</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140720250808</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGNR" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>L</Series>
@@ -24110,35 +24085,6 @@ LATEST INFO WWW.GLIDINGTASKS.CO.UK OR 07836 284096. AR-2025-5601/01.</ItemE>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>4922</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WM</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>17</Upper>
-                    </QLine>
-                    <Coordinates>5403N00248W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2507141130</StartValidity>
-                    <EndValidity>2507141215</EndValidity>
-                    <ItemE>MODEL ROCKET FIRING WI 1.5NM RADIUS OF 540239N 0024828W
-(LANCASTER). LAUNCH SUBJ ATC CLR. FOR INFO 07834 826209.
-AR-2025-5187/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>1700FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>020720251111</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
                     <Series>F</Series>
                     <Number>1013</Number>
                     <Year>25</Year>
@@ -24632,6 +24578,35 @@ SFC TO 3000FT AGL. FOR INFO 07841 530506. AR-2025-5572/01.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>M</Series>
+                    <Number>4354</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGXX</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>170</Upper>
+                    </QLine>
+                    <Coordinates>5507N00523W</Coordinates>
+                    <Radius>12</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2507150601</StartValidity>
+                    <EndValidity>2507160559</EndValidity>
+                    <ItemE>THE FOLLOWING CAMPBELTOWN DANGER AREA IS ACTIVATED:
+EGD509 0601-16/0559 SFC-17000FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>17000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>140720251213</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>M</Series>
                     <Number>4337</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -24904,61 +24879,6 @@ EGD138D 0730-1630 SFC-9000FT AMSL</ItemE>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>M</Series>
-                    <Number>4341</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGXX</FIR>
-                        <Code23>RD</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>50</Lower>
-                        <Upper>660</Upper>
-                    </QLine>
-                    <Coordinates>5503N00038E</Coordinates>
-                    <Radius>57</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2507150730</StartValidity>
-                    <EndValidity>2507151800</EndValidity>
-                    <ItemE>THE FOLLOWING SOUTHERN COMPLEX DANGER AREAS ARE ACTIVATED:
-EGD323A 0730-0900 FL050-FL660
-EGD323A 0900-1000 FL050-FL660
-EGD323A 1000-1100 FL050-FL660
-EGD323A 1100-1200 FL050-FL660
-EGD323A 1230-1400 FL050-FL660
-EGD323A 1400-1500 FL050-FL660
-EGD323A 1500-1600 FL050-FL660
-EGD323A 1600-1800 FL050-FL660
-EGD323G 1400-1500 FL150-FL660
-EGD323G 1500-1600 FL150-FL660
-EGD323G 1600-1800 FL150-FL660
-EGD323L 0730-0900 FL100-FL660
-EGD323L 0900-1000 FL100-FL660
-EGD323L 1000-1100 FL100-FL660
-EGD323L 1100-1200 FL100-FL660
-EGD323L 1230-1400 FL100-FL660
-EGD323L 1400-1500 FL100-FL660
-EGD323L 1500-1600 FL100-FL660
-EGD323L 1600-1800 FL100-FL660
-EGD323Q 0730-0900 FL100-FL660
-EGD323Q 0900-1000 FL100-FL660
-EGD323Q 1000-1100 FL100-FL660
-EGD323Q 1100-1200 FL100-FL660
-EGD323Q 1230-1400 FL100-FL660
-EGD323Q 1400-1500 FL100-FL660
-EGD323Q 1500-1600 FL100-FL660
-EGD323Q 1600-1800 FL100-FL660</ItemE>
-                    <ItemF>FL050</ItemF>
-                    <ItemG>FL660</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>140720251133</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>M</Series>
                     <Number>4342</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -25122,6 +25042,61 @@ EGD323E 1400-1500 FL050-FL660</ItemE>
                     <ItemG>FL660</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>140720251138</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>M</Series>
+                    <Number>4358</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGXX</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>50</Lower>
+                        <Upper>660</Upper>
+                    </QLine>
+                    <Coordinates>5453N00036E</Coordinates>
+                    <Radius>62</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2507150730</StartValidity>
+                    <EndValidity>2507151800</EndValidity>
+                    <ItemE>THE FOLLOWING SOUTHERN COMPLEX DANGER AREAS ARE ACTIVATED:
+EGD323A 0730-0900 FL050-FL660
+EGD323A 0900-1000 FL050-FL660
+EGD323A 1000-1100 FL050-FL660
+EGD323A 1100-1200 FL050-FL660
+EGD323A 1230-1400 FL050-FL660
+EGD323A 1400-1500 FL050-FL660
+EGD323A 1500-1600 FL050-FL660
+EGD323A 1600-1800 FL050-FL660
+EGD323G 1400-1500 FL150-FL660
+EGD323G 1500-1600 FL150-FL660
+EGD323G 1600-1800 FL150-FL660
+EGD323L 0730-0900 FL100-FL660
+EGD323L 0900-1000 FL100-FL660
+EGD323L 1000-1100 FL100-FL660
+EGD323L 1100-1200 FL100-FL660
+EGD323L 1230-1400 FL100-FL660
+EGD323L 1400-1500 FL100-FL660
+EGD323L 1500-1600 FL100-FL660
+EGD323L 1600-1800 FL100-FL660
+EGD323Q 0730-0900 FL100-FL660
+EGD323Q 0900-1000 FL100-FL660
+EGD323Q 1000-1100 FL100-FL660
+EGD323Q 1100-1200 FL100-FL660
+EGD323Q 1230-1400 FL100-FL660
+EGD323Q 1400-1500 FL100-FL660
+EGD323Q 1500-1600 FL100-FL660
+EGD323Q 1600-1800 FL100-FL660</ItemE>
+                    <ItemF>FL050</ItemF>
+                    <ItemG>FL660</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>140720251227</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGUL" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
@@ -25386,6 +25361,35 @@ ABERPORTH RADAR.</ItemE>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
+                    <Series>M</Series>
+                    <Number>4352</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RM</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>245</Lower>
+                        <Upper>660</Upper>
+                    </QLine>
+                    <Coordinates>5248N00036E</Coordinates>
+                    <Radius>44</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2507150900</StartValidity>
+                    <EndValidity>2507151000</EndValidity>
+                    <ItemE>THE FOLLOWING EAST ANGLIA MILITARY TRAINING AREAS ACTIVATED:
+EAMTA (LOW) 0900-1000 FL245-FL285
+EAMTA (HIGH) 0900-1000 FL285-FL660</ItemE>
+                    <ItemF>FL245</ItemF>
+                    <ItemG>FL660</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>140720251202</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
                     <Series>H</Series>
                     <Number>3772</Number>
                     <Year>25</Year>
@@ -25503,6 +25507,35 @@ AR-2025-5090/02.</ItemE>
                     <ItemG>FL195</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>110720251246</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>M</Series>
+                    <Number>4353</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RM</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>195</Lower>
+                        <Upper>245</Upper>
+                    </QLine>
+                    <Coordinates>5258N00055E</Coordinates>
+                    <Radius>77</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2507151030</StartValidity>
+                    <EndValidity>2507151530</EndValidity>
+                    <ItemE>MILITARY AUTONOMOUS OPERATIONS ARE NOT PERMITTED IN ACCORDANCE
+WITH TRA BEYOND VISUAL LINE OF SIGHT PROCEDURES IN THE FOLLOWING TRA:
+TRA 003 1030-1530 FL195-FL245</ItemE>
+                    <ItemF>FL195</ItemF>
+                    <ItemG>FL245</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>140720251210</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGSC" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
@@ -27876,35 +27909,6 @@ SAR FLIGHTS.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>I</Series>
-                    <Number>2099</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5812N00623W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGPO</ItemA>
-                    <StartValidity>2507141145</StartValidity>
-                    <EndValidity>2507141245</EndValidity>
-                    <ItemE>AERIAL SURVEY BY UAS OPR 0.05NM RADIUS FROM 581203N 0062237W 
-(STORNOWAY HARBOUR) OPERATORS IN CONTACT WITH ATC AT ALL TIMES UP TO 
-A MAXIMUM OF 400FT AGL/ 426FT AMSL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>426FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>120720251208</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
                     <Number>2066</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -28055,6 +28059,31 @@ SERVICE DUE WIP</ItemE>
                     <ItemE>AD BEACON LIGHT U/S</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>020720250940</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>2134</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5630N00652W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPU</ItemA>
+                    <StartValidity>2507141230</StartValidity>
+                    <EndValidity>2507141530</EndValidity>
+                    <ItemE>AD CLSD. NORMAL CALLOUT PROCEDURE FOR AIR AMBULANCE AND SAR.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>140720251201</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -30326,39 +30355,10 @@ NOTAM. AR-2025-5597/01</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>140720251046</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGPO" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>2099</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5812N00623W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGPO</ItemA>
-                    <StartValidity>2507141145</StartValidity>
-                    <EndValidity>2507141245</EndValidity>
-                    <ItemE>AERIAL SURVEY BY UAS OPR 0.05NM RADIUS FROM 581203N 0062237W 
-(STORNOWAY HARBOUR) OPERATORS IN CONTACT WITH ATC AT ALL TIMES UP TO 
-A MAXIMUM OF 400FT AGL/ 426FT AMSL</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>426FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>120720251208</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>M</Series>
-                    <Number>4341</Number>
+                    <Number>4354</Number>
                     <Year>25</Year>
                     <Type>N</Type>
                     <QLine>
@@ -30368,47 +30368,21 @@ A MAXIMUM OF 400FT AGL/ 426FT AMSL</ItemE>
                         <Traffic>IV</Traffic>
                         <Purpose>BO</Purpose>
                         <Scope>W</Scope>
-                        <Lower>50</Lower>
-                        <Upper>660</Upper>
+                        <Lower>0</Lower>
+                        <Upper>170</Upper>
                     </QLine>
-                    <Coordinates>5503N00038E</Coordinates>
-                    <Radius>57</Radius>
-                    <ItemA>EGTT</ItemA>
+                    <Coordinates>5507N00523W</Coordinates>
+                    <Radius>12</Radius>
                     <ItemA>EGPX</ItemA>
-                    <StartValidity>2507150730</StartValidity>
-                    <EndValidity>2507151800</EndValidity>
-                    <ItemE>THE FOLLOWING SOUTHERN COMPLEX DANGER AREAS ARE ACTIVATED:
-EGD323A 0730-0900 FL050-FL660
-EGD323A 0900-1000 FL050-FL660
-EGD323A 1000-1100 FL050-FL660
-EGD323A 1100-1200 FL050-FL660
-EGD323A 1230-1400 FL050-FL660
-EGD323A 1400-1500 FL050-FL660
-EGD323A 1500-1600 FL050-FL660
-EGD323A 1600-1800 FL050-FL660
-EGD323G 1400-1500 FL150-FL660
-EGD323G 1500-1600 FL150-FL660
-EGD323G 1600-1800 FL150-FL660
-EGD323L 0730-0900 FL100-FL660
-EGD323L 0900-1000 FL100-FL660
-EGD323L 1000-1100 FL100-FL660
-EGD323L 1100-1200 FL100-FL660
-EGD323L 1230-1400 FL100-FL660
-EGD323L 1400-1500 FL100-FL660
-EGD323L 1500-1600 FL100-FL660
-EGD323L 1600-1800 FL100-FL660
-EGD323Q 0730-0900 FL100-FL660
-EGD323Q 0900-1000 FL100-FL660
-EGD323Q 1000-1100 FL100-FL660
-EGD323Q 1100-1200 FL100-FL660
-EGD323Q 1230-1400 FL100-FL660
-EGD323Q 1400-1500 FL100-FL660
-EGD323Q 1500-1600 FL100-FL660
-EGD323Q 1600-1800 FL100-FL660</ItemE>
-                    <ItemF>FL050</ItemF>
-                    <ItemG>FL660</ItemG>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2507150601</StartValidity>
+                    <EndValidity>2507160559</EndValidity>
+                    <ItemE>THE FOLLOWING CAMPBELTOWN DANGER AREA IS ACTIVATED:
+EGD509 0601-16/0559 SFC-17000FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>17000FT AMSL</ItemG>
                     <Marker>+</Marker>
-                    <NotamStoreDate>140720251133</NotamStoreDate>
+                    <NotamStoreDate>140720251213</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
@@ -30496,6 +30470,61 @@ EGD513C 1430-1600 SFC-FL100</ItemE>
                     <ItemG>FL230</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>140720251139</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>M</Series>
+                    <Number>4358</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGXX</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>50</Lower>
+                        <Upper>660</Upper>
+                    </QLine>
+                    <Coordinates>5453N00036E</Coordinates>
+                    <Radius>62</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2507150730</StartValidity>
+                    <EndValidity>2507151800</EndValidity>
+                    <ItemE>THE FOLLOWING SOUTHERN COMPLEX DANGER AREAS ARE ACTIVATED:
+EGD323A 0730-0900 FL050-FL660
+EGD323A 0900-1000 FL050-FL660
+EGD323A 1000-1100 FL050-FL660
+EGD323A 1100-1200 FL050-FL660
+EGD323A 1230-1400 FL050-FL660
+EGD323A 1400-1500 FL050-FL660
+EGD323A 1500-1600 FL050-FL660
+EGD323A 1600-1800 FL050-FL660
+EGD323G 1400-1500 FL150-FL660
+EGD323G 1500-1600 FL150-FL660
+EGD323G 1600-1800 FL150-FL660
+EGD323L 0730-0900 FL100-FL660
+EGD323L 0900-1000 FL100-FL660
+EGD323L 1000-1100 FL100-FL660
+EGD323L 1100-1200 FL100-FL660
+EGD323L 1230-1400 FL100-FL660
+EGD323L 1400-1500 FL100-FL660
+EGD323L 1500-1600 FL100-FL660
+EGD323L 1600-1800 FL100-FL660
+EGD323Q 0730-0900 FL100-FL660
+EGD323Q 0900-1000 FL100-FL660
+EGD323Q 1000-1100 FL100-FL660
+EGD323Q 1100-1200 FL100-FL660
+EGD323Q 1230-1400 FL100-FL660
+EGD323Q 1400-1500 FL100-FL660
+EGD323Q 1500-1600 FL100-FL660
+EGD323Q 1600-1800 FL100-FL660</ItemE>
+                    <ItemF>FL050</ItemF>
+                    <ItemG>FL660</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>140720251227</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
