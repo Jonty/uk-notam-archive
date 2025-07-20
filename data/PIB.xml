@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000105277275" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000105279303" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-07-20T19:00:56+00:00</ValidFrom>
-            <ValidTo>2025-07-21T19:00:00+00:00</ValidTo>
+            <ValidFrom>2025-07-20T20:00:19+00:00</ValidFrom>
+            <ValidTo>2025-07-21T20:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000001921664</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-07-20T19:00:56+00:00</Issued>
+        <Issued>2025-07-20T20:00:19+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712507200802</PibUid>
+        <PibUid>EG712507200820</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3700,6 +3700,23 @@ AD 2 EGBB 7-3 EGD206 CARDINGTON REMOVED.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001616169</TAMID>
+                    <TAMloc>EGBB</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-07-20T19:50:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGBB</TAMItem>
+                        <TAMItem>07201950 15 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
+                        <TAMItem/>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-07-20T19:53:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-07-20T19:50:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGLK</Code>
@@ -6073,32 +6090,6 @@ CLOSURE TIME.)</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
-                    <Number>4534</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>105</Upper>
-                    </QLine>
-                    <Coordinates>5401N00438W</Coordinates>
-                    <Radius>21</Radius>
-                    <ItemA>EGNS</ItemA>
-                    <StartValidity>2507201945</StartValidity>
-                    <EndValidity>2507202030</EndValidity>
-                    <ItemE>ISLE OF MAN CTA/CTR/ATZ ACTIVATED. AD AND ATS HR EXTENDED. AD PPR
-ONLY, CONTACT ATC 01624 827548.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>200720251650</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
                     <Number>4471</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -8203,32 +8194,6 @@ DEG MAG 1295M FROM MANCHESTER BARTON ARP) 215FT AGL/289FT AMSL)</ItemE>
 INTERSECTION.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>180720251001</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>4537</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>24</Upper>
-                    </QLine>
-                    <Coordinates>5026N00500W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGHQ</ItemA>
-                    <StartValidity>2507202000</StartValidity>
-                    <EndValidity>2507202030</EndValidity>
-                    <ItemE>NEWQUAY ATZ DEACTIVATED. AD CLOSED. SAR AND HELIMED FLIGHTS MAY
-STILL OPERATE</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>200720251842</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -18644,58 +18609,6 @@ PRIOR ARRANGEMENT WITH TERMINAL SUPERVISOR ON 07718 524072.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>200720251732</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGNS" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>4534</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>105</Upper>
-                    </QLine>
-                    <Coordinates>5401N00438W</Coordinates>
-                    <Radius>21</Radius>
-                    <ItemA>EGNS</ItemA>
-                    <StartValidity>2507201945</StartValidity>
-                    <EndValidity>2507202030</EndValidity>
-                    <ItemE>ISLE OF MAN CTA/CTR/ATZ ACTIVATED. AD AND ATS HR EXTENDED. AD PPR
-ONLY, CONTACT ATC 01624 827548.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>200720251650</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGHQ" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>4537</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>24</Upper>
-                    </QLine>
-                    <Coordinates>5026N00500W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGHQ</ItemA>
-                    <StartValidity>2507202000</StartValidity>
-                    <EndValidity>2507202030</EndValidity>
-                    <ItemE>NEWQUAY ATZ DEACTIVATED. AD CLOSED. SAR AND HELIMED FLIGHTS MAY
-STILL OPERATE</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>200720251842</NotamStoreDate>
-                </Notam>
                 <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
                     <Series>C</Series>
@@ -21704,35 +21617,6 @@ SMALL ARMS RANGE). INCREASE TO AIR DANGER HEIGHT. FOR INFO
                     <ItemG>1500FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>300620251453</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>3937</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>12</Upper>
-                    </QLine>
-                    <Coordinates>5032N00406W</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <StartValidity>2507020900</StartValidity>
-                    <EndValidity>2508312000</EndValidity>
-                    <ItemD>WED SUN 0900-2000</ItemD>
-                    <ItemE>FLYING OF LARGE MODEL ACFT WI 0.62NM RADIUS OF 503151N 0040545W
-(WHITCHURCH). FOR INFO 07594 598362. AR-2025-4291/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>1200FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>060620251113</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
@@ -24939,6 +24823,74 @@ ATC CLR. FOR INFO 07974 112143. AR-2025-5451/01.</ItemE>
                     <ItemG>263FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>260620251349</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>5391</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGXX</FIR>
+                        <Code23>WV</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>30</Upper>
+                    </QLine>
+                    <Coordinates>5511N00119W</Coordinates>
+                    <Radius>127</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2507211900</StartValidity>
+                    <EndValidity>2507211950</EndValidity>
+                    <ItemE>FORMATION TRANSIT BY RED ARROWS ACFT ROUTING:
+571209N 0021153W  ABERDEEN/DYCE               1900
+564925N 0024744W  NW OF BALFIELD              1906
+562220N 0025154W  LEUCHARS                    1910
+560156N 0024117W  S OF NORTH BERWICK          1914
+551806N 0020029W  W OF ROTHBURY               1922
+542817N 0020633W  SE OF BROUGH                1930
+540547N 0014401W  N OF PATELEY BRIDGE         1935
+540212N 0003928W  NW OF WETWANG               1941
+532559N 0002455W  W OF NORTH OWERSBY          1947
+530958N 0003126W  RAF WADDINGTON              1950
+FORMATION PLANS TO TRANSIT AT 250-2000FT AGL. TIMINGS, HGT AND
+ROUTE ARE APRX AND MAY CHANGE DUE TO WX OR OTHER REQUIREMENTS.
+FOR INFO 01522 726707. AR-2025-5587/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>110720251451</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>D</Series>
+                    <Number>1544</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>105</Upper>
+                    </QLine>
+                    <Coordinates>5310N00031W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2507211930</StartValidity>
+                    <EndValidity>2507212030</EndValidity>
+                    <ItemE>DANGER AREA EGD324A WADDINGTON LOW ACTIVATED</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>FL105</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>180720251335</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -29349,35 +29301,6 @@ PULSE HIGH                      0.6469 NM        2302FT AGL</ItemE>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
-                    <Number>5459</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>WY</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>15</Lower>
-                        <Upper>25</Upper>
-                    </QLine>
-                    <Coordinates>5512N00638W</Coordinates>
-                    <Radius>3</Radius>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2507170900</StartValidity>
-                    <EndValidity>2507202000</EndValidity>
-                    <ItemD>0900-2000</ItemD>
-                    <ItemE>AERIAL FILMING FROM AN ACFT WI 2NM RADIUS OF 551200N 0063730W
-(PORTRUSH).  FOR INFO 07709 785525. AR-2025-5634/01.</ItemE>
-                    <ItemF>1500FT AMSL</ItemF>
-                    <ItemG>2500FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>150720250928</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
                     <Number>5685</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -29784,6 +29707,47 @@ LOCATION. FOR INFO 01522 726707 OR 07990 530505. AR-2025-2299/01.</ItemE>
                     <ItemG>8000FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>060620251116</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>5391</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGXX</FIR>
+                        <Code23>WV</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>30</Upper>
+                    </QLine>
+                    <Coordinates>5511N00119W</Coordinates>
+                    <Radius>127</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2507211900</StartValidity>
+                    <EndValidity>2507211950</EndValidity>
+                    <ItemE>FORMATION TRANSIT BY RED ARROWS ACFT ROUTING:
+571209N 0021153W  ABERDEEN/DYCE               1900
+564925N 0024744W  NW OF BALFIELD              1906
+562220N 0025154W  LEUCHARS                    1910
+560156N 0024117W  S OF NORTH BERWICK          1914
+551806N 0020029W  W OF ROTHBURY               1922
+542817N 0020633W  SE OF BROUGH                1930
+540547N 0014401W  N OF PATELEY BRIDGE         1935
+540212N 0003928W  NW OF WETWANG               1941
+532559N 0002455W  W OF NORTH OWERSBY          1947
+530958N 0003126W  RAF WADDINGTON              1950
+FORMATION PLANS TO TRANSIT AT 250-2000FT AGL. TIMINGS, HGT AND
+ROUTE ARE APRX AND MAY CHANGE DUE TO WX OR OTHER REQUIREMENTS.
+FOR INFO 01522 726707. AR-2025-5587/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>110720251451</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
