@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000108233806" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000108237251" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-09-07T10:00:10+00:00</ValidFrom>
-            <ValidTo>2025-09-08T10:00:00+00:00</ValidTo>
+            <ValidFrom>2025-09-07T11:00:30+00:00</ValidFrom>
+            <ValidTo>2025-09-08T11:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-09-07T10:00:10+00:00</Issued>
+        <Issued>2025-09-07T11:00:30+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712509070465</PibUid>
+        <PibUid>EG712509070514</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -7391,8 +7391,34 @@ WITH SRA TO VISUAL APCH WHEN PROMULGATED ON THE ATIS</ItemE>
         <ADSection>
             <Code>EGMD</Code>
             <Name>LYDD</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>5059</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5057N00056E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGMD</ItemA>
+                    <StartValidity>2509021000</StartValidity>
+                    <EndValidity>2509291800</EndValidity>
+                    <ItemD>02-05 08-11 15 21-23 26-27 29 1000-1100 1300-1400 1600-1800</ItemD>
+                    <ItemE>AD CLSD DUE STAFFING</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>130820251458</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -22040,56 +22066,6 @@ JOINING 535532N 0005940W - 535552N 0005805W - 535540N 0005746W -
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
-                    <Number>7318</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGXX</FIR>
-                        <Code23>WV</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>30</Upper>
-                    </QLine>
-                    <Coordinates>5510N00150W</Coordinates>
-                    <Radius>21</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2509071010</StartValidity>
-                    <EndValidity>2509071036</EndValidity>
-                    <ItemE>FORMATION TRANSIT BY RED ARROWS ACFT ROUTING:
-550217N 0014121W  NEWCASTLE                     1010
-550837N 0014553W  S OF MOLESDEN                 1012
-551111N 0015736W  HARTINGTON HALL               1013
-552556N 0020554W  W OF LINHOPE                  1016
-552717N 0015420W  N OF POWBURN                  1017
-551444N 0014520W  LONGHORSLEY                   1019
-551248N 0014523W  S OF HARELAW                  1020
-551111N 0015736W  HARTINGTON HALL               1021
-552556N 0020554W  W OF LINHOPE                  1023
-552714N 0020024W  NW OF INGRAM                  1024
-551151N 0014832W  SE OF NETHERWITTON            1027
-550657N 0014417W  W OF SALTWICK                 1028
-550229N 0014019W  S OF DINNINGTON               1029
-545804N 0013623W  GREAT NORTH RUN               1030
-545509N 0013356W  VCY OF SPRINGWELL             1031
-545256N 0014910W  MEDOMSLEY                     1032
-545229N 0015351W  SHOTLEYFIELD                  1033
-545729N 0015716W  NE OF BROOMHAUGH              1034
-550217N 0014121W  NEWCASTLE                     1036
-FORMATION PLANS TO TRANSIT AT 250-2000FT AGL. TIMINGS, HGT AND
-ROUTE ARE APRX AND MAY CHANGE DUE TO WX OR OTHER REQUIREMENTS.
-FOR INFO 01522 726707. AR-2025-7138/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>3000FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>040920251022</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
                     <Number>7006</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -24409,32 +24385,6 @@ TO/FROM
 APRON SOUTH OF ECHO SHOULD ROUTE VIA TWY ECHO</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>200820251439</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>5952</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>MR</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5439N00613W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGAA</ItemA>
-                    <StartValidity>2509052200</StartValidity>
-                    <EndValidity>2509080400</EndValidity>
-                    <ItemD>2200-0400</ItemD>
-                    <ItemE>RWY 07/25 CLOSED DUE WIP</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>050920251113</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -27849,56 +27799,6 @@ AR-2025-7028/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>010920251417</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGTT" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>H</Series>
-                    <Number>7318</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGXX</FIR>
-                        <Code23>WV</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>W</Scope>
-                        <Lower>0</Lower>
-                        <Upper>30</Upper>
-                    </QLine>
-                    <Coordinates>5510N00150W</Coordinates>
-                    <Radius>21</Radius>
-                    <ItemA>EGTT</ItemA>
-                    <ItemA>EGPX</ItemA>
-                    <StartValidity>2509071010</StartValidity>
-                    <EndValidity>2509071036</EndValidity>
-                    <ItemE>FORMATION TRANSIT BY RED ARROWS ACFT ROUTING:
-550217N 0014121W  NEWCASTLE                     1010
-550837N 0014553W  S OF MOLESDEN                 1012
-551111N 0015736W  HARTINGTON HALL               1013
-552556N 0020554W  W OF LINHOPE                  1016
-552717N 0015420W  N OF POWBURN                  1017
-551444N 0014520W  LONGHORSLEY                   1019
-551248N 0014523W  S OF HARELAW                  1020
-551111N 0015736W  HARTINGTON HALL               1021
-552556N 0020554W  W OF LINHOPE                  1023
-552714N 0020024W  NW OF INGRAM                  1024
-551151N 0014832W  SE OF NETHERWITTON            1027
-550657N 0014417W  W OF SALTWICK                 1028
-550229N 0014019W  S OF DINNINGTON               1029
-545804N 0013623W  GREAT NORTH RUN               1030
-545509N 0013356W  VCY OF SPRINGWELL             1031
-545256N 0014910W  MEDOMSLEY                     1032
-545229N 0015351W  SHOTLEYFIELD                  1033
-545729N 0015716W  NE OF BROOMHAUGH              1034
-550217N 0014121W  NEWCASTLE                     1036
-FORMATION PLANS TO TRANSIT AT 250-2000FT AGL. TIMINGS, HGT AND
-ROUTE ARE APRX AND MAY CHANGE DUE TO WX OR OTHER REQUIREMENTS.
-FOR INFO 01522 726707. AR-2025-7138/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>3000FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>040920251022</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -28303,6 +28203,67 @@ EGD513C 1430-1600 SFC-FL100</ItemE>
                     <ItemG>FL230</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>050920251107</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>M</Series>
+                    <Number>5471</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>550</Upper>
+                    </QLine>
+                    <Coordinates>5837N00204W</Coordinates>
+                    <Radius>49</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2509081030</StartValidity>
+                    <EndValidity>2509081300</EndValidity>
+                    <ItemE>THE FOLLOWING MORAY FIRTH DANGER AREAS ARE ACTIVATED:
+EGD809C 1030-1300 SFC-55000FT AMSL
+EGD809N 1030-1300 SFC-55000FT AMSL
+EGD809S 1030-1300 SFC-55000FT AMSL</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>55000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050920251108</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>M</Series>
+                    <Number>5466</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>100</Lower>
+                        <Upper>660</Upper>
+                    </QLine>
+                    <Coordinates>5640N00006E</Coordinates>
+                    <Radius>72</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2509081045</StartValidity>
+                    <EndValidity>2509081315</EndValidity>
+                    <ItemE>THE FOLLOWING CENTRAL COMPLEX DANGER AREAS ARE ACTIVATED:
+EGD613A 1045-1315 FL100-FL660
+EGD613B 1045-1315 FL100-FL660
+EGD613C 1045-1315 FL100-FL660
+EGD613D 1045-1315 FL100-FL660</ItemE>
+                    <ItemF>FL100</ItemF>
+                    <ItemG>FL660</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050920251106</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
