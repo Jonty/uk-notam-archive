@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000108366511" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000108369838" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-09-09T09:00:03+00:00</ValidFrom>
-            <ValidTo>2025-09-10T09:00:00+00:00</ValidTo>
+            <ValidFrom>2025-09-09T10:00:10+00:00</ValidFrom>
+            <ValidTo>2025-09-10T10:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-09-09T09:00:03+00:00</Issued>
+        <Issued>2025-09-09T10:00:10+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712509091023</PibUid>
+        <PibUid>EG712509091206</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -5720,8 +5720,35 @@ SUN     0600-1945</ItemE>
         <ADSection>
             <Code>EGBP</Code>
             <Name>KEMBLE</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1839</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AC</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>40</Upper>
+                    </QLine>
+                    <Coordinates>5140N00203W</Coordinates>
+                    <Radius>6</Radius>
+                    <ItemA>EGBP</ItemA>
+                    <StartValidity>2509100905</StartValidity>
+                    <EndValidity>2509100950</EndValidity>
+                    <ItemE>TEMPO CTR CLASS D INSTALLED WI 5NM RADIUS OF 514005N 0020325W
+(KEMBLE AD). SFC/4000FT AMSL. CONTROLLING AUTHORITIES: 
+KEMBLE AFIS/BRIZE NORTON ATC. AR-2025-7119/AU6.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040920250959</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -10338,6 +10365,31 @@ LIGHT SIGNALS FROM VISUAL CONTROL POSITION</ItemE>
                     <ItemE>CRANE OPR PSN 500513N 0051429W (CULDROSE AD) 82FT AGL/240FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>200820250916</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>5572</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5005N00515W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGDR</ItemA>
+                    <StartValidity>2509091000</StartValidity>
+                    <EndValidity>2509091130</EndValidity>
+                    <ItemE>AD CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>090920250957</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -17064,6 +17116,177 @@ AR-2025-7152/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>070820251506</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGBP" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1839</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AC</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>40</Upper>
+                    </QLine>
+                    <Coordinates>5140N00203W</Coordinates>
+                    <Radius>6</Radius>
+                    <ItemA>EGBP</ItemA>
+                    <StartValidity>2509100905</StartValidity>
+                    <EndValidity>2509100950</EndValidity>
+                    <ItemE>TEMPO CTR CLASS D INSTALLED WI 5NM RADIUS OF 514005N 0020325W
+(KEMBLE AD). SFC/4000FT AMSL. CONTROLLING AUTHORITIES: 
+KEMBLE AFIS/BRIZE NORTON ATC. AR-2025-7119/AU6.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040920250959</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1840</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>40</Lower>
+                        <Upper>95</Upper>
+                    </QLine>
+                    <Coordinates>5139N00140W</Coordinates>
+                    <Radius>9</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100905</StartValidity>
+                    <EndValidity>2509101007</EndValidity>
+                    <ItemE>TEMPO CTA (CTA 1) CLASS D INSTALLED WI AREA BOUNDED BY:
+514454N 0014947W - 514412N 0014010W - 513945N 0012646W - 
+513911N 0012629W - 513640N 0013011W - 513928N 0015338W - 
+514454N 0014947W. 4000FT AMSL/FL095. CONTROLLING AUTHORITIES: BRIZE 
+NORTON ATC/LONDON AREA CONTROL. AR-2025-7119/AU6.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040920251003</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1844</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>40</Lower>
+                        <Upper>105</Upper>
+                    </QLine>
+                    <Coordinates>5141N00148W</Coordinates>
+                    <Radius>14</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100905</StartValidity>
+                    <EndValidity>2509101007</EndValidity>
+                    <ItemE>TEMPO CTA (CTA 2) CLASS D INSTALLED WI AREA BOUNDED BY:
+515242N 0015604W - 514951N 0013158W - 513945N 0012646W - 
+514412N 0014010W - 514454N 0014947W - 513928N 0015338W - 
+514028N 0020214W - 514117N 0020916W - 514707N 0020509W - 
+515242N 0015604W. 4000FT AMSL/FL105. CONTROLLING AUTHORITIES: BRIZE 
+NORTON ATC/LONDON AREA CONTROL. AR-2025-7119/AU6.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040920251006</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1842</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>75</Lower>
+                        <Upper>195</Upper>
+                    </QLine>
+                    <Coordinates>5156N00205W</Coordinates>
+                    <Radius>10</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100916</StartValidity>
+                    <EndValidity>2509101007</EndValidity>
+                    <ItemE>TEMPO CTA (CTA 3) CLASS D INSTALLED WI AREA BOUNDED BY:
+520412N 0020545W - 515242N 0015604W - 514707N 0020509W - 
+515703N 0021633W - 520412N 0020545W. FL075/FL195. CONTROLLING 
+AUTHORITIES: BRIZE NORTON ATC/LONDON AREA CONTROL. AR-2025-7119/AU6.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040920251004</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1841</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>75</Lower>
+                        <Upper>195</Upper>
+                    </QLine>
+                    <Coordinates>5206N00216W</Coordinates>
+                    <Radius>10</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100916</StartValidity>
+                    <EndValidity>2509101007</EndValidity>
+                    <ItemE>TEMPO CTA (CTA 4) CLASS D INSTALLED WI AREA BOUNDED BY:
+521449N 0021619W - 520412N 0020545W - 515703N 0021633W - 
+520726N 0022746W - 521449N 0021619W. FL075/FL195. CONTROLLING 
+AUTHORITIES: BRIZE NORTON ATC/LONDON AREA CONTROL. AR-2025-7119/AU6.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040920251004</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>1843</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>175</Lower>
+                        <Upper>195</Upper>
+                    </QLine>
+                    <Coordinates>5222N00235W</Coordinates>
+                    <Radius>16</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100916</StartValidity>
+                    <EndValidity>2509101013</EndValidity>
+                    <ItemE>TEMPO CTA (CTA 5) CLASS D INSTALLED WI AREA BOUNDED BY:
+523639N 0024211W - 521449N 0021619W - 520726N 0022746W - 
+522042N 0025007W - 522029N 0024337W - 523028N 0024244W - 
+523639N 0024211W. FL175/FL195. CONTROLLING AUTHORITIES: BRIZE NORTON 
+ATC/LONDON AREA CONTROL. AR-2025-7119/AU6.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>040920251005</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </En-route>
@@ -23108,6 +23331,97 @@ REQUIREMENTS. FOR INFO 01522 726703. AR-2025-6790/04.</ItemE>
                     <ItemG>3000FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>270820251205</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>F</Series>
+                    <Number>1218</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>280</Upper>
+                    </QLine>
+                    <Coordinates>5018N00257W</Coordinates>
+                    <Radius>19</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100900</StartValidity>
+                    <EndValidity>2509101700</EndValidity>
+                    <ItemE>DANGER AREA EGD013 LYME BAY ACTIVATED</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>28000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>080920251018</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>F</Series>
+                    <Number>1219</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>RD</Code23>
+                        <Code45>CA</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>280</Upper>
+                    </QLine>
+                    <Coordinates>5018N00238W</Coordinates>
+                    <Radius>18</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100900</StartValidity>
+                    <EndValidity>2509101700</EndValidity>
+                    <ItemE>DANGER AREA EGD017 PORTLAND ACTIVATED</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>28000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>080920251020</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>7467</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WP</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>190</Upper>
+                    </QLine>
+                    <Coordinates>5251N00046E</Coordinates>
+                    <Radius>21</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2509100900</StartValidity>
+                    <EndValidity>2509160300</EndValidity>
+                    <ItemD>0900-0300</ItemD>
+                    <ItemE>PJE WI 20NM RADIUS OF 525101N 0004610E (SCLUTHORPE ADANDONED AD).
+DROP CONTAINED WI FLW CONE (ALL HGT AGL): 
+SFC-3000FT 3NM RADIUS, 
+3001FT-6000FT 6NM RADIUS, 
+6001FT-9000FT 9NM RADIUS, 
+9001FT-12000FT 12NM RADIUS, 
+12001FT-15000FT 15NM RADIUS, 
+15001FT-18000FT 20NM RADIUS. 
+DROP HGT SUBJ ATC CLR. FOR INFO 07977 834403 OR 07974 112143.
+AR-2025-7234/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>19000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>080920251548</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
