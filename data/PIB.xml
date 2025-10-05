@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000110052358" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000110054179" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-10-05T13:00:21+00:00</ValidFrom>
-            <ValidTo>2025-10-06T13:00:00+00:00</ValidTo>
+            <ValidFrom>2025-10-05T14:00:12+00:00</ValidFrom>
+            <ValidTo>2025-10-06T14:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-10-05T13:00:21+00:00</Issued>
+        <Issued>2025-10-05T14:00:12+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712510050645</PibUid>
+        <PibUid>EG712510050701</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4962,6 +4962,23 @@ BE ACCEPTED UNLESS STRICT PPR OBTAINED FROM AD</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001631439</TAMID>
+                    <TAMloc>EGNX</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-10-05T13:38:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGNX</TAMItem>
+                        <TAMItem>10051338 09 5/5/5 100/100/75 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-10-05T13:40:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-10-05T13:38:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGTR</Code>
@@ -25664,27 +25681,28 @@ AND COM FAILURE.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>I</Series>
-                    <Number>3130</Number>
+                    <Number>3135</Number>
                     <Year>25</Year>
                     <Type>N</Type>
                     <QLine>
                         <FIR>EGPX</FIR>
-                        <Code23>ST</Code23>
-                        <Code45>LC</Code45>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
                         <Traffic>IV</Traffic>
                         <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
+                        <Scope>AE</Scope>
                         <Lower>0</Lower>
-                        <Upper>999</Upper>
+                        <Upper>100</Upper>
                     </QLine>
-                    <Coordinates>5953N00118W</Coordinates>
-                    <Radius>5</Radius>
+                    <Coordinates>5950N00118W</Coordinates>
+                    <Radius>19</Radius>
                     <ItemA>EGPB</ItemA>
-                    <StartValidity>2510051015</StartValidity>
-                    <EndValidity>2510051500</EndValidity>
-                    <ItemE>SUMBURGH TWR CLSD. NO ATC SERVICES AVBL.</ItemE>
+                    <StartValidity>2510051347</StartValidity>
+                    <EndValidity>2510051900</EndValidity>
+                    <ItemE>SUMBURGH CTA CTR DE-ACTIVATED. AD OPEN FOR SAR AND EMERGANCY 
+MOVEMENTS. PPR ONLY</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>051020251018</NotamStoreDate>
+                    <NotamStoreDate>051020251347</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -25763,33 +25781,8 @@ SPOT ONLY OVER RWY 09/27 THEN RWY 13/31 NOT THE TWY.</ItemE>
         <ADSection>
             <Code>EGPC</Code>
             <Name>WICK</Name>
-            <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>2640</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>22</Upper>
-                    </QLine>
-                    <Coordinates>5828N00306W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPC</ItemA>
-                    <StartValidity>2509071300</StartValidity>
-                    <EndValidity>2510211530</EndValidity>
-                    <ItemE>WICK ATZ ACTIVATION AND AD REVISED SUNDAY OPR HR 1330-1530.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>280820251411</NotamStoreDate>
-                </Notam>
-            </NotamList>
+            <!--No information received or matching the query-->
+            <NotamList/>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -26125,31 +26118,6 @@ UK AIP GEN 3.3 REFERS</ItemE>
 99FT AMSL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>050920250906</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGPC" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>2640</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>AZ</Code23>
-                        <Code45>CA</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>22</Upper>
-                    </QLine>
-                    <Coordinates>5828N00306W</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGPC</ItemA>
-                    <StartValidity>2509071300</StartValidity>
-                    <EndValidity>2510211530</EndValidity>
-                    <ItemE>WICK ATZ ACTIVATION AND AD REVISED SUNDAY OPR HR 1330-1530.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>280820251411</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGPA" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -26880,6 +26848,32 @@ AND COM FAILURE.</ItemE>
                     <ItemE>LEUCHARS LOWER AIRSPACE RADAR SERVICE AVAILABLE</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>260920250937</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGPB" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>3135</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>AE</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>100</Upper>
+                    </QLine>
+                    <Coordinates>5950N00118W</Coordinates>
+                    <Radius>19</Radius>
+                    <ItemA>EGPB</ItemA>
+                    <StartValidity>2510051347</StartValidity>
+                    <EndValidity>2510051900</EndValidity>
+                    <ItemE>SUMBURGH CTA CTR DE-ACTIVATED. AD OPEN FOR SAR AND EMERGANCY 
+MOVEMENTS. PPR ONLY</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>051020251347</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGPO" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
