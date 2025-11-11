@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000112029786" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000112032929" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-11-11T08:00:57+00:00</ValidFrom>
-            <ValidTo>2025-11-18T08:00:00+00:00</ValidTo>
+            <ValidFrom>2025-11-11T09:00:57+00:00</ValidFrom>
+            <ValidTo>2025-11-18T09:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-11-11T08:00:57+00:00</Issued>
+        <Issued>2025-11-11T09:00:57+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712511110856</PibUid>
+        <PibUid>EG712511110945</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -6393,6 +6393,34 @@ AR-2025-8006/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>071020250733</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>6090</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WD</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>5</Upper>
+                    </QLine>
+                    <Coordinates>5119N00048W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGLF</ItemA>
+                    <StartValidity>2511180800</StartValidity>
+                    <EndValidity>2511181800</EndValidity>
+                    <ItemE>EXPLOSIVE DEMOLITIONS WI 0.5NM RADIUS OF 511904N 0004747W 
+(BLACKWATER). FOR INFO 01420 483405. AR-2025-7892/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>421FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>021020251012</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -11256,6 +11284,31 @@ FOR INFO 07534 310542. AR-2025-7827/02.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
+                    <Number>7257</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FU</Code23>
+                        <Code45>AU</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5134N00042E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGMC</ItemA>
+                    <StartValidity>2511111900</StartValidity>
+                    <EndValidity>2511120500</EndValidity>
+                    <ItemE>FUEL NOT AVBL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>111120250828</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
                     <Number>7201</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -11341,6 +11394,23 @@ AMSL.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001645837</TAMID>
+                    <TAMloc>EGSY</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-11-11T08:53:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGSY</TAMItem>
+                        <TAMItem>11110853 07 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-11-11T08:54:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-11-11T08:53:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGSG</Code>
@@ -11684,36 +11754,6 @@ FRI: 1715-1840 CAT 7
 SAT: 0710-0835 CAT 7</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>091120251819</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>6974</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>60</Upper>
-                    </QLine>
-                    <Coordinates>5432N00123W</Coordinates>
-                    <Radius>12</Radius>
-                    <ItemA>EGNV</ItemA>
-                    <StartValidity>2511110830</StartValidity>
-                    <EndValidity>2511110900</EndValidity>
-                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AD CLSD. AIRSPACE
-REVERTS TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. 
-HELIMED MAY STILL OPR FM THE HEL EMERG SERVICES BASES. PILOTS 
-TRANSITTING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE 
-SUBJECT TO SHORT NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN 
-BEFORE CLOSURE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>101120251821</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -15562,6 +15602,31 @@ FRI - CLSD</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
+                    <Number>7451</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LT</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5315N00432W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGOV</ItemA>
+                    <StartValidity>2511111040</StartValidity>
+                    <EndValidity>2511111120</EndValidity>
+                    <ItemE>CIRCUIT EMBARGO AT RAF VALLEY</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>111120250842</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
                     <Number>7302</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -15625,31 +15690,6 @@ WITHIN THE FOLLOWING SPECIFIED AREAS: 010 - 050, 190 - 205 AND 290 -
 MAY BE EXPERIENCED.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>311020250613</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>7375</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>MR</Code23>
-                        <Code45>XX</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5310N00031W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGXW</ItemA>
-                    <StartValidity>2511110700</StartValidity>
-                    <EndValidity>2511110900</EndValidity>
-                    <ItemE>FRICTION TESTING ON RWY 20</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>071120250835</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -15854,6 +15894,31 @@ AD ELEVATION 274FT</ItemE>
 HGT 100FT AGL / 200FT AMSL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>051120251359</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>7452</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>SP</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>33</Upper>
+                    </QLine>
+                    <Coordinates>5237N00029W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGXT</ItemA>
+                    <StartValidity>2511110848</StartValidity>
+                    <EndValidity>2511111730</EndValidity>
+                    <ItemE>WITTERING ATS NOT AVBL, AD CLOSED BUT MAY STILL BE ACTIVE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>111120250854</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -21477,35 +21542,30 @@ MAX HGT 46FT AGL/321FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>101120251048</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGNV" OriginalMessage="false" PIBSection="FIR">
+                <Notam Reference="EGXT" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
-                    <Series>C</Series>
-                    <Number>6974</Number>
+                    <Series>U</Series>
+                    <Number>7452</Number>
                     <Year>25</Year>
                     <Type>N</Type>
                     <QLine>
                         <FIR>EGTT</FIR>
-                        <Code23>AE</Code23>
-                        <Code45>CD</Code45>
+                        <Code23>SP</Code23>
+                        <Code45>LC</Code45>
                         <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
+                        <Purpose>BO</Purpose>
                         <Scope>AE</Scope>
                         <Lower>0</Lower>
-                        <Upper>60</Upper>
+                        <Upper>33</Upper>
                     </QLine>
-                    <Coordinates>5432N00123W</Coordinates>
-                    <Radius>12</Radius>
-                    <ItemA>EGNV</ItemA>
-                    <StartValidity>2511110830</StartValidity>
-                    <EndValidity>2511110900</EndValidity>
-                    <ItemE>TEESSIDE INTERNATIONAL CTA/CTR/ATZ DEACTIVATED. AD CLSD. AIRSPACE
-REVERTS TO CLASS G. ATS NOT AVBL DUE MANDATED CONTROLLER BREAKS. 
-HELIMED MAY STILL OPR FM THE HEL EMERG SERVICES BASES. PILOTS 
-TRANSITTING THE AREA ARE ADVISED TO MONITOR 119.805MHZ. TIMES MAY BE 
-SUBJECT TO SHORT NOTICE CHANGE. ALL DEP MUST BE AIRBORNE 10 MIN 
-BEFORE CLOSURE.</ItemE>
+                    <Coordinates>5237N00029W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGXT</ItemA>
+                    <StartValidity>2511110848</StartValidity>
+                    <EndValidity>2511111730</EndValidity>
+                    <ItemE>WITTERING ATS NOT AVBL, AD CLOSED BUT MAY STILL BE ACTIVE.</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>101120251821</NotamStoreDate>
+                    <NotamStoreDate>111120250854</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGGD" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -21616,6 +21676,31 @@ BRIEFING SHEET BFS 062/2025 REFERS. FURTHER DETAILS
 WWW.NATS.AERO/AIS. AR-2025-1913/61.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>071120251206</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>2478</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>SE</Code23>
+                        <Code45>AU</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>100</Upper>
+                    </QLine>
+                    <Coordinates>5206N00157W</Coordinates>
+                    <Radius>40</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2511111000</StartValidity>
+                    <EndValidity>2511111200</EndValidity>
+                    <ItemE>BRIZE RADAR LOWER AIRSPACE RADAR SERVICE NOT AVBL</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>111120250812</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -32133,6 +32218,34 @@ AR-2025-8006/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>311020251407</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGLF" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>6090</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WD</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>5</Upper>
+                    </QLine>
+                    <Coordinates>5119N00048W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGLF</ItemA>
+                    <StartValidity>2511180800</StartValidity>
+                    <EndValidity>2511181800</EndValidity>
+                    <ItemE>EXPLOSIVE DEMOLITIONS WI 0.5NM RADIUS OF 511904N 0004747W 
+(BLACKWATER). FOR INFO 01420 483405. AR-2025-7892/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>421FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>021020251012</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </Warnings>
@@ -34007,31 +34120,6 @@ RADIATE FOR TEST PURPOSES</ItemE>
 20 UPDATED TO RUNWAY DESIGNATORS 01 AND 19. UK AIP ENR 5.1 REFERS.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>021020250156</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>I</Series>
-                    <Number>4036</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGPX</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>6012N00115W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGET</ItemA>
-                    <StartValidity>2511101630</StartValidity>
-                    <EndValidity>2511191700</EndValidity>
-                    <ItemE>AD CLOSED</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>101120251623</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -37891,6 +37979,35 @@ INFO 07502 107645. AR-2025-8983/04.</ItemE>
                     <ItemG>1600FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>061120251504</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>9090</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>WD</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>43</Upper>
+                    </QLine>
+                    <Coordinates>5614N00444W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGPX</ItemA>
+                    <StartValidity>2511120800</StartValidity>
+                    <EndValidity>2511121300</EndValidity>
+                    <ItemE>DEMOLITION OF EXPLOSIVES WILL TAKE PLACE IN LOW FLYING AREA 14 WI
+1NM RADIUS OF PSN 561426N 0044404W (COIREGROGAIN, ARGYLL AND BUTE) 
+MAX HEIGHT 2000FT AGL. ON SITE CTC 07341 122985. 25/11/065/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>4300FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>111120250856</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGQS" OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
