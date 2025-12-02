@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000113332002" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000113335318" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-12-02T07:00:35+00:00</ValidFrom>
-            <ValidTo>2025-12-09T07:00:00+00:00</ValidTo>
+            <ValidFrom>2025-12-02T08:00:00+00:00</ValidFrom>
+            <ValidTo>2025-12-09T08:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-12-02T07:00:35+00:00</Issued>
+        <Issued>2025-12-02T08:00:00+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712512020474</PibUid>
+        <PibUid>EG712512020795</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4805,6 +4805,22 @@ AR-2025-255/01.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001664203</TAMID>
+                    <TAMloc>EGSC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-12-02T07:44:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGSC</TAMItem>
+                        <TAMItem>12020744 05 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-12-02T07:46:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-12-02T07:44:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFF</Code>
@@ -7062,31 +7078,6 @@ TIME.</ItemE>
             <Code>EGBP</Code>
             <Name>KEMBLE</Name>
             <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>6132</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>FA</Code23>
-                        <Code45>LT</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>NBO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5140N00203W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGBP</ItemA>
-                    <StartValidity>2511300742</StartValidity>
-                    <EndValidity>2512020800</EndValidity>
-                    <ItemE>AD NOT AVBL TO VISITING ACFT.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>301120250742</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>L</Series>
@@ -9634,6 +9625,31 @@ STAND 6</ItemE>
                     <ItemE>TERMINAL ONE STAND 6,8,10 CLOSED DUE WIP</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220251659</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>7595</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>IC</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>I</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5321N00217W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGCC</ItemA>
+                    <StartValidity>2512021100</StartValidity>
+                    <EndValidity>2512021400</EndValidity>
+                    <ItemE>ILS RWY 05L/23R OUT OF SERVICE FOR MAINTENANCE</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>021220250747</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -13239,7 +13255,7 @@ HGT 120FT AGL / 342FT AMSL.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
-                    <Number>7885</Number>
+                    <Number>8062</Number>
                     <Year>25</Year>
                     <Type>N</Type>
                     <QLine>
@@ -13255,11 +13271,11 @@ HGT 120FT AGL / 342FT AMSL.</ItemE>
                     <Coordinates>5302N00030W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGYD</ItemA>
-                    <StartValidity>2512020800</StartValidity>
+                    <StartValidity>2512021230</StartValidity>
                     <EndValidity>2512021730</EndValidity>
                     <ItemE>ILS RWY 26 NOT AVBL DUE MAINT</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>251120251140</NotamStoreDate>
+                    <NotamStoreDate>021220250742</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -14903,6 +14919,32 @@ UHF 271.400MHZ PRIMARY 322.500MHZ SECONDARY. FOR INFO
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
+                    <Number>8060</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>AH</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5418N00132W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGXE</ItemA>
+                    <StartValidity>2512050830</StartValidity>
+                    <EndValidity>2512051700</EndValidity>
+                    <ItemE>CHANGE TO AIRFIELD OPENING HR
+05 0830-1700</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>021220250715</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
                     <Number>7946</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -15744,31 +15786,6 @@ L2 RNP RWY 25 AD 2 - EGXT 1-17</ItemE>
 100FT AGL / 200FT AMSL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>281120251214</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>8041</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>33</Upper>
-                    </QLine>
-                    <Coordinates>5237N00029W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGXT</ItemA>
-                    <StartValidity>2512010942</StartValidity>
-                    <EndValidity>2512020800</EndValidity>
-                    <ItemE>WITTERING ATS NOT AVBL, AD CLOSED BUT MAY STILL BE ACTIVE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>011220250944</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -20903,31 +20920,6 @@ AVBL</ItemE>
 AGL/ 338FT AMSL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220250907</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGXT" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
-                    <Number>8041</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LC</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>33</Upper>
-                    </QLine>
-                    <Coordinates>5237N00029W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGXT</ItemA>
-                    <StartValidity>2512010942</StartValidity>
-                    <EndValidity>2512020800</EndValidity>
-                    <ItemE>WITTERING ATS NOT AVBL, AD CLOSED BUT MAY STILL BE ACTIVE.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>011220250944</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGNJ" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -32603,6 +32595,33 @@ MIKE D'ARCY 07870 564844.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>181120251630</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>3358</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5553N00427W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGPF</ItemA>
+                    <StartValidity>2512090700</StartValidity>
+                    <EndValidity>2512091700</EndValidity>
+                    <ItemE>MOBILE CRANE OPR PSN 555248N 0042637W (GLASGOW). MAX HGT 89 FT 
+AGL / 109 FT AMSL (APRX). JIB WILL BE LOWERED IN LVP.  SITE CONTACT 
+GARY WILSON / OMAR GORSTRIDGE 07860 867929.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>151020251029</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -32770,6 +32789,32 @@ AIR AMBULANCE</ItemE>
                     <ItemE>RWY 09 WINDSOCK IS UNLIT. NOT AVBL IN HOURS OF DARKNESS.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220251415</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>4625</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>NM</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5858N00254W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPA</ItemA>
+                    <StartValidity>2512020730</StartValidity>
+                    <EndValidity>2602281745</EndValidity>
+                    <ItemE>VOR/DME KWL/KIRKWALL 108.6MHZ CH23X BOTH PARTS U/S. DVOR MAY 
+RADIATE FOR TEST PURPOSES.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>021220250734</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -35474,6 +35519,33 @@ DEG MAG FM CAMPBELTOWN ARP) MAX HGT 128 AGL/ 151FT AMSL.</ItemE>
 MAG FM CAMPBELTOWN ARP) MAX HGT 125FT AGL / 142FT AMSL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>011220250931</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGPF" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>3358</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5553N00427W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGPF</ItemA>
+                    <StartValidity>2512090700</StartValidity>
+                    <EndValidity>2512091700</EndValidity>
+                    <ItemE>MOBILE CRANE OPR PSN 555248N 0042637W (GLASGOW). MAX HGT 89 FT 
+AGL / 109 FT AMSL (APRX). JIB WILL BE LOWERED IN LVP.  SITE CONTACT 
+GARY WILSON / OMAR GORSTRIDGE 07860 867929.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>151020251029</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
