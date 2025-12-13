@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000114036732" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000114039380" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-12-13T09:00:59+00:00</ValidFrom>
-            <ValidTo>2025-12-20T09:00:00+00:00</ValidTo>
+            <ValidFrom>2025-12-13T10:00:19+00:00</ValidFrom>
+            <ValidTo>2025-12-20T10:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-12-13T09:00:59+00:00</Issued>
+        <Issued>2025-12-13T10:00:19+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712512130431</PibUid>
+        <PibUid>EG712512130530</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -5851,6 +5851,58 @@ INTENDING TO LAND WHEN METAR VISIBILITY IS BELOW 5000M</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>L</Series>
+                    <Number>6404</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>NL</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5154N00210W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGBJ</ItemA>
+                    <StartValidity>2512130900</StartValidity>
+                    <EndValidity>2512131800</EndValidity>
+                    <ItemE>NDB(L) GST/GLOUCESTERSHIRE 331.000KHZ U/S)</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>131220250905</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>6405</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>PI</Code23>
+                        <Code45>AU</Code45>
+                        <Traffic>I</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5154N00210W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGBJ</ItemA>
+                    <StartValidity>2512130914</StartValidity>
+                    <EndValidity>2512131800</EndValidity>
+                    <ItemE>ILS/DME/NDB(L) RWY 27, LOC/DME/NDB(L) RWY 27, NDB(L)/DME RWY 27,
+NDB(L)/DME RWY 09 AND NDB(L) AD INSTRUMENT APPROACHES NOT AVBL DUE 
+NDB(L) GST/GLOUCESTERSHIRE U/S</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>131220250934</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
                     <Number>6374</Number>
                     <Year>25</Year>
                     <Type>N</Type>
@@ -5876,6 +5928,23 @@ AMSL.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001673422</TAMID>
+                    <TAMloc>EGBJ</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-12-13T09:03:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGBJ</TAMItem>
+                        <TAMItem>12130903 09 5/5/5 50/100/50 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>12130903 04 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-12-13T09:04:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-12-13T09:03:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFE</Code>
@@ -5973,34 +6042,6 @@ TOWER PROVIDING A BASIC SERVICE ONLY.</ItemE>
 HAWARDEN ARP) MAX HGT 78FT AMSL, 50FT AGL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>051220251030</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>6301</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LT</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>45</Upper>
-                    </QLine>
-                    <Coordinates>5308N00302W</Coordinates>
-                    <Radius>11</Radius>
-                    <ItemA>EGNR</ItemA>
-                    <StartValidity>2512130830</StartValidity>
-                    <EndValidity>2512130930</EndValidity>
-                    <ItemE>DUE TO STAFF SHORTAGE HAWARDEN RADAR SERVICE WILL BE UNAVAILABLE.
-HAWARDEN RADIO MANDATORY ZONE CRITERIA APPLY. HAWARDEN RADAR
-FREQUENCY 120.055 WILL BE BAND-BOXED WITH HAWARDEN TOWER PROVIDING A 
-BASIC SERVICE ONLY.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>081220251436</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -7180,6 +7221,35 @@ AR-2025-9754/01.</ItemE>
                     <ItemG>700FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>051220251044</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>7660</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>6</Upper>
+                    </QLine>
+                    <Coordinates>5325N00300W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGGP</ItemA>
+                    <StartValidity>2512200900</StartValidity>
+                    <EndValidity>2512201700</EndValidity>
+                    <ItemE>UAS OPR WI 0.3NM RADIUS OF 532516N 0030007W (VAUXHALL, 
+LIVERPOOL). MAX HGT 500FT AGL. FOR INFO 01992 924779. 
+AR-2025-9766/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>600FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>051220251046</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -10398,6 +10468,31 @@ UK AIP EGKA AD 2.12 AND AD 2.EGKA-2-1 REFER.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>091220251718</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>7772</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FF</Code23>
+                        <Code45>CG</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5050N00018W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGKA</ItemA>
+                    <StartValidity>2512130900</StartValidity>
+                    <EndValidity>2512131300</EndValidity>
+                    <ItemE>RFFS DOWNGRADED TO CAT 1</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>131220250904</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -10813,6 +10908,23 @@ AMSL.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001673425</TAMID>
+                    <TAMloc>EGSY</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2025-12-13T09:05:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGSY</TAMItem>
+                        <TAMItem>12130905 07 5/5/5 NR/NR/NR NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                    </TAMItemList>
+                    <TAMUpdateTime>2025-12-13T09:05:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2025-12-13T09:05:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGSG</Code>
@@ -12755,6 +12867,31 @@ INFO 01400 267377. AR-2025-9010/03.</ItemE>
                     <ItemG>1300FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>181120251433</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>8138</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5302N00030W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGYD</ItemA>
+                    <StartValidity>2512200900</StartValidity>
+                    <EndValidity>2601040700</EndValidity>
+                    <ItemE>AD CLSD.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>041220250934</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -20785,34 +20922,6 @@ TERMINAL SUPERVISOR ON 07718 524072</ItemE>
 HAWARDEN ARP) MAX HGT 78FT AMSL, 50FT AGL.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>051220251030</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGNR" OriginalMessage="false" PIBSection="FIR">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>6301</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>SP</Code23>
-                        <Code45>LT</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AE</Scope>
-                        <Lower>0</Lower>
-                        <Upper>45</Upper>
-                    </QLine>
-                    <Coordinates>5308N00302W</Coordinates>
-                    <Radius>11</Radius>
-                    <ItemA>EGNR</ItemA>
-                    <StartValidity>2512130830</StartValidity>
-                    <EndValidity>2512130930</EndValidity>
-                    <ItemE>DUE TO STAFF SHORTAGE HAWARDEN RADAR SERVICE WILL BE UNAVAILABLE.
-HAWARDEN RADIO MANDATORY ZONE CRITERIA APPLY. HAWARDEN RADAR
-FREQUENCY 120.055 WILL BE BAND-BOXED WITH HAWARDEN TOWER PROVIDING A 
-BASIC SERVICE ONLY.</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>081220251436</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGNR" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
@@ -30969,6 +31078,64 @@ AR-2025-9589/01.</ItemE>
                     <ItemG>800FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>051220251101</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGGP" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>A</Series>
+                    <Number>7660</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>6</Upper>
+                    </QLine>
+                    <Coordinates>5325N00300W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGGP</ItemA>
+                    <StartValidity>2512200900</StartValidity>
+                    <EndValidity>2512201700</EndValidity>
+                    <ItemE>UAS OPR WI 0.3NM RADIUS OF 532516N 0030007W (VAUXHALL, 
+LIVERPOOL). MAX HGT 500FT AGL. FOR INFO 01992 924779. 
+AR-2025-9766/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>600FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>051220251046</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>9509</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WU</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>13</Upper>
+                    </QLine>
+                    <Coordinates>5211N00025W</Coordinates>
+                    <Radius>2</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2512200900</StartValidity>
+                    <EndValidity>2602261500</EndValidity>
+                    <ItemD>0900-1500</ItemD>
+                    <ItemE>FLYING OF LARGE MODEL ACFT WI 1NM RADIUS OF 521126N 0002448W
+(RAVENSDEN).  FOR INFO 07876 200320. AR-2025-9799/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>1300FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>081220251114</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
