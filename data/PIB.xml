@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000114572753" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000114575102" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2025-12-21T14:00:25+00:00</ValidFrom>
-            <ValidTo>2025-12-28T14:00:00+00:00</ValidTo>
+            <ValidFrom>2025-12-21T15:00:34+00:00</ValidFrom>
+            <ValidTo>2025-12-28T15:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2025-12-21T14:00:25+00:00</Issued>
+        <Issued>2025-12-21T15:00:34+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712512210589</PibUid>
+        <PibUid>EG712512210645</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -10834,6 +10834,33 @@ HGT 129FT AGL/155FT AMSL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>181220251134</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>6585</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5215N00253W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGBS</ItemA>
+                    <StartValidity>2512211430</StartValidity>
+                    <EndValidity>2512211700</EndValidity>
+                    <ItemE>AD CLOSED TO ALL AIRCRAFT EXCEPT, AIR AMBULANCE, POLICE, 
+UTILITIES,
+MILITARY.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>211220251414</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -11492,9 +11519,12 @@ UK AIP AD 2.EGMC-5-1 AND AD 2.EGMC-8-7 REFER.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>L</Series>
-                    <Number>6572</Number>
+                    <Number>6586</Number>
                     <Year>25</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>L</ReferredSeries>
+                    <ReferredNumber>6572</ReferredNumber>
+                    <ReferredYear>25</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>OL</Code23>
@@ -11508,11 +11538,11 @@ UK AIP AD 2.EGMC-5-1 AND AD 2.EGMC-8-7 REFER.</ItemE>
                     <Coordinates>5124N00326W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGSY</ItemA>
-                    <StartValidity>2512201520</StartValidity>
-                    <EndValidity>2512211700</EndValidity>
-                    <ItemE>OBSTRUCTION LIGHTS ON SOUTH SIDE OF AD U/S.</ItemE>
+                    <StartValidity>2512211430</StartValidity>
+                    <EndValidity>2512221700</EndValidity>
+                    <ItemE>OBSTRUCTION LIGHTS ON SOUTH SIDE OF AD U/S</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>201220251526</NotamStoreDate>
+                    <NotamStoreDate>211220251430</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -13002,6 +13032,31 @@ AGL, 375FT AMSL.</ItemE>
                     <ItemE>ALS INOP. HALF/EVERY OTHER HIGH INTENSITY APROACH LIGHT RWY 25 U/S</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>271120252315</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>8624</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>CP</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>I</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5145N00135W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGVN</ItemA>
+                    <StartValidity>2512211439</StartValidity>
+                    <EndValidity>2601050700</EndValidity>
+                    <ItemE>PRECISION APPROACH RADAR NOT AVAILABLE</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>211220251450</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -21240,6 +21295,31 @@ HEIGHT 380FT AMSL, 144FT AGL.</ItemE>
                     <ItemE>BOSCOMBE LOWER AIRSPACE RADAR SERVICE NOT AVBL</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>111220251344</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>B</Series>
+                    <Number>2760</Number>
+                    <Year>25</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>SE</Code23>
+                        <Code45>AU</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>E</Scope>
+                        <Lower>0</Lower>
+                        <Upper>100</Upper>
+                    </QLine>
+                    <Coordinates>5145N00135W</Coordinates>
+                    <Radius>40</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2512220900</StartValidity>
+                    <EndValidity>2512261700</EndValidity>
+                    <ItemE>BRIZE NORTON LOWER AIRSPACE RADAR SERVICE NOT AVAILABLE</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>211220251446</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGBJ" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
