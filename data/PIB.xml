@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000115244611" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000115247357" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2026-01-02T06:00:36+00:00</ValidFrom>
-            <ValidTo>2026-01-09T06:00:00+00:00</ValidTo>
+            <ValidFrom>2026-01-02T07:00:36+00:00</ValidFrom>
+            <ValidTo>2026-01-09T07:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2026-01-02T06:00:36+00:00</Issued>
+        <Issued>2026-01-02T07:00:36+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712601020339</PibUid>
+        <PibUid>EG712601020480</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3571,8 +3571,51 @@ UK AIP AD 2.17, AD 2.18, AD 2.24 REFERS.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>171220251523</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>C</Series>
+                    <Number>15</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FU</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5120N00002E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGKB</ItemA>
+                    <StartValidity>2601020600</StartValidity>
+                    <EndValidity>2601021200</EndValidity>
+                    <ItemE>SELF SERVE FUEL CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>020120260608</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001692326</TAMID>
+                    <TAMloc>EGKB</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-02T06:00:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGKB</TAMItem>
+                        <TAMItem>01020600 03 3/3/3 100/100/100 10/10/10 DRY SNOW/DRY SNOW/DRY SNOW</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 03 CHEMICAL TREATMENT.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-02T06:26:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:00:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGBB</Code>
@@ -5179,20 +5222,20 @@ UNRELIABLE AND NOT FOR OPERATIONAL USE</ItemE>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
-                    <TAMID>400000001692196</TAMID>
+                    <TAMID>400000001692444</TAMID>
                     <TAMloc>EGNX</TAMloc>
                     <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2026-01-02T04:43:00+00:00</TAMItemB>
+                    <TAMItemB>2026-01-02T04:38:00+00:00</TAMItemB>
                     <TAMYear>0</TAMYear>
                     <TAMNationalLetter>EG</TAMNationalLetter>
                     <TAMItemList>
                         <TAMItem>EGNX</TAMItem>
-                        <TAMItem>01020443 09 2/2/2 100/100/100 NR/NR/NR DRY SNOW/WET SNOW/WET SNOW</TAMItem>
+                        <TAMItem>01020438 09 3/3/3 100/100/100 05/05/05 WET SNOW/WET SNOW/WET SNOW</TAMItem>
                         <TAMItem/>
                         <TAMItem>RWY 09 CHEMICALLY TREATED.</TAMItem>
                     </TAMItemList>
-                    <TAMUpdateTime>2026-01-02T04:45:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2026-01-02T04:43:00+00:00</TamObservationTime>
+                    <TAMUpdateTime>2026-01-02T06:55:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T04:38:00+00:00</TamObservationTime>
                 </TAMMessage>
             </Snowtam>
         </ADSection>
@@ -5463,6 +5506,24 @@ FOR ROTARY TFC WEST OF APRON 24 TO EAST OF STAND 2.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001692450</TAMID>
+                    <TAMloc>EGLF</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-02T06:30:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGLF</TAMItem>
+                        <TAMItem>01020630 06 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 06 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-02T06:57:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:30:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGCL</Code>
@@ -5821,6 +5882,24 @@ HUMBERSIDE ARP). MAX HGT 148FT AGL, 289FT AMSL.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001692452</TAMID>
+                    <TAMloc>EGNJ</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-02T06:36:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGNJ</TAMItem>
+                        <TAMItem>01020636 02 6/5/6 NR/25/NR NR/NR/NR DRY/WET/DRY</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 02 CHEMICALLY TREATED. RMK/ 02 TREATED WITH PRILLS.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-02T06:57:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:36:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGNS</Code>
@@ -6048,6 +6127,25 @@ CLOSURE TIME.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001692422</TAMID>
+                    <TAMloc>EGNS</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-02T06:35:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGNS</TAMItem>
+                        <TAMItem>01020635 03 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>01020635 08 5/5/1 100/100/50 NR/NR/NR WET/WET/ICE</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 08 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-02T06:49:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:35:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGBP</Code>
@@ -6835,20 +6933,20 @@ FOR INFO 07340 229557. AR-2025-9337/02.</ItemE>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
-                    <TAMID>400000001691933</TAMID>
+                    <TAMID>400000001692402</TAMID>
                     <TAMloc>EGKK</TAMloc>
                     <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2026-01-01T22:50:00+00:00</TAMItemB>
+                    <TAMItemB>2026-01-02T06:40:00+00:00</TAMItemB>
                     <TAMYear>0</TAMYear>
                     <TAMNationalLetter>EG</TAMNationalLetter>
                     <TAMItemList>
                         <TAMItem>EGKK</TAMItem>
-                        <TAMItem>01012250 08R 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>01020640 08R 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
                         <TAMItem/>
                         <TAMItem>RWY 08R CHEMICALLY TREATED.</TAMItem>
                     </TAMItemList>
-                    <TAMUpdateTime>2026-01-01T22:55:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2026-01-01T22:50:00+00:00</TamObservationTime>
+                    <TAMUpdateTime>2026-01-02T06:42:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:40:00+00:00</TamObservationTime>
                 </TAMMessage>
             </Snowtam>
         </ADSection>
@@ -7372,6 +7470,25 @@ WILL ONLY OPR WHEN RWY 09L/27R IS CLOSED. CRANE REF 20251211329</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001692413</TAMID>
+                    <TAMloc>EGLL</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-02T06:46:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGLL</TAMItem>
+                        <TAMItem>01020646 09L 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>01020646 09R 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 09L CHEMICALLY TREATED. RWY 09R CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-02T06:48:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:46:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGGW</Code>
@@ -8064,21 +8181,21 @@ AR-2025-9832/01.</ItemE>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
-                    <TAMID>400000001692054</TAMID>
+                    <TAMID>400000001692364</TAMID>
                     <TAMloc>EGCC</TAMloc>
                     <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2026-01-02T02:29:00+00:00</TAMItemB>
+                    <TAMItemB>2026-01-02T06:30:00+00:00</TAMItemB>
                     <TAMYear>0</TAMYear>
                     <TAMNationalLetter>EG</TAMNationalLetter>
                     <TAMItemList>
                         <TAMItem>EGCC</TAMItem>
-                        <TAMItem>01020229 05L 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
-                        <TAMItem>01020229 05R 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>01020630 05L 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>01020630 05R 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
                         <TAMItem/>
-                        <TAMItem>RWY 05L CHEMICALLY TREATED.</TAMItem>
+                        <TAMItem>RWY 05L CHEMICALLY TREATED. RWY 05R CHEMICALLY TREATED.</TAMItem>
                     </TAMItemList>
-                    <TAMUpdateTime>2026-01-02T02:33:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2026-01-02T02:29:00+00:00</TamObservationTime>
+                    <TAMUpdateTime>2026-01-02T06:31:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:30:00+00:00</TamObservationTime>
                 </TAMMessage>
             </Snowtam>
         </ADSection>
@@ -24837,6 +24954,24 @@ MARSHALLERS INSTRUCTIONS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001692335</TAMID>
+                    <TAMloc>EGAC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-02T06:07:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGAC</TAMItem>
+                        <TAMItem>01020607 04 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 04 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-02T06:11:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T06:07:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGPL</Code>
