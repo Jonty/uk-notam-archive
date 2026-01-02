@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000115231708" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000115234442" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2026-01-02T00:00:21+00:00</ValidFrom>
-            <ValidTo>2026-01-09T00:00:00+00:00</ValidTo>
+            <ValidFrom>2026-01-02T01:00:46+00:00</ValidFrom>
+            <ValidTo>2026-01-09T01:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2026-01-02T00:00:21+00:00</Issued>
+        <Issued>2026-01-02T01:00:46+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712601020001</PibUid>
+        <PibUid>EG712601020037</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3662,6 +3662,24 @@ MAX HGT 500FT AGL. FOR INFO 01992 924779. AR-2025-9824/01.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001691984</TAMID>
+                    <TAMloc>EGBB</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-02T00:30:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGBB</TAMItem>
+                        <TAMItem>01020030 15 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY CHEMICAL TREATMENT.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-02T00:33:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-02T00:30:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGLK</Code>
@@ -3994,24 +4012,6 @@ CONDITIONS AND/OR LVP.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001691663</TAMID>
-                    <TAMloc>EGGD</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2026-01-01T16:29:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGGD</TAMItem>
-                        <TAMItem>01011629 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>RWY 09 CHEMICALLY TREATED.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2026-01-01T16:45:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2026-01-01T16:29:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGCK</Code>
@@ -4876,37 +4876,8 @@ FOR TAXIING ACFT. CONTACT DUTY OFFICER FOR FURTHER INFO.</ItemE>
         <ADSection>
             <Code>EGSR</Code>
             <Name>EARLS COLNE</Name>
-            <NotamList>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>4486</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>XX</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5154N00040E</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGSR</ItemA>
-                    <StartValidity>2511271600</StartValidity>
-                    <EndValidity>2601020001</EndValidity>
-                    <ItemD>1600-0001</ItemD>
-                    <ItemE>SEARCHLIGHT DISPLAY WI 1NM RADIUS OF 515351N 0004026E (COGGESHALL)
-FOR INFO 07917 669060 AR-2025-2338/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>UNL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>290820251959</NotamStoreDate>
-                </Notam>
-            </NotamList>
+            <!--No information received or matching the query-->
+            <NotamList/>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -21533,35 +21504,6 @@ SCHEDULE CALL 07826 918598. AR-2025-9394/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>101120251034</NotamStoreDate>
                 </Notam>
-                <Notam Reference="EGSR" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>L</Series>
-                    <Number>4486</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>XX</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>M</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5154N00040E</Coordinates>
-                    <Radius>2</Radius>
-                    <ItemA>EGSR</ItemA>
-                    <StartValidity>2511271600</StartValidity>
-                    <EndValidity>2601020001</EndValidity>
-                    <ItemD>1600-0001</ItemD>
-                    <ItemE>SEARCHLIGHT DISPLAY WI 1NM RADIUS OF 515351N 0004026E (COGGESHALL)
-FOR INFO 07917 669060 AR-2025-2338/01.</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>UNL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>290820251959</NotamStoreDate>
-                </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
@@ -25906,24 +25848,6 @@ UK AIP EGPE AD 2.3 REFERS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
-            <Snowtam>
-                <TAMMessage>
-                    <TAMID>400000001691654</TAMID>
-                    <TAMloc>EGPE</TAMloc>
-                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2026-01-01T16:09:00+00:00</TAMItemB>
-                    <TAMYear>0</TAMYear>
-                    <TAMNationalLetter>EG</TAMNationalLetter>
-                    <TAMItemList>
-                        <TAMItem>EGPE</TAMItem>
-                        <TAMItem>01011609 05 5/5/5 NR/NR/NR NR/NR/NR WET/WET/WET</TAMItem>
-                        <TAMItem/>
-                        <TAMItem>ISOLATED ICE PATCHES ALPHA AND GOLF TAXIWAYS.</TAMItem>
-                    </TAMItemList>
-                    <TAMUpdateTime>2026-01-01T16:14:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2026-01-01T16:09:00+00:00</TamObservationTime>
-                </TAMMessage>
-            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGPI</Code>
