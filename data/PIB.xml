@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000115419745" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000115422483" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2026-01-05T06:00:41+00:00</ValidFrom>
-            <ValidTo>2026-01-12T06:00:00+00:00</ValidTo>
+            <ValidFrom>2026-01-05T07:00:36+00:00</ValidFrom>
+            <ValidTo>2026-01-12T07:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002226375</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2026-01-05T06:00:41+00:00</Issued>
+        <Issued>2026-01-05T07:00:36+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712601050381</PibUid>
+        <PibUid>EG712601050531</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -3976,6 +3976,24 @@ UK AIP EGHH AD 2.21 REFERS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001697715</TAMID>
+                    <TAMloc>EGHH</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-05T06:26:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGHH</TAMItem>
+                        <TAMItem>01050626 08 5/5/5 75/75/75 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 08 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-05T06:37:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T06:26:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGGD</Code>
@@ -4405,6 +4423,23 @@ AIRSPACE REVERTS TO CLASS G.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001697699</TAMID>
+                    <TAMloc>EGFF</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-05T06:25:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGFF</TAMItem>
+                        <TAMItem>01050625 12 5/5/5 75/75/75 NR/NR/NR FROST/FROST/FROST</TAMItem>
+                        <TAMItem/>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-05T06:26:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T06:25:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGNC</Code>
@@ -5438,6 +5473,24 @@ CIRCUIT FLYING NOT AVBL AND NORMAL OUT OF HR PROCEDURES APPLY.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001697743</TAMID>
+                    <TAMloc>EGLF</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-05T06:30:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGLF</TAMItem>
+                        <TAMItem>01050630 06 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 06 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-05T06:53:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T06:30:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGCL</Code>
@@ -6578,9 +6631,12 @@ SNOW</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>A</Series>
-                    <Number>33</Number>
+                    <Number>34</Number>
                     <Year>26</Year>
-                    <Type>N</Type>
+                    <Type>R</Type>
+                    <ReferredSeries>A</ReferredSeries>
+                    <ReferredNumber>33</ReferredNumber>
+                    <ReferredYear>26</ReferredYear>
                     <QLine>
                         <FIR>EGTT</FIR>
                         <Code23>FA</Code23>
@@ -6594,11 +6650,12 @@ SNOW</ItemE>
                     <Coordinates>5320N00251W</Coordinates>
                     <Radius>5</Radius>
                     <ItemA>EGGP</ItemA>
-                    <StartValidity>2601050545</StartValidity>
-                    <EndValidity>2601050715</EndValidity>
+                    <StartValidity>2601050638</StartValidity>
+                    <EndValidity>2601050900</EndValidity>
+                    <Estimation>EST</Estimation>
                     <ItemE>AD CLOSED DUE ICE</ItemE>
                     <Marker>+</Marker>
-                    <NotamStoreDate>050120260550</NotamStoreDate>
+                    <NotamStoreDate>050120260638</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -6698,6 +6755,24 @@ AR-2025-9833/01.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001697690</TAMID>
+                    <TAMloc>EGLC</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-05T06:30:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGLC</TAMItem>
+                        <TAMItem>01050630 09 5/5/5 100/100/100 NR/NR/NR WET/WET/WET 30</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 09 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-05T06:20:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T06:30:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGKK</Code>
@@ -8890,6 +8965,24 @@ UK AIP AD 2.EGTK-2-1/2-2 REFERS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001697726</TAMID>
+                    <TAMloc>EGTK</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-05T06:40:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGTK</TAMItem>
+                        <TAMItem>01050640 01 5/5/5 100/100/100 NR/NR/NR DRY SNOW/DRY SNOW/DRY SNOW</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>ALL TWYS POOR. ALL APRONS POOR. TREATMENT IN PROGRESS.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-05T06:43:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T06:40:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGFP</Code>
@@ -11300,31 +11393,6 @@ ZONE UHF 256.000 CHANGED TO 256.475</ItemE>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
                     <Series>U</Series>
-                    <Number>8624</Number>
-                    <Year>25</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>CP</Code23>
-                        <Code45>AS</Code45>
-                        <Traffic>I</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>A</Scope>
-                        <Lower>0</Lower>
-                        <Upper>999</Upper>
-                    </QLine>
-                    <Coordinates>5145N00135W</Coordinates>
-                    <Radius>5</Radius>
-                    <ItemA>EGVN</ItemA>
-                    <StartValidity>2512211439</StartValidity>
-                    <EndValidity>2601050700</EndValidity>
-                    <ItemE>PRECISION APPROACH RADAR NOT AVAILABLE</ItemE>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>211220251450</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>U</Series>
                     <Number>8697</Number>
                     <Year>25</Year>
                     <Type>R</Type>
@@ -12113,6 +12181,31 @@ EAST LOOP RESTRICETED TO DAYTIME OPERATIONS ONLY</ItemE>
 SPRAYING BEGINS</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>040120261647</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>41</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>MR</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5141N00147W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGVA</ItemA>
+                    <StartValidity>2601050632</StartValidity>
+                    <EndValidity>2601051800</EndValidity>
+                    <ItemE>RUNWAY 09/27 SURFACE CONDITION IS WET WITH NO STANDING WATER</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050120260632</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -13012,6 +13105,32 @@ TRUCKS. EXPECT DELAYS DUE DOUBLED GROUND REFUELING TIMES.</ItemE>
 LESS THAN 1/10TH INCH STANDING WATER.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>050120260356</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>U</Series>
+                    <Number>40</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>XX</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5222N00029E</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGUN</ItemA>
+                    <StartValidity>2601050617</StartValidity>
+                    <EndValidity>2601052200</EndValidity>
+                    <ItemE>SNOW REMOVAL OPERATIONS IN PROGRESS, EXPECT ARRIVAL/DEPARTURE
+DELAYS.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050120260620</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -24664,6 +24783,24 @@ UK AIP EGPE AD 2.3 REFERS.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001697712</TAMID>
+                    <TAMloc>EGPE</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-05T06:30:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGPE</TAMItem>
+                        <TAMItem>01050630 05 5/5/5 NR/NR/NR NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 05 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-05T06:31:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T06:30:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGPI</Code>
@@ -24924,6 +25061,25 @@ OTHER GENERAL AVIATION OR TRAINING FLIGHTS IS 1 HOUR. CTC ATC ADMIN
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001697619</TAMID>
+                    <TAMloc>EGAE</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-01-05T05:51:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGAE</TAMItem>
+                        <TAMItem>01050551 08 1/1/1 100/100/100 03/03/03 WET SNOW ON TOP OF ICE/WET</TAMItem>
+                        <TAMItem>SNOW ON TOP OF ICE/WET SNOW ON TOP OF ICE 44</TAMItem>
+                        <TAMItem/>
+                        <TAMItem>RWY 08 CHEMICALLY TREATED.</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-01-05T06:00:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T05:51:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGNT</Code>
@@ -25120,20 +25276,20 @@ AIRPORT, WOOLSINGTON) MAX HGT 98FT AGL, 356FT AMSL.</ItemE>
             <ObsoleteNotamList/>
             <Snowtam>
                 <TAMMessage>
-                    <TAMID>400000001697600</TAMID>
+                    <TAMID>400000001697770</TAMID>
                     <TAMloc>EGNT</TAMloc>
                     <TAMMessageAIXMType>SW</TAMMessageAIXMType>
-                    <TAMItemB>2026-01-05T05:46:00+00:00</TAMItemB>
+                    <TAMItemB>2026-01-05T06:58:00+00:00</TAMItemB>
                     <TAMYear>0</TAMYear>
                     <TAMNationalLetter>EG</TAMNationalLetter>
                     <TAMItemList>
                         <TAMItem>EGNT</TAMItem>
-                        <TAMItem>01050546 07 5/5/5 100/100/100 NR/NR/NR WET/WET/WET</TAMItem>
+                        <TAMItem>01050658 07 5/5/5 100/100/100 03/03/03 SLUSH/SLUSH/SLUSH</TAMItem>
                         <TAMItem/>
-                        <TAMItem>RWY 07 CHEMICALLY TREATED.</TAMItem>
+                        <TAMItem>RWY 07 CHEMICALLY TREATED. RMK/1MM OR LESS OF SLUSH AND DEICER.</TAMItem>
                     </TAMItemList>
-                    <TAMUpdateTime>2026-01-05T05:48:00+00:00</TAMUpdateTime>
-                    <TamObservationTime>2026-01-05T05:46:00+00:00</TamObservationTime>
+                    <TAMUpdateTime>2026-01-05T06:59:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-01-05T06:58:00+00:00</TamObservationTime>
                 </TAMMessage>
             </Snowtam>
         </ADSection>
@@ -25562,6 +25718,31 @@ UK AIP EGPO AD 2.18, AD 2.24 REFERS.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>251120251421</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>117</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5813N00620W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGPO</ItemA>
+                    <StartValidity>2601050627</StartValidity>
+                    <EndValidity>2601050800</EndValidity>
+                    <ItemE>STORNOWAY ATZ DEACTIVATED. AD/ATS CLOSED DUE TO SNOW CLEARANCE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050120260630</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -25625,6 +25806,31 @@ UK AIP EGPO AD 2.18, AD 2.24 REFERS.</ItemE>
                     <ItemE>RWY 15/33 CLSD DUE SNOW.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>040120261536</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>118</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>FA</Code23>
+                        <Code45>LC</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>A</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5953N00118W</Coordinates>
+                    <Radius>5</Radius>
+                    <ItemA>EGPB</ItemA>
+                    <StartValidity>2601050730</StartValidity>
+                    <EndValidity>2601050900</EndValidity>
+                    <ItemE>AIRFIELD SNOW CLOSED</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050120260645</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -26859,6 +27065,31 @@ REFERS. MAJOR REHABILITATION WORKS. UK AIP BFS 070/2025 AND SUP
 113/2025 REFER.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>111120251129</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGPO" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>117</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>AZ</Code23>
+                        <Code45>CD</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>NBO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>21</Upper>
+                    </QLine>
+                    <Coordinates>5813N00620W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGPO</ItemA>
+                    <StartValidity>2601050627</StartValidity>
+                    <EndValidity>2601050800</EndValidity>
+                    <ItemE>STORNOWAY ATZ DEACTIVATED. AD/ATS CLOSED DUE TO SNOW CLEARANCE.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050120260630</NotamStoreDate>
                 </Notam>
                 <Notam Reference="EGAC" OriginalMessage="false" PIBSection="FIR">
                     <NOF>EGGN</NOF>
