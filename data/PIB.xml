@@ -2,7 +2,7 @@
             DISCLAIMER: Briefing includes all NOTAM available. All Trigger NOTAM are valid
             only for two weeks. For the publication of ECAC States, please consult also the
             PAMS application.
-        --><Pib PIBType="F" PIBId="400000124633439" NewNOTAMDuration="250">
+        --><Pib PIBType="F" PIBId="400000124641289" NewNOTAMDuration="250">
     <AreaPIBHeader>
         <ShortSystemTitle>EAD</ShortSystemTitle>
         <SystemLogoFile>/ino_resources/logos/EAD_Logo.png</SystemLogoFile>
@@ -12,18 +12,18 @@
         <LogoFile>/ci/resource.do?id=07A26818B1F506F5E0530B751DC29CB2</LogoFile>
         <Traffic>IV</Traffic>
         <Validity>
-            <ValidFrom>2026-06-15T05:00:07+00:00</ValidFrom>
-            <ValidTo>2026-06-22T05:00:00+00:00</ValidTo>
+            <ValidFrom>2026-06-15T07:00:34+00:00</ValidFrom>
+            <ValidTo>2026-06-22T07:00:00+00:00</ValidTo>
         </Validity>
         <ProfileId>400000002351201</ProfileId>
         <ProfileName>All NOTAM</ProfileName>
         <ServiceType>FULL</ServiceType>
         <BriefingType>IM</BriefingType>
         <ContentExplanation>Aerodromes, En-route, Warnings, including miscellaneous information</ContentExplanation>
-        <Issued>2026-06-15T05:00:07+00:00</Issued>
+        <Issued>2026-06-15T07:00:34+00:00</Issued>
         <PIBSubject>All NOTAM</PIBSubject>
         <ScheduleName>Daily</ScheduleName>
-        <PibUid>EG712606150172</PibUid>
+        <PibUid>EG712606150564</PibUid>
         <FlightLevel>
             <LowerFL>0</LowerFL>
             <UpperFL>999</UpperFL>
@@ -4490,6 +4490,22 @@ UK AIP AD 2.EGHH-5-1.</ItemE>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
+            <Snowtam>
+                <TAMMessage>
+                    <TAMID>400000001809244</TAMID>
+                    <TAMloc>EGHH</TAMloc>
+                    <TAMMessageAIXMType>SW</TAMMessageAIXMType>
+                    <TAMItemB>2026-06-15T04:05:00+00:00</TAMItemB>
+                    <TAMYear>0</TAMYear>
+                    <TAMNationalLetter>EG</TAMNationalLetter>
+                    <TAMItemList>
+                        <TAMItem>EGHH</TAMItem>
+                        <TAMItem>06150405 08 6/6/6 NR/NR/NR NR/NR/NR DRY/DRY/DRY</TAMItem>
+                    </TAMItemList>
+                    <TAMUpdateTime>2026-06-15T05:10:00+00:00</TAMUpdateTime>
+                    <TamObservationTime>2026-06-15T04:05:00+00:00</TamObservationTime>
+                </TAMMessage>
+            </Snowtam>
         </ADSection>
         <ADSection>
             <Code>EGGD</Code>
@@ -4849,34 +4865,6 @@ ARMS RANGE). INCREASE TO AIR DANGER HEIGHT. FOR INFO 01842 855167
                     <ItemG>1000FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>030620260822</NotamStoreDate>
-                </Notam>
-                <Notam OriginalMessage="false" PIBSection="AD">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>2192</Number>
-                    <Year>26</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5211N00009E</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGSC</ItemA>
-                    <StartValidity>2606150630</StartValidity>
-                    <EndValidity>2606150659</EndValidity>
-                    <ItemE>UAS OPR 0.1NM RADIUS CENTERED ON PSN 521116N 0000919E (CHERRY
-HINTON) SFC TO 423FT AMSL / 400FT AGL. REF EGSC-0215</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>423FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>110620261532</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="AD">
                     <NOF>EGGN</NOF>
@@ -10049,6 +10037,34 @@ TO READ 532745.86N 0022231.73W</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>260520261042</NotamStoreDate>
                 </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>2681</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5328N00222W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGCB</ItemA>
+                    <StartValidity>2606220635</StartValidity>
+                    <EndValidity>2607061700</EndValidity>
+                    <ItemD>0635-1700</ItemD>
+                    <ItemE>CRANE OPR WI 0.1 NM RADIUS OF 532742.73N 0022157.92W (1.03 NM 
+124.4 DEG MAG FM MANCHESTER BARTON ARP). MAX HGT 179 FT AMSL (100 FT 
+AGL)</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050520260847</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
@@ -10489,8 +10505,38 @@ AREA RWY 01/19.</ItemE>
         <ADSection>
             <Code>EGFP</Code>
             <Name>PEMBREY</Name>
-            <!--No information received or matching the query-->
-            <NotamList/>
+            <NotamList>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3167</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>XX</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>57</Upper>
+                    </QLine>
+                    <Coordinates>5142N00422W</Coordinates>
+                    <Radius>6</Radius>
+                    <ItemA>EGFP</ItemA>
+                    <StartValidity>2606220500</StartValidity>
+                    <EndValidity>2606260130</EndValidity>
+                    <ItemD>22-23 0500-1100, 24-25 1930-0130</ItemD>
+                    <ItemE>TACTICAL LANDINGS. MIL ACFT WILL CONDUCT TACTICAL LANDINGS WI 5NM
+RADIUS OF 514225N 0042151W (1.75NM WEST OF PEMBREY AD).  FOR INFO
+07807 113062. AR-2026-5003/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>5700FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>120620260835</NotamStoreDate>
+                </Notam>
+            </NotamList>
             <ObsoleteNotamList/>
         </ADSection>
         <ADSection>
@@ -24382,6 +24428,34 @@ STATION, DUE TO A TEMPORARY MOBILE CRANE IN THE VICINITY</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>300420261509</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGCB" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>L</Series>
+                    <Number>2681</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5328N00222W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGCB</ItemA>
+                    <StartValidity>2606220635</StartValidity>
+                    <EndValidity>2607061700</EndValidity>
+                    <ItemD>0635-1700</ItemD>
+                    <ItemE>CRANE OPR WI 0.1 NM RADIUS OF 532742.73N 0022157.92W (1.03 NM 
+124.4 DEG MAG FM MANCHESTER BARTON ARP). MAX HGT 179 FT AMSL (100 FT 
+AGL)</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>050520260847</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </En-route>
@@ -28878,6 +28952,94 @@ AR-2026-5021/01.</ItemE>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
                     <Series>H</Series>
+                    <Number>3229</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WG</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>30</Upper>
+                    </QLine>
+                    <Coordinates>5107N00216W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2606150615</StartValidity>
+                    <EndValidity>2606152100</EndValidity>
+                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS
+OPR WI 2NM RADIUS OF PSN 510630N 0021616W (MERE RIFLE RANGE, 
+WILTSHIRE). LOW FLYING AREAS 1A AND 2. 2000FT AGL. CTC 07717 267891. 
+26/06/091/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>3000FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150620260619</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3230</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WG</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>48</Upper>
+                    </QLine>
+                    <Coordinates>5439N00300W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2606150618</StartValidity>
+                    <EndValidity>2606152100</EndValidity>
+                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR 
+WI 2NM RADIUS OF PSN 543910N 0030004W (SOUTHER FELL,CUMBRIA). LOW 
+FLYING AREA 17. 2000FT AGL. CTC 07941 333023. 26/06/092/LFC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>4800FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150620260621</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3231</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>WG</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>W</Scope>
+                        <Lower>0</Lower>
+                        <Upper>41</Upper>
+                    </QLine>
+                    <Coordinates>5417N00230W</Coordinates>
+                    <Radius>3</Radius>
+                    <ItemA>EGTT</ItemA>
+                    <StartValidity>2606150620</StartValidity>
+                    <EndValidity>2606152100</EndValidity>
+                    <ItemE>CIVIL AIRCRAFT NOTIFICATION PROCEDURE - MULTIPLE PARAGLIDERS OPR 
+WI 2NM RADIUS OF PSN 541639N 0023002W (BARKIN FELL, CUMBRIA)LOW 
+FLYING AREA 17. 2000FT AGL. CTC 07854 697775. 26/06/093/LFBC</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>4100FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>150620260623</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
                     <Number>3054</Number>
                     <Year>26</Year>
                     <Type>N</Type>
@@ -28904,34 +29066,6 @@ AR-2026-4842/01.</ItemE>
                     <ItemG>1700FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>090620261158</NotamStoreDate>
-                </Notam>
-                <Notam Reference="EGSC" OriginalMessage="false" PIBSection="WAR">
-                    <NOF>EGGN</NOF>
-                    <Series>A</Series>
-                    <Number>2192</Number>
-                    <Year>26</Year>
-                    <Type>N</Type>
-                    <QLine>
-                        <FIR>EGTT</FIR>
-                        <Code23>WU</Code23>
-                        <Code45>LW</Code45>
-                        <Traffic>IV</Traffic>
-                        <Purpose>BO</Purpose>
-                        <Scope>AW</Scope>
-                        <Lower>0</Lower>
-                        <Upper>5</Upper>
-                    </QLine>
-                    <Coordinates>5211N00009E</Coordinates>
-                    <Radius>1</Radius>
-                    <ItemA>EGSC</ItemA>
-                    <StartValidity>2606150630</StartValidity>
-                    <EndValidity>2606150659</EndValidity>
-                    <ItemE>UAS OPR 0.1NM RADIUS CENTERED ON PSN 521116N 0000919E (CHERRY
-HINTON) SFC TO 423FT AMSL / 400FT AGL. REF EGSC-0215</ItemE>
-                    <ItemF>SFC</ItemF>
-                    <ItemG>423FT AMSL</ItemG>
-                    <Marker>+</Marker>
-                    <NotamStoreDate>110620261532</NotamStoreDate>
                 </Notam>
                 <Notam OriginalMessage="false" PIBSection="WAR">
                     <NOF>EGGN</NOF>
@@ -33431,6 +33565,36 @@ AR-2026-4693/01.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>020620260906</NotamStoreDate>
                 </Notam>
+                <Notam Reference="EGFP" OriginalMessage="false" PIBSection="WAR">
+                    <NOF>EGGN</NOF>
+                    <Series>H</Series>
+                    <Number>3167</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGTT</FIR>
+                        <Code23>XX</Code23>
+                        <Code45>LW</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AW</Scope>
+                        <Lower>0</Lower>
+                        <Upper>57</Upper>
+                    </QLine>
+                    <Coordinates>5142N00422W</Coordinates>
+                    <Radius>6</Radius>
+                    <ItemA>EGFP</ItemA>
+                    <StartValidity>2606220500</StartValidity>
+                    <EndValidity>2606260130</EndValidity>
+                    <ItemD>22-23 0500-1100, 24-25 1930-0130</ItemD>
+                    <ItemE>TACTICAL LANDINGS. MIL ACFT WILL CONDUCT TACTICAL LANDINGS WI 5NM
+RADIUS OF 514225N 0042151W (1.75NM WEST OF PEMBREY AD).  FOR INFO
+07807 113062. AR-2026-5003/01.</ItemE>
+                    <ItemF>SFC</ItemF>
+                    <ItemG>5700FT AMSL</ItemG>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>120620260835</NotamStoreDate>
+                </Notam>
             </NotamList>
             <ObsoleteNotamList/>
         </Warnings>
@@ -35191,6 +35355,61 @@ NAV ORDER 2016. AR-2026-2411/01.</ItemE>
                     <ItemG>500FT AMSL</ItemG>
                     <Marker>+</Marker>
                     <NotamStoreDate>020620261524</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>3952</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5551N00425W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGPF</ItemA>
+                    <StartValidity>2606220600</StartValidity>
+                    <EndValidity>2608281800</EndValidity>
+                    <ItemE>MOBILE CRANE OPR PSN 555117N 0042525W (GLASGOW).
+MAX HGT 132FT AGL / 152FT AMSL (APRX). JIB WILL BE LOWERED IN LVP. 
+SITE CONTACT REINOUT BOGAERT 032485888710.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>100620260903</NotamStoreDate>
+                </Notam>
+                <Notam OriginalMessage="false" PIBSection="AD">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>3963</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>NM</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5552N00427W</Coordinates>
+                    <Radius>25</Radius>
+                    <ItemA>EGPF</ItemA>
+                    <StartValidity>2606220600</StartValidity>
+                    <EndValidity>2610301900</EndValidity>
+                    <ItemE>VOR/DME GOW/GLASGOW 115.40MHZ CH101X BOTH PARTS U/S. THERE MAY BE
+OBSERVATIONS OF DVOR BEARING FLUCTUATIONS WITHIN THE 120-160 DEG.
+MAG. SECTOR RADIALS FROM THE GLASGOW VOR/DME STATION, DUE TO A
+TEMPORARY MOBILE CRANE IN THE VICINITY</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>100620261140</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
@@ -37999,6 +38218,61 @@ SERVICES BASES. PILOTS TRANSITTING THE AREA ARE ADVISED TO MONITOR
 122.605. TIMES MAY BE SUBJ SHORT NOTICE CHANGE.</ItemE>
                     <Marker>+</Marker>
                     <NotamStoreDate>130620260919</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGPF" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>3952</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>OB</Code23>
+                        <Code45>CE</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>M</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>2</Upper>
+                    </QLine>
+                    <Coordinates>5551N00425W</Coordinates>
+                    <Radius>1</Radius>
+                    <ItemA>EGPF</ItemA>
+                    <StartValidity>2606220600</StartValidity>
+                    <EndValidity>2608281800</EndValidity>
+                    <ItemE>MOBILE CRANE OPR PSN 555117N 0042525W (GLASGOW).
+MAX HGT 132FT AGL / 152FT AMSL (APRX). JIB WILL BE LOWERED IN LVP. 
+SITE CONTACT REINOUT BOGAERT 032485888710.</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>100620260903</NotamStoreDate>
+                </Notam>
+                <Notam Reference="EGPF" OriginalMessage="false" PIBSection="FIR">
+                    <NOF>EGGN</NOF>
+                    <Series>I</Series>
+                    <Number>3963</Number>
+                    <Year>26</Year>
+                    <Type>N</Type>
+                    <QLine>
+                        <FIR>EGPX</FIR>
+                        <Code23>NM</Code23>
+                        <Code45>AS</Code45>
+                        <Traffic>IV</Traffic>
+                        <Purpose>BO</Purpose>
+                        <Scope>AE</Scope>
+                        <Lower>0</Lower>
+                        <Upper>999</Upper>
+                    </QLine>
+                    <Coordinates>5552N00427W</Coordinates>
+                    <Radius>25</Radius>
+                    <ItemA>EGPF</ItemA>
+                    <StartValidity>2606220600</StartValidity>
+                    <EndValidity>2610301900</EndValidity>
+                    <ItemE>VOR/DME GOW/GLASGOW 115.40MHZ CH101X BOTH PARTS U/S. THERE MAY BE
+OBSERVATIONS OF DVOR BEARING FLUCTUATIONS WITHIN THE 120-160 DEG.
+MAG. SECTOR RADIALS FROM THE GLASGOW VOR/DME STATION, DUE TO A
+TEMPORARY MOBILE CRANE IN THE VICINITY</ItemE>
+                    <Marker>+</Marker>
+                    <NotamStoreDate>100620261140</NotamStoreDate>
                 </Notam>
             </NotamList>
             <ObsoleteNotamList/>
